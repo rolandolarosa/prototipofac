@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCargoDocum" targetNamespace="http://tempuri.org/dsCargoDocum.xsd" xmlns:mstns="http://tempuri.org/dsCargoDocum.xsd" xmlns="http://tempuri.org/dsCargoDocum.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbFactoringRptConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbFactoringRptConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.EfideFactoring.Properties.Settings.GlobalReference.Default.dbFactoringRptConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCargoDocum" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCargoDocum" msprop:Generator_UserDSName="dsCargoDocum">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCargoDocum" msprop:Generator_TableClassName="dtCargoDocumDataTable" msprop:Generator_TableVarName="tabledtCargoDocum" msprop:Generator_TablePropName="dtCargoDocum" msprop:Generator_RowDeletingName="dtCargoDocumRowDeleting" msprop:Generator_RowChangingName="dtCargoDocumRowChanging" msprop:Generator_RowEvHandlerName="dtCargoDocumRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCargoDocumRowDeleted" msprop:Generator_UserTableName="dtCargoDocum" msprop:Generator_RowChangedName="dtCargoDocumRowChanged" msprop:Generator_RowEvArgName="dtCargoDocumRowChangeEvent" msprop:Generator_RowClassName="dtCargoDocumRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Destinatario" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDestinatario" msprop:Generator_ColumnPropNameInRow="Destinatario" msprop:Generator_ColumnPropNameInTable="DestinatarioColumn" msprop:Generator_UserColumnName="Destinatario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DirDestinatario" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnDirDestinatario" msprop:Generator_ColumnPropNameInRow="DirDestinatario" msprop:Generator_ColumnPropNameInTable="DirDestinatarioColumn" msprop:Generator_UserColumnName="DirDestinatario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdDocumento_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdDocumento_Dsc" msprop:Generator_ColumnPropNameInRow="IdDocumento_Dsc" msprop:Generator_ColumnPropNameInTable="IdDocumento_DscColumn" msprop:Generator_UserColumnName="IdDocumento_Dsc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cNumDoc" msprop:Generator_ColumnVarNameInTable="columncNumDoc" msprop:Generator_ColumnPropNameInRow="cNumDoc" msprop:Generator_ColumnPropNameInTable="cNumDocColumn" msprop:Generator_UserColumnName="cNumDoc">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipNumDoc" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTipNumDoc" msprop:Generator_ColumnPropNameInRow="TipNumDoc" msprop:Generator_ColumnPropNameInTable="TipNumDocColumn" msprop:Generator_UserColumnName="TipNumDoc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProveeCliente" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnProveeCliente" msprop:Generator_ColumnPropNameInRow="ProveeCliente" msprop:Generator_ColumnPropNameInTable="ProveeClienteColumn" msprop:Generator_UserColumnName="ProveeCliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdMoneda_tt_Dsc" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnIdMoneda_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdMoneda_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdMoneda_tt_DscColumn" msprop:Generator_UserColumnName="IdMoneda_tt_Dsc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nvImporte" msprop:Generator_ColumnVarNameInTable="columnnvImporte" msprop:Generator_ColumnPropNameInRow="nvImporte" msprop:Generator_ColumnPropNameInTable="nvImporteColumn" msprop:Generator_UserColumnName="nvImporte" type="xs:decimal" minOccurs="0" />
+              <xs:element name="sdVencimiento" msprop:Generator_ColumnVarNameInTable="columnsdVencimiento" msprop:Generator_ColumnPropNameInRow="sdVencimiento" msprop:Generator_ColumnPropNameInTable="sdVencimientoColumn" msprop:Generator_UserColumnName="sdVencimiento" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IdCobranza" msprop:Generator_ColumnVarNameInTable="columnIdCobranza" msprop:Generator_ColumnPropNameInRow="IdCobranza" msprop:Generator_ColumnPropNameInTable="IdCobranzaColumn" msprop:Generator_UserColumnName="IdCobranza">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdSocio" msprop:Generator_ColumnVarNameInTable="columnIdSocio" msprop:Generator_ColumnPropNameInRow="IdSocio" msprop:Generator_ColumnPropNameInTable="IdSocioColumn" msprop:Generator_UserColumnName="IdSocio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdPagadora" msprop:Generator_ColumnVarNameInTable="columnIdPagadora" msprop:Generator_ColumnPropNameInRow="IdPagadora" msprop:Generator_ColumnPropNameInTable="IdPagadoraColumn" msprop:Generator_UserColumnName="IdPagadora">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdDocumento" msprop:Generator_ColumnVarNameInTable="columnIdDocumento" msprop:Generator_ColumnPropNameInRow="IdDocumento" msprop:Generator_ColumnPropNameInTable="IdDocumentoColumn" msprop:Generator_UserColumnName="IdDocumento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="bTituloValor" msprop:Generator_ColumnVarNameInTable="columnbTituloValor" msprop:Generator_ColumnPropNameInRow="bTituloValor" msprop:Generator_ColumnPropNameInTable="bTituloValorColumn" msprop:Generator_UserColumnName="bTituloValor" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IdMoneda_tt" msprop:Generator_ColumnVarNameInTable="columnIdMoneda_tt" msprop:Generator_ColumnPropNameInRow="IdMoneda_tt" msprop:Generator_ColumnPropNameInTable="IdMoneda_ttColumn" msprop:Generator_UserColumnName="IdMoneda_tt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

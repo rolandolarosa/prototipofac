@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCobranzaPago" targetNamespace="http://tempuri.org/dsCobranzaPago.xsd" xmlns:mstns="http://tempuri.org/dsCobranzaPago.xsd" xmlns="http://tempuri.org/dsCobranzaPago.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCobranzaPago" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCobranzaPago" msprop:Generator_UserDSName="dsCobranzaPago">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCobranzaPago" msprop:Generator_TableClassName="dtCobranzaPagoDataTable" msprop:Generator_TableVarName="tabledtCobranzaPago" msprop:Generator_TablePropName="dtCobranzaPago" msprop:Generator_RowDeletingName="dtCobranzaPagoRowDeleting" msprop:Generator_RowChangingName="dtCobranzaPagoRowChanging" msprop:Generator_RowEvHandlerName="dtCobranzaPagoRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCobranzaPagoRowDeleted" msprop:Generator_UserTableName="dtCobranzaPago" msprop:Generator_RowChangedName="dtCobranzaPagoRowChanged" msprop:Generator_RowEvArgName="dtCobranzaPagoRowChangeEvent" msprop:Generator_RowClassName="dtCobranzaPagoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCobranza" msprop:Generator_ColumnVarNameInTable="columnIdCobranza" msprop:Generator_ColumnPropNameInRow="IdCobranza" msprop:Generator_ColumnPropNameInTable="IdCobranzaColumn" msprop:Generator_UserColumnName="IdCobranza" type="xs:string" minOccurs="0" />
+              <xs:element name="socioBancoID" msprop:Generator_ColumnVarNameInTable="columnsocioBancoID" msprop:Generator_ColumnPropNameInRow="socioBancoID" msprop:Generator_ColumnPropNameInTable="socioBancoIDColumn" msprop:Generator_UserColumnName="socioBancoID" type="xs:string" minOccurs="0" />
+              <xs:element name="IdOperacion_tt_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdOperacion_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdOperacion_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdOperacion_tt_DscColumn" msprop:Generator_UserColumnName="IdOperacion_tt_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="Banco" msprop:Generator_ColumnVarNameInTable="columnBanco" msprop:Generator_ColumnPropNameInRow="Banco" msprop:Generator_ColumnPropNameInTable="BancoColumn" msprop:Generator_UserColumnName="Banco" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTipoAbono_tt_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdTipoAbono_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdTipoAbono_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdTipoAbono_tt_DscColumn" msprop:Generator_UserColumnName="IdTipoAbono_tt_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="sbNumOperacion" msprop:Generator_ColumnVarNameInTable="columnsbNumOperacion" msprop:Generator_ColumnPropNameInRow="sbNumOperacion" msprop:Generator_ColumnPropNameInTable="sbNumOperacionColumn" msprop:Generator_UserColumnName="sbNumOperacion" type="xs:string" minOccurs="0" />
+              <xs:element name="NroCheque" msprop:Generator_ColumnVarNameInTable="columnNroCheque" msprop:Generator_ColumnPropNameInRow="NroCheque" msprop:Generator_ColumnPropNameInTable="NroChequeColumn" msprop:Generator_UserColumnName="NroCheque" type="xs:string" minOccurs="0" />
+              <xs:element name="nTotal" msprop:Generator_ColumnVarNameInTable="columnnTotal" msprop:Generator_ColumnPropNameInRow="nTotal" msprop:Generator_ColumnPropNameInTable="nTotalColumn" msprop:Generator_UserColumnName="nTotal" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

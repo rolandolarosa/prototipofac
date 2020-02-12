@@ -1,0 +1,331 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using DevComponents.DotNetBar;
+using EfideFactoringBE;
+using EfideFactoringBL;
+
+namespace EfideFactoring.Formula.Catalogo
+{
+    public partial class frmMntTarifarioExepcionesDato : FormulaBase.frmMntDato
+    {
+        TarifarioBL TarifarioBL = new TarifarioBL();
+        TableBaseBL TableBaseBL = new TableBaseBL();
+        public frmMntTarifarioExepcionesDato()
+        {
+            InitializeComponent();
+        }
+
+        private void frmMntTarifarioExepcionesDato_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                LlenarCombos();
+                if (Operacion.Equals("N"))
+                {
+                    rbMonto.Checked = true;
+                }
+                else if (Operacion.Equals("M"))
+                {
+                    CargarDatos();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void CargarDatos()
+        {
+            try
+            {
+                DataSet dsTarifario = new DataSet();
+                TarifarioBE TarifarioBE = new TarifarioBE()
+                {
+                    OPCION = 1,
+                    USUARIO = General.General.GetCodigoUsuario,
+                    IdTarifario = Codigo,   //txtIdTarifario.Text,
+                };
+                dsTarifario = TarifarioBL.ProcesarTarifario(TarifarioBE);
+                if (dsTarifario.Tables[0].Rows.Count > 0)
+                {
+                    cboConcepto.SelectedValue = dsTarifario.Tables[0].Rows[0]["IdReferencia"].ToString();
+                    cboIdTipoCalculo_tt.SelectedValue = dsTarifario.Tables[0].Rows[0]["IdTipoCalculo_tt"].ToString();
+                    if (String.Equals(dsTarifario.Tables[0].Rows[0]["IdCalculo_tt"].ToString(), "00096")) //Por Porcentaje
+                    {
+                        rbPorcentaje.Checked = true;
+                        gpMonto.Enabled = false;
+                        txtPorMonto.Text = Convert.ToDecimal(dsTarifario.Tables[0].Rows[0]["PorMonto"]).ToString("N3");
+                        cboPorConcepto.SelectedValue = dsTarifario.Tables[0].Rows[0]["PorConcepto_tt"].ToString();
+                    }
+                    else if (String.Equals(dsTarifario.Tables[0].Rows[0]["IdCalculo_tt"].ToString(), "00097")) //Por Monto
+                    {
+                        rbMonto.Checked = true;
+                        gpPorcentaje.Enabled = false;
+                        txtMonto.Text = Convert.ToDecimal(dsTarifario.Tables[0].Rows[0]["Monto"]).ToString("N3");
+                    }
+
+                    txttipCxcID.Text = dsTarifario.Tables[0].Rows[0]["tipCxcID"].ToString();
+                    cboFrecuencia.SelectedValue = dsTarifario.Tables[0].Rows[0]["IdFrecuencia_tt"].ToString();
+                    chkTransferencia.CheckValue = dsTarifario.Tables[0].Rows[0]["bTransferencia"];
+                    txtIdSocio.Text = dsTarifario.Tables[0].Rows[0]["IdSocio"].ToString();
+                    txtRazonSocialSocio.Text = dsTarifario.Tables[0].Rows[0]["IdSocio_Dsc"].ToString();
+                    txtIdPagadora.Text = dsTarifario.Tables[0].Rows[0]["IdPagadora"].ToString();
+                    txtDescripcion.Text = dsTarifario.Tables[0].Rows[0]["IdPagadora_Dsc"].ToString();
+                }
+                else
+                {
+                    MessageBox.Show("Este .... no Existe", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void LlenarCombos()
+        {
+            try
+            {
+                //cboConcepto
+                TarifarioBE TarifarioBE = new TarifarioBE()
+                {
+                    OPCION = 8,
+                    USUARIO = General.General.GetUsuario
+                };
+                General.General.LlenarCombobox(cboConcepto, "tipCxcNombre", "IdTarifario", TarifarioBL.ProcesarTarifario(TarifarioBE).Tables[0]);
+
+                // Combos de Tabla Base
+                String Table_Id = "00102"; // Porcentaje Conceptos
+                TableBaseBE TableBaseBE = new TableBaseBE()
+                {
+                    OPCION = 1,
+                    USUARIO = General.General.GetCodigoUsuario,
+                    Table_Parent_Id = Table_Id
+                };
+                General.General.LlenarCombobox(cboPorConcepto, "Table_Name", "Table_Id", TableBaseBL.ProcesarTableBase(TableBaseBE).Tables[0]);
+
+                TableBaseBE.Table_Parent_Id = "00098"; // Frecuencia
+                General.General.LlenarCombobox(cboFrecuencia, "Table_Name", "Table_Id", TableBaseBL.ProcesarTableBase(TableBaseBE).Tables[0]);
+
+                TableBaseBE.Table_Parent_Id = "00035"; // Moneda
+                General.General.LlenarCombobox(cboMoneda, "Table_Name", "Table_Id", TableBaseBL.ProcesarTableBase(TableBaseBE).Tables[0]);
+
+                TableBaseBE.Table_Parent_Id = "00126"; // Tipo de Calculo
+                General.General.LlenarCombobox(cboIdTipoCalculo_tt, "Table_Name", "Table_Id", TableBaseBL.ProcesarTableBase(TableBaseBE).Tables[0]);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void rbPorcentaje_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbPorcentaje.Checked == true)
+            {
+                gpMonto.Enabled = false;
+                gpPorcentaje.Enabled = true;
+            }
+        }
+
+        private void rbMonto_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbMonto.Checked == true)
+            {
+                gpMonto.Enabled = true;
+                gpPorcentaje.Enabled = false;
+            }
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cboConcepto.SelectedIndex < 1)
+                {
+                    MessageBox.Show("Se debe Ingresar un Concepto", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    cboConcepto.Focus();
+                    return;
+                }
+
+                if (cboIdTipoCalculo_tt.SelectedIndex < 1)
+                {
+                    MessageBox.Show("Se debe seleccionar un tipo de calculo", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    cboIdTipoCalculo_tt.Focus();
+                    return;
+                }
+
+                if (cboFrecuencia.SelectedIndex < 1)
+                {
+                    MessageBox.Show("Se debe seleccionar una Frecuencia", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    cboFrecuencia.Focus();
+                    return;
+                }
+
+                if (rbMonto.Checked == true)
+                {
+                    if (Convert.ToDouble(txtMonto.Text) < 0)
+                    {
+                        MessageBox.Show("Debe ingresar un monto mayor a CERO", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        txtMonto.Focus();
+                    }
+                }
+
+                if (rbPorcentaje.Checked == true)
+                {
+                    if (Convert.ToDouble(txtPorMonto.Text) < 0)
+                    {
+                        MessageBox.Show("Debe ingresar un porcentaje mayor a CERO", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        txtPorMonto.Focus();
+                    }
+                    if (cboPorConcepto.SelectedIndex < 1)
+                    {
+                        MessageBox.Show("Debe seleccionar Ingresar un Concepto", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        cboPorConcepto.Focus();
+                        return;
+                    }
+                }
+
+                if (string.IsNullOrEmpty(txtIdSocio.Text.Trim()))
+                {
+                    MessageBox.Show("Debe seleccionar un socio", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    btnBusquedaSocio.Focus();
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(txtIdPagadora.Text.Trim()) && cboIdTipoCalculo_tt.SelectedValue.ToString().Equals("00128")) //Pagadora
+                {
+                    MessageBox.Show("Debe seleccionar una pagadora", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    btnBuscarPagadora.Focus();
+                    return;
+                }
+
+                TarifarioBE TarifarioBE = new TarifarioBE()
+                {
+                    USUARIO = General.General.GetCodigoUsuario,
+                    OPCION = 2,
+                    IdTarifario = this.Codigo,
+                    tipCxcID = txttipCxcID.Text,
+                    IdTipoCalculo_tt = cboIdTipoCalculo_tt.SelectedValue.ToString(),
+                    IdCalculo_tt = ((rbPorcentaje.Checked) == true ? "00096" : "00097"),
+                    PorMonto = String.IsNullOrEmpty(txtPorMonto.Text.Trim()) ? 0 : Convert.ToDecimal(txtPorMonto.Text),
+                    PorConcepto_tt = cboPorConcepto.SelectedValue.ToString(),
+                    Monto = String.IsNullOrEmpty(txtMonto.Text.Trim()) ? 0 : Convert.ToDecimal(txtMonto.Text),
+                    IdFrecuencia_tt = cboFrecuencia.SelectedValue.ToString(),
+                    bTransferencia = chkTransferencia.Checked ? true : false,
+                    IdSocio = txtIdSocio.Text,
+                    IdPagadora = txtIdPagadora.Text,
+                    IdReferencia = cboConcepto.SelectedValue.ToString()
+                };
+
+                DataSet dsTarifario = new DataSet();
+                dsTarifario = TarifarioBL.ProcesarTarifario(TarifarioBE);
+                MessageBox.Show("Se Proceso Correctamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Dispose();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void cboConcepto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                DataSet dsTarifario = new DataSet();
+                TarifarioBE TarifarioBE = new TarifarioBE()
+                {
+                    OPCION = 1,
+                    USUARIO = General.General.GetCodigoUsuario,
+                    IdTarifario = cboConcepto.SelectedValue.ToString(),
+                };
+
+                dsTarifario = TarifarioBL.ProcesarTarifario(TarifarioBE);
+
+                if (dsTarifario.Tables[0].Rows.Count > 0)
+                {
+                    btnBuscarPagadora.Enabled = false;
+                    cboIdTipoCalculo_tt.SelectedValue = dsTarifario.Tables[0].Rows[0]["IdTipoCalculo_tt"].ToString();
+                    if (cboIdTipoCalculo_tt.SelectedValue.ToString().Equals("00128")) // Pagadora
+                    {
+                        btnBuscarPagadora.Enabled = true;
+                    }
+
+                    if (String.Equals(dsTarifario.Tables[0].Rows[0]["IdCalculo_tt"].ToString(), "00096")) //Por Porcentaje
+                    {
+                        rbPorcentaje.Checked = true;
+                        gpMonto.Enabled = false;
+                        txtPorMonto.Text = Convert.ToDecimal(dsTarifario.Tables[0].Rows[0]["PorMonto"]).ToString("N3");
+                        cboPorConcepto.SelectedValue = dsTarifario.Tables[0].Rows[0]["PorConcepto_tt"].ToString();
+                    }
+                    else if (String.Equals(dsTarifario.Tables[0].Rows[0]["IdCalculo_tt"].ToString(), "00097")) //Por Monto
+                    {
+                        rbMonto.Checked = true;
+                        gpPorcentaje.Enabled = false;
+                        txtMonto.Text = Convert.ToDecimal(dsTarifario.Tables[0].Rows[0]["Monto"]).ToString("N3");
+                    }
+                    txttipCxcID.Text = dsTarifario.Tables[0].Rows[0]["tipCxcID"].ToString();
+                    cboFrecuencia.SelectedValue = dsTarifario.Tables[0].Rows[0]["IdFrecuencia_tt"].ToString();
+                    chkTransferencia.CheckValue = dsTarifario.Tables[0].Rows[0]["bTransferencia"];
+                    cboMoneda.SelectedValue = dsTarifario.Tables[0].Rows[0]["valorMonedaID"].ToString().Equals("1") ? "00036" : "00037";  // Soles:Dolares
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnBusquedaSocio_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Formula.Consulta.frmBusquedaSocio ofrmBusquedaSocio = new Formula.Consulta.frmBusquedaSocio();
+                ofrmBusquedaSocio.ShowDialog();
+                txtIdSocio.Text = ofrmBusquedaSocio.CodSocio.Trim();
+                txtRazonSocialSocio.Text = ofrmBusquedaSocio.RazorSocialSocio.Trim();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnBuscarPagadora_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Formula.Consulta.frmBusquedaPagadora ofrmBusquedaPagadora = new Formula.Consulta.frmBusquedaPagadora();
+                ofrmBusquedaPagadora.ShowDialog();
+
+                DataSet dsPagadora = new DataSet();
+                PagadoraBE PagadoraBE = new PagadoraBE()
+                {
+                    OPCION = 4,
+                    USUARIO = General.General.GetCodigoUsuario,
+                    IdPagadora = ofrmBusquedaPagadora.CodigoPagadora.ToString()
+                };
+
+                dsPagadora = new PagadoraBL().ProcesarPagadora(PagadoraBE);
+
+                if (dsPagadora.Tables[0].Rows.Count > 0)
+                {
+                    txtIdPagadora.Text = dsPagadora.Tables[0].Rows[0]["IdPagadora"].ToString();
+                    txtDescripcion.Text = dsPagadora.Tables[0].Rows[0]["vcPagadora"].ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRpt_DPF" targetNamespace="http://tempuri.org/dsRpt_DPF.xsd" xmlns:mstns="http://tempuri.org/dsRpt_DPF.xsd" xmlns="http://tempuri.org/dsRpt_DPF.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRpt_DPF" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRpt_DPF" msprop:Generator_UserDSName="dsRpt_DPF">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRpt_DPF" msprop:Generator_TableClassName="dtRpt_DPFDataTable" msprop:Generator_TableVarName="tabledtRpt_DPF" msprop:Generator_TablePropName="dtRpt_DPF" msprop:Generator_RowDeletingName="dtRpt_DPFRowDeleting" msprop:Generator_RowChangingName="dtRpt_DPFRowChanging" msprop:Generator_RowEvHandlerName="dtRpt_DPFRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRpt_DPFRowDeleted" msprop:Generator_UserTableName="dtRpt_DPF" msprop:Generator_RowChangedName="dtRpt_DPFRowChanged" msprop:Generator_RowEvArgName="dtRpt_DPFRowChangeEvent" msprop:Generator_RowClassName="dtRpt_DPFRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codCliente" msprop:Generator_ColumnVarNameInTable="columncodCliente" msprop:Generator_ColumnPropNameInRow="codCliente" msprop:Generator_ColumnPropNameInTable="codClienteColumn" msprop:Generator_UserColumnName="codCliente" type="xs:string" minOccurs="0" />
+              <xs:element name="razonSocial" msprop:Generator_ColumnVarNameInTable="columnrazonSocial" msprop:Generator_ColumnPropNameInRow="razonSocial" msprop:Generator_ColumnPropNameInTable="razonSocialColumn" msprop:Generator_UserColumnName="razonSocial" type="xs:string" minOccurs="0" />
+              <xs:element name="tipoPersona" msprop:Generator_ColumnVarNameInTable="columntipoPersona" msprop:Generator_ColumnPropNameInRow="tipoPersona" msprop:Generator_ColumnPropNameInTable="tipoPersonaColumn" msprop:Generator_UserColumnName="tipoPersona" type="xs:string" minOccurs="0" />
+              <xs:element name="Mon" msprop:Generator_ColumnVarNameInTable="columnMon" msprop:Generator_ColumnPropNameInRow="Mon" msprop:Generator_ColumnPropNameInTable="MonColumn" msprop:Generator_UserColumnName="Mon" type="xs:string" minOccurs="0" />
+              <xs:element name="numCuentaDpfID" msprop:Generator_ColumnVarNameInTable="columnnumCuentaDpfID" msprop:Generator_ColumnPropNameInRow="numCuentaDpfID" msprop:Generator_ColumnPropNameInTable="numCuentaDpfIDColumn" msprop:Generator_UserColumnName="numCuentaDpfID" type="xs:string" minOccurs="0" />
+              <xs:element name="dpfImporte" msprop:Generator_ColumnVarNameInTable="columndpfImporte" msprop:Generator_ColumnPropNameInRow="dpfImporte" msprop:Generator_ColumnPropNameInTable="dpfImporteColumn" msprop:Generator_UserColumnName="dpfImporte" type="xs:decimal" minOccurs="0" />
+              <xs:element name="dpfFecEmision" msprop:Generator_ColumnVarNameInTable="columndpfFecEmision" msprop:Generator_ColumnPropNameInRow="dpfFecEmision" msprop:Generator_ColumnPropNameInTable="dpfFecEmisionColumn" msprop:Generator_UserColumnName="dpfFecEmision" type="xs:string" minOccurs="0" />
+              <xs:element name="dpfFecVencimiento" msprop:Generator_ColumnVarNameInTable="columndpfFecVencimiento" msprop:Generator_ColumnPropNameInRow="dpfFecVencimiento" msprop:Generator_ColumnPropNameInTable="dpfFecVencimientoColumn" msprop:Generator_UserColumnName="dpfFecVencimiento" type="xs:string" minOccurs="0" />
+              <xs:element name="Mes" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:string" minOccurs="0" />
+              <xs:element name="dpfTasaAnual" msprop:Generator_ColumnVarNameInTable="columndpfTasaAnual" msprop:Generator_ColumnPropNameInRow="dpfTasaAnual" msprop:Generator_ColumnPropNameInTable="dpfTasaAnualColumn" msprop:Generator_UserColumnName="dpfTasaAnual" type="xs:decimal" minOccurs="0" />
+              <xs:element name="porcDpf" msprop:Generator_ColumnVarNameInTable="columnporcDpf" msprop:Generator_ColumnPropNameInRow="porcDpf" msprop:Generator_ColumnPropNameInTable="porcDpfColumn" msprop:Generator_UserColumnName="porcDpf" type="xs:decimal" minOccurs="0" />
+              <xs:element name="importeApor" msprop:Generator_ColumnVarNameInTable="columnimporteApor" msprop:Generator_ColumnPropNameInRow="importeApor" msprop:Generator_ColumnPropNameInTable="importeAporColumn" msprop:Generator_UserColumnName="importeApor" type="xs:decimal" minOccurs="0" />
+              <xs:element name="porcAportes" msprop:Generator_ColumnVarNameInTable="columnporcAportes" msprop:Generator_ColumnPropNameInRow="porcAportes" msprop:Generator_ColumnPropNameInTable="porcAportesColumn" msprop:Generator_UserColumnName="porcAportes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Plazo" msprop:Generator_ColumnVarNameInTable="columnPlazo" msprop:Generator_ColumnPropNameInRow="Plazo" msprop:Generator_ColumnPropNameInTable="PlazoColumn" msprop:Generator_UserColumnName="Plazo" type="xs:int" minOccurs="0" />
+              <xs:element name="SFL" msprop:Generator_ColumnVarNameInTable="columnSFL" msprop:Generator_ColumnPropNameInRow="SFL" msprop:Generator_ColumnPropNameInTable="SFLColumn" msprop:Generator_UserColumnName="SFL" type="xs:string" minOccurs="0" />
+              <xs:element name="Intereses" msprop:Generator_ColumnVarNameInTable="columnIntereses" msprop:Generator_ColumnPropNameInRow="Intereses" msprop:Generator_ColumnPropNameInTable="InteresesColumn" msprop:Generator_UserColumnName="Intereses" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FlgCoopac" msprop:Generator_ColumnVarNameInTable="columnFlgCoopac" msprop:Generator_ColumnPropNameInRow="FlgCoopac" msprop:Generator_ColumnPropNameInTable="FlgCoopacColumn" msprop:Generator_UserColumnName="FlgCoopac" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

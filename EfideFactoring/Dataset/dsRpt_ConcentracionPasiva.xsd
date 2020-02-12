@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRpt_ConcentracionPasiva" targetNamespace="http://tempuri.org/dsRpt_ConcentracionPasiva.xsd" xmlns:mstns="http://tempuri.org/dsRpt_ConcentracionPasiva.xsd" xmlns="http://tempuri.org/dsRpt_ConcentracionPasiva.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRpt_ConcentracionPasiva" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRpt_ConcentracionPasiva" msprop:Generator_UserDSName="dsRpt_ConcentracionPasiva">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRpt_ConcentracionPasiva" msprop:Generator_TableClassName="dtRpt_ConcentracionPasivaDataTable" msprop:Generator_TableVarName="tabledtRpt_ConcentracionPasiva" msprop:Generator_TablePropName="dtRpt_ConcentracionPasiva" msprop:Generator_RowDeletingName="dtRpt_ConcentracionPasivaRowDeleting" msprop:Generator_RowChangingName="dtRpt_ConcentracionPasivaRowChanging" msprop:Generator_RowEvHandlerName="dtRpt_ConcentracionPasivaRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRpt_ConcentracionPasivaRowDeleted" msprop:Generator_UserTableName="dtRpt_ConcentracionPasiva" msprop:Generator_RowChangedName="dtRpt_ConcentracionPasivaRowChanged" msprop:Generator_RowEvArgName="dtRpt_ConcentracionPasivaRowChangeEvent" msprop:Generator_RowClassName="dtRpt_ConcentracionPasivaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codCliente" msprop:Generator_ColumnVarNameInTable="columncodCliente" msprop:Generator_ColumnPropNameInRow="codCliente" msprop:Generator_ColumnPropNameInTable="codClienteColumn" msprop:Generator_UserColumnName="codCliente" type="xs:string" minOccurs="0" />
+              <xs:element name="razonSocial" msprop:Generator_ColumnVarNameInTable="columnrazonSocial" msprop:Generator_ColumnPropNameInRow="razonSocial" msprop:Generator_ColumnPropNameInTable="razonSocialColumn" msprop:Generator_UserColumnName="razonSocial" type="xs:string" minOccurs="0" />
+              <xs:element name="AporteOrd" msprop:Generator_ColumnVarNameInTable="columnAporteOrd" msprop:Generator_ColumnPropNameInRow="AporteOrd" msprop:Generator_ColumnPropNameInTable="AporteOrdColumn" msprop:Generator_UserColumnName="AporteOrd" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AporteCap" msprop:Generator_ColumnVarNameInTable="columnAporteCap" msprop:Generator_ColumnPropNameInRow="AporteCap" msprop:Generator_ColumnPropNameInTable="AporteCapColumn" msprop:Generator_UserColumnName="AporteCap" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AporteExt" msprop:Generator_ColumnVarNameInTable="columnAporteExt" msprop:Generator_ColumnPropNameInRow="AporteExt" msprop:Generator_ColumnPropNameInTable="AporteExtColumn" msprop:Generator_UserColumnName="AporteExt" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DPF" msprop:Generator_ColumnVarNameInTable="columnDPF" msprop:Generator_ColumnPropNameInRow="DPF" msprop:Generator_ColumnPropNameInTable="DPFColumn" msprop:Generator_UserColumnName="DPF" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Ahorro" msprop:Generator_ColumnVarNameInTable="columnAhorro" msprop:Generator_ColumnPropNameInRow="Ahorro" msprop:Generator_ColumnPropNameInTable="AhorroColumn" msprop:Generator_UserColumnName="Ahorro" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AhorroEstructurado" msprop:Generator_ColumnVarNameInTable="columnAhorroEstructurado" msprop:Generator_ColumnPropNameInRow="AhorroEstructurado" msprop:Generator_ColumnPropNameInTable="AhorroEstructuradoColumn" msprop:Generator_UserColumnName="AhorroEstructurado" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

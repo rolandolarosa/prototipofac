@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{39C0B57C-08B5-4FBD-B0BF-8B1D7A44AA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Efide.Tesoreria.BusinessEntity", "Efide.Tesoreria.BusinessEntity\Efide.Tesoreria.BusinessEntity.csproj", "{7F6CCC90-0E8A-492B-BE83-B7011CB9F5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Efide.Tesoreria.BusinessLogic", "Efide.Tesoreria.BusinessLogic\Efide.Tesoreria.BusinessLogic.csproj", "{8167E5BE-101E-4B04-944A-C3E0E8A91DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Efide.Tesoreria.DataAccess", "Efide.Tesoreria.DataAccess\Efide.Tesoreria.DataAccess.csproj", "{4FFB48E4-783A-4EF1-8C0A-8ACE9CD7BC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Efide.Tesoreria.IntercafeData", "Efide.Tesoreria.IntercafeData\Efide.Tesoreria.IntercafeData.csproj", "{35D2BAFD-1118-48A9-9213-7F771BC7A9D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Efide.Tesoreria.Populate", "Efide.Tesoreria.Populate\Efide.Tesoreria.Populate.csproj", "{CA4AF0EF-9453-4304-8EAF-6E59A3BA0997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Efide.Tesoreria.Util", "Efide.Tesoreria.Util\Efide.Tesoreria.Util.csproj", "{204CD915-7CC7-4799-B64F-3CD9B3CA9380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Efide.Tesoreria.WinAdeudosInversiones", "Efide.Tesoreria.WinAdeudosInversiones\Efide.Tesoreria.WinAdeudosInversiones.csproj", "{F930AAA4-BD01-4FEE-A248-B2BAA3A0A041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Efide.Tesoreria.WinAdeudos", "Efide.Tesoreria.WinAdeudos\Efide.Tesoreria.WinAdeudos.csproj", "{6513D284-A919-4171-ADA6-899FE7B583B8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sistemas2-pc:8080/tfs/efidesis
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Efide.Tesoreria.BusinessEntity\\Efide.Tesoreria.BusinessEntity.csproj
+		SccProjectTopLevelParentUniqueName1 = SlnTesoreria.sln
+		SccProjectName1 = Efide.Tesoreria.BusinessEntity
+		SccLocalPath1 = Efide.Tesoreria.BusinessEntity
+		SccProjectUniqueName2 = Efide.Tesoreria.BusinessLogic\\Efide.Tesoreria.BusinessLogic.csproj
+		SccProjectTopLevelParentUniqueName2 = SlnTesoreria.sln
+		SccProjectName2 = Efide.Tesoreria.BusinessLogic
+		SccLocalPath2 = Efide.Tesoreria.BusinessLogic
+		SccProjectUniqueName3 = Efide.Tesoreria.DataAccess\\Efide.Tesoreria.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = SlnTesoreria.sln
+		SccProjectName3 = Efide.Tesoreria.DataAccess
+		SccLocalPath3 = Efide.Tesoreria.DataAccess
+		SccProjectUniqueName4 = Efide.Tesoreria.IntercafeData\\Efide.Tesoreria.IntercafeData.csproj
+		SccProjectTopLevelParentUniqueName4 = SlnTesoreria.sln
+		SccProjectName4 = Efide.Tesoreria.IntercafeData
+		SccLocalPath4 = Efide.Tesoreria.IntercafeData
+		SccProjectUniqueName5 = Efide.Tesoreria.Populate\\Efide.Tesoreria.Populate.csproj
+		SccProjectTopLevelParentUniqueName5 = SlnTesoreria.sln
+		SccProjectName5 = Efide.Tesoreria.Populate
+		SccLocalPath5 = Efide.Tesoreria.Populate
+		SccProjectUniqueName6 = Efide.Tesoreria.Util\\Efide.Tesoreria.Util.csproj
+		SccProjectTopLevelParentUniqueName6 = SlnTesoreria.sln
+		SccProjectName6 = Efide.Tesoreria.Util
+		SccLocalPath6 = Efide.Tesoreria.Util
+		SccProjectUniqueName7 = Efide.Tesoreria.WinAdeudosInversiones\\Efide.Tesoreria.WinAdeudosInversiones.csproj
+		SccProjectName7 = Efide.Tesoreria.WinAdeudosInversiones
+		SccLocalPath7 = Efide.Tesoreria.WinAdeudosInversiones
+		SccProjectUniqueName8 = Efide.Tesoreria.WinAdeudos\\Efide.Tesoreria.WinAdeudos.csproj
+		SccProjectName8 = Efide.Tesoreria.WinAdeudos
+		SccLocalPath8 = Efide.Tesoreria.WinAdeudos
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F6CCC90-0E8A-492B-BE83-B7011CB9F5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6CCC90-0E8A-492B-BE83-B7011CB9F5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6CCC90-0E8A-492B-BE83-B7011CB9F5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6CCC90-0E8A-492B-BE83-B7011CB9F5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8167E5BE-101E-4B04-944A-C3E0E8A91DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8167E5BE-101E-4B04-944A-C3E0E8A91DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8167E5BE-101E-4B04-944A-C3E0E8A91DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8167E5BE-101E-4B04-944A-C3E0E8A91DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFB48E4-783A-4EF1-8C0A-8ACE9CD7BC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFB48E4-783A-4EF1-8C0A-8ACE9CD7BC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFB48E4-783A-4EF1-8C0A-8ACE9CD7BC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFB48E4-783A-4EF1-8C0A-8ACE9CD7BC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D2BAFD-1118-48A9-9213-7F771BC7A9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D2BAFD-1118-48A9-9213-7F771BC7A9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D2BAFD-1118-48A9-9213-7F771BC7A9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D2BAFD-1118-48A9-9213-7F771BC7A9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4AF0EF-9453-4304-8EAF-6E59A3BA0997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4AF0EF-9453-4304-8EAF-6E59A3BA0997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4AF0EF-9453-4304-8EAF-6E59A3BA0997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4AF0EF-9453-4304-8EAF-6E59A3BA0997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204CD915-7CC7-4799-B64F-3CD9B3CA9380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204CD915-7CC7-4799-B64F-3CD9B3CA9380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204CD915-7CC7-4799-B64F-3CD9B3CA9380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204CD915-7CC7-4799-B64F-3CD9B3CA9380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F930AAA4-BD01-4FEE-A248-B2BAA3A0A041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F930AAA4-BD01-4FEE-A248-B2BAA3A0A041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F930AAA4-BD01-4FEE-A248-B2BAA3A0A041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F930AAA4-BD01-4FEE-A248-B2BAA3A0A041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6513D284-A919-4171-ADA6-899FE7B583B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6513D284-A919-4171-ADA6-899FE7B583B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6513D284-A919-4171-ADA6-899FE7B583B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6513D284-A919-4171-ADA6-899FE7B583B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F6CCC90-0E8A-492B-BE83-B7011CB9F5AA} = {39C0B57C-08B5-4FBD-B0BF-8B1D7A44AA11}
+		{8167E5BE-101E-4B04-944A-C3E0E8A91DFC} = {39C0B57C-08B5-4FBD-B0BF-8B1D7A44AA11}
+		{4FFB48E4-783A-4EF1-8C0A-8ACE9CD7BC38} = {39C0B57C-08B5-4FBD-B0BF-8B1D7A44AA11}
+		{35D2BAFD-1118-48A9-9213-7F771BC7A9D6} = {39C0B57C-08B5-4FBD-B0BF-8B1D7A44AA11}
+		{CA4AF0EF-9453-4304-8EAF-6E59A3BA0997} = {39C0B57C-08B5-4FBD-B0BF-8B1D7A44AA11}
+		{204CD915-7CC7-4799-B64F-3CD9B3CA9380} = {39C0B57C-08B5-4FBD-B0BF-8B1D7A44AA11}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRpt_ResumenAvanceDesembolsoXGestor" targetNamespace="http://tempuri.org/dsRpt_ResumenAvanceDesembolsoXGestor.xsd" xmlns:mstns="http://tempuri.org/dsRpt_ResumenAvanceDesembolsoXGestor.xsd" xmlns="http://tempuri.org/dsRpt_ResumenAvanceDesembolsoXGestor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRpt_ResumenAvanceDesembolsoXGestor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRpt_ResumenAvanceDesembolsoXGestor" msprop:Generator_UserDSName="dsRpt_ResumenAvanceDesembolsoXGestor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAvanceGestor" msprop:Generator_TableClassName="dtAvanceGestorDataTable" msprop:Generator_TableVarName="tabledtAvanceGestor" msprop:Generator_TablePropName="dtAvanceGestor" msprop:Generator_RowDeletingName="dtAvanceGestorRowDeleting" msprop:Generator_RowChangingName="dtAvanceGestorRowChanging" msprop:Generator_RowEvHandlerName="dtAvanceGestorRowChangeEventHandler" msprop:Generator_RowDeletedName="dtAvanceGestorRowDeleted" msprop:Generator_UserTableName="dtAvanceGestor" msprop:Generator_RowChangedName="dtAvanceGestorRowChanged" msprop:Generator_RowEvArgName="dtAvanceGestorRowChangeEvent" msprop:Generator_RowClassName="dtAvanceGestorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdGestor" msprop:Generator_ColumnVarNameInTable="columnIdGestor" msprop:Generator_ColumnPropNameInRow="IdGestor" msprop:Generator_ColumnPropNameInTable="IdGestorColumn" msprop:Generator_UserColumnName="IdGestor" type="xs:string" minOccurs="0" />
+              <xs:element name="IdGestor_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdGestor_Dsc" msprop:Generator_ColumnPropNameInRow="IdGestor_Dsc" msprop:Generator_ColumnPropNameInTable="IdGestor_DscColumn" msprop:Generator_UserColumnName="IdGestor_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTipoGestor_tt" msprop:Generator_ColumnVarNameInTable="columnIdTipoGestor_tt" msprop:Generator_ColumnPropNameInRow="IdTipoGestor_tt" msprop:Generator_ColumnPropNameInTable="IdTipoGestor_ttColumn" msprop:Generator_UserColumnName="IdTipoGestor_tt" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTipoGestor_tt_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdTipoGestor_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdTipoGestor_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdTipoGestor_tt_DscColumn" msprop:Generator_UserColumnName="IdTipoGestor_tt_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="nDesembolso" msprop:Generator_ColumnVarNameInTable="columnnDesembolso" msprop:Generator_ColumnPropNameInRow="nDesembolso" msprop:Generator_ColumnPropNameInTable="nDesembolsoColumn" msprop:Generator_UserColumnName="nDesembolso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nReal" msprop:Generator_ColumnVarNameInTable="columnnReal" msprop:Generator_ColumnPropNameInRow="nReal" msprop:Generator_ColumnPropNameInTable="nRealColumn" msprop:Generator_UserColumnName="nReal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nRealOld" msprop:Generator_ColumnVarNameInTable="columnnRealOld" msprop:Generator_ColumnPropNameInRow="nRealOld" msprop:Generator_ColumnPropNameInTable="nRealOldColumn" msprop:Generator_UserColumnName="nRealOld" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nImporte" msprop:Generator_ColumnVarNameInTable="columnnImporte" msprop:Generator_ColumnPropNameInRow="nImporte" msprop:Generator_ColumnPropNameInTable="nImporteColumn" msprop:Generator_UserColumnName="nImporte" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Prcj" msprop:Generator_ColumnVarNameInTable="columnPrcj" msprop:Generator_ColumnPropNameInRow="Prcj" msprop:Generator_ColumnPropNameInTable="PrcjColumn" msprop:Generator_UserColumnName="Prcj" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nTeorico" msprop:Generator_ColumnVarNameInTable="columnnTeorico" msprop:Generator_ColumnPropNameInRow="nTeorico" msprop:Generator_ColumnPropNameInTable="nTeoricoColumn" msprop:Generator_UserColumnName="nTeorico" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ImporteDif" msprop:Generator_ColumnVarNameInTable="columnImporteDif" msprop:Generator_ColumnPropNameInRow="ImporteDif" msprop:Generator_ColumnPropNameInTable="ImporteDifColumn" msprop:Generator_UserColumnName="ImporteDif" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MetaMensual" msprop:Generator_ColumnVarNameInTable="columnMetaMensual" msprop:Generator_ColumnPropNameInRow="MetaMensual" msprop:Generator_ColumnPropNameInTable="MetaMensualColumn" msprop:Generator_UserColumnName="MetaMensual" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

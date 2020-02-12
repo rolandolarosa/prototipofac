@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRpt_AvanceGestionNuevos" targetNamespace="http://tempuri.org/dsRpt_AvanceGestionNuevos.xsd" xmlns:mstns="http://tempuri.org/dsRpt_AvanceGestionNuevos.xsd" xmlns="http://tempuri.org/dsRpt_AvanceGestionNuevos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRpt_AvanceGestionNuevos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRpt_AvanceGestionNuevos" msprop:Generator_UserDSName="dsRpt_AvanceGestionNuevos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAvanceGestionNuevos" msprop:Generator_TableClassName="dtAvanceGestionNuevosDataTable" msprop:Generator_TableVarName="tabledtAvanceGestionNuevos" msprop:Generator_TablePropName="dtAvanceGestionNuevos" msprop:Generator_RowDeletingName="dtAvanceGestionNuevosRowDeleting" msprop:Generator_RowChangingName="dtAvanceGestionNuevosRowChanging" msprop:Generator_RowEvHandlerName="dtAvanceGestionNuevosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtAvanceGestionNuevosRowDeleted" msprop:Generator_UserTableName="dtAvanceGestionNuevos" msprop:Generator_RowChangedName="dtAvanceGestionNuevosRowChanged" msprop:Generator_RowEvArgName="dtAvanceGestionNuevosRowChangeEvent" msprop:Generator_RowClassName="dtAvanceGestionNuevosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="gestorCuentaID" msprop:Generator_ColumnVarNameInTable="columngestorCuentaID" msprop:Generator_ColumnPropNameInRow="gestorCuentaID" msprop:Generator_ColumnPropNameInTable="gestorCuentaIDColumn" msprop:Generator_UserColumnName="gestorCuentaID" type="xs:string" minOccurs="0" />
+              <xs:element name="gestorCuentaID_Dsc" msprop:Generator_ColumnVarNameInTable="columngestorCuentaID_Dsc" msprop:Generator_ColumnPropNameInRow="gestorCuentaID_Dsc" msprop:Generator_ColumnPropNameInTable="gestorCuentaID_DscColumn" msprop:Generator_UserColumnName="gestorCuentaID_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="TelfMeta" msprop:Generator_ColumnVarNameInTable="columnTelfMeta" msprop:Generator_ColumnPropNameInRow="TelfMeta" msprop:Generator_ColumnPropNameInTable="TelfMetaColumn" msprop:Generator_UserColumnName="TelfMeta" type="xs:int" minOccurs="0" />
+              <xs:element name="TelfRealizadas" msprop:Generator_ColumnVarNameInTable="columnTelfRealizadas" msprop:Generator_ColumnPropNameInRow="TelfRealizadas" msprop:Generator_ColumnPropNameInTable="TelfRealizadasColumn" msprop:Generator_UserColumnName="TelfRealizadas" type="xs:int" minOccurs="0" />
+              <xs:element name="CitasMeta" msprop:Generator_ColumnVarNameInTable="columnCitasMeta" msprop:Generator_ColumnPropNameInRow="CitasMeta" msprop:Generator_ColumnPropNameInTable="CitasMetaColumn" msprop:Generator_UserColumnName="CitasMeta" type="xs:int" minOccurs="0" />
+              <xs:element name="CitasRealizadas" msprop:Generator_ColumnVarNameInTable="columnCitasRealizadas" msprop:Generator_ColumnPropNameInRow="CitasRealizadas" msprop:Generator_ColumnPropNameInTable="CitasRealizadasColumn" msprop:Generator_UserColumnName="CitasRealizadas" type="xs:int" minOccurs="0" />
+              <xs:element name="Visitas" msprop:Generator_ColumnVarNameInTable="columnVisitas" msprop:Generator_ColumnPropNameInRow="Visitas" msprop:Generator_ColumnPropNameInTable="VisitasColumn" msprop:Generator_UserColumnName="Visitas" type="xs:int" minOccurs="0" />
+              <xs:element name="Nuevos" msprop:Generator_ColumnVarNameInTable="columnNuevos" msprop:Generator_ColumnPropNameInRow="Nuevos" msprop:Generator_ColumnPropNameInTable="NuevosColumn" msprop:Generator_UserColumnName="Nuevos" type="xs:int" minOccurs="0" />
+              <xs:element name="Referido" msprop:Generator_ColumnVarNameInTable="columnReferido" msprop:Generator_ColumnPropNameInRow="Referido" msprop:Generator_ColumnPropNameInTable="ReferidoColumn" msprop:Generator_UserColumnName="Referido" type="xs:int" minOccurs="0" />
+              <xs:element name="Recuperado" msprop:Generator_ColumnVarNameInTable="columnRecuperado" msprop:Generator_ColumnPropNameInRow="Recuperado" msprop:Generator_ColumnPropNameInTable="RecuperadoColumn" msprop:Generator_UserColumnName="Recuperado" type="xs:int" minOccurs="0" />
+              <xs:element name="Desembolso" msprop:Generator_ColumnVarNameInTable="columnDesembolso" msprop:Generator_ColumnPropNameInRow="Desembolso" msprop:Generator_ColumnPropNameInTable="DesembolsoColumn" msprop:Generator_UserColumnName="Desembolso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Meta" msprop:Generator_ColumnVarNameInTable="columnMeta" msprop:Generator_ColumnPropNameInRow="Meta" msprop:Generator_ColumnPropNameInTable="MetaColumn" msprop:Generator_UserColumnName="Meta" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiferenciaMonto" msprop:Generator_ColumnVarNameInTable="columnDiferenciaMonto" msprop:Generator_ColumnPropNameInRow="DiferenciaMonto" msprop:Generator_ColumnPropNameInTable="DiferenciaMontoColumn" msprop:Generator_UserColumnName="DiferenciaMonto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DiferenciaPorc" msprop:Generator_ColumnVarNameInTable="columnDiferenciaPorc" msprop:Generator_ColumnPropNameInRow="DiferenciaPorc" msprop:Generator_ColumnPropNameInTable="DiferenciaPorcColumn" msprop:Generator_UserColumnName="DiferenciaPorc" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

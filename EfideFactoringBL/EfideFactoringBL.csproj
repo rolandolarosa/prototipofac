@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B4D2122-B2A5-4DA6-9313-7AAA0D2A9907}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EfideFactoringBL</RootNamespace>
+    <AssemblyName>EfideFactoringBL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccesoGlobalBL.cs" />
+    <Compile Include="BitacoraCobranzaBL.cs" />
+    <Compile Include="BitacoraComercialBL.cs" />
+    <Compile Include="CobranzaBL.cs" />
+    <Compile Include="CobranzaDetalleBL.cs" />
+    <Compile Include="CarteraSocioBL.cs" />
+    <Compile Include="CarteraCandidatoBL.cs" />
+    <Compile Include="CobranzaPagoBL.cs" />
+    <Compile Include="CompromisoComBL.cs" />
+    <Compile Include="BovedaBL.cs" />
+    <Compile Include="BovedaDetalleBL.cs" />
+    <Compile Include="BovedaTrackingBL.cs" />
+    <Compile Include="BaseNegativaBL.cs" />
+    <Compile Include="LimiteCreditoLogBL.cs" />
+    <Compile Include="IndicadorMensualBL.cs" />
+    <Compile Include="SocioGrupoDetBL.cs" />
+    <Compile Include="SocioGrupoBL.cs" />
+    <Compile Include="MovimientoBL.cs" />
+    <Compile Include="ReporteBL.cs" />
+    <Compile Include="SocioConfiguracionECBL.cs" />
+    <Compile Include="ResumenBancoBL.cs" />
+    <Compile Include="PagadoraEventosBL.cs" />
+    <Compile Include="RobotCobranzasBL.cs" />
+    <Compile Include="RepositorioTopBL.cs" />
+    <Compile Include="GestionPagadoraBL.cs" />
+    <Compile Include="EvaluacionCarteraBL.cs" />
+    <Compile Include="TipoSolicitudFormatoBL.cs" />
+    <Compile Include="SolicitudRegistroBL.cs" />
+    <Compile Include="SolicitudDocumentoBL.cs" />
+    <Compile Include="SolicitudFacultadBL.cs" />
+    <Compile Include="SolicitudRepresentanteBL.cs" />
+    <Compile Include="CuentasxPagarTMBloqueoBL.cs" />
+    <Compile Include="SolicitudCheckListBL.cs" />
+    <Compile Include="SolicitudTrackingBL.cs" />
+    <Compile Include="SolicitudBL.cs" />
+    <Compile Include="EmpresaTopLineaBL.cs" />
+    <Compile Include="TelefonoTDBL.cs" />
+    <Compile Include="PersonaContactoTDBL.cs" />
+    <Compile Include="EmailTDBL.cs" />
+    <Compile Include="TercerCasoSocioBL.cs" />
+    <Compile Include="UsuarioGestorBL.cs" />
+    <Compile Include="TercerCasoBL.cs" />
+    <Compile Include="GestionComercialBL.cs" />
+    <Compile Include="GestionMetasBL.cs" />
+    <Compile Include="PagadoraAutorizaDocBL.cs" />
+    <Compile Include="CuentaSocioBL.cs" />
+    <Compile Include="EmpresaSentinelBL.cs" />
+    <Compile Include="EmpresaTopBL.cs" />
+    <Compile Include="RenovacionPagoBL.cs" />
+    <Compile Include="DatosLoadBL.cs" />
+    <Compile Include="UsuarioXTipoBL.cs" />
+    <Compile Include="GestionBL.cs" />
+    <Compile Include="ImportacionLoteBL.cs" />
+    <Compile Include="CuentasxCobrarTMBL.cs" />
+    <Compile Include="DepositosSABE.cs" />
+    <Compile Include="DetaLoteBL.cs" />
+    <Compile Include="DocumentoBL.cs" />
+    <Compile Include="FechaSistemaBL.cs" />
+    <Compile Include="GrupoPagadoraBL.cs" />
+    <Compile Include="GrupoPagadoraDetalleBL.cs" />
+    <Compile Include="GrupoPagadoraLogBL.cs" />
+    <Compile Include="LoteBL.cs" />
+    <Compile Include="PagadoraBL.cs" />
+    <Compile Include="PagadoraContactoBL.cs" />
+    <Compile Include="PagadoraDocumentoBL.cs" />
+    <Compile Include="PagadoraLineaBL.cs" />
+    <Compile Include="PagadoraLineaLogBL.cs" />
+    <Compile Include="PagadoraObservacionBL.cs" />
+    <Compile Include="PrestamoRepBL.cs" />
+    <Compile Include="ProductosFactoringBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenovacionBL.cs" />
+    <Compile Include="RenovacionDetBL.cs" />
+    <Compile Include="SocioBL.cs" />
+    <Compile Include="SocioLineaBL.cs" />
+    <Compile Include="SocioLineaGarantiaBL.cs" />
+    <Compile Include="SocioLineaLogBL.cs" />
+    <Compile Include="SocioLineaPagadoraBL.cs" />
+    <Compile Include="SocioLineaPagDocBL.cs" />
+    <Compile Include="SocioLineaPagPlazoBL.cs" />
+    <Compile Include="SocioLineaPagRetencionBL.cs" />
+    <Compile Include="TableBaseBL.cs" />
+    <Compile Include="TarifarioBL.cs" />
+    <Compile Include="UbigeoBL.cs" />
+    <Compile Include="UsuarioBL.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EfideFactoringBE\EfideFactoringBE.csproj">
+      <Project>{e69796a2-0e60-4171-af8e-4114a4724a1a}</Project>
+      <Name>EfideFactoringBE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EfideFactoringDA\EfideFactoringDA.csproj">
+      <Project>{0806687b-42ec-43dd-b79c-d299612776a0}</Project>
+      <Name>EfideFactoringDA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

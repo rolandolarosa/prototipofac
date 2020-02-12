@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+  </configSections>
+  <connectionStrings>
+       
+    <!--<add name="ConexionStrDBEfideFactoring" connectionString="Data Source=efidesis\serv_efide;Initial Catalog=dbFactoring;Persist Security Info=True;User ID=rlarosa;Password=19190365;"
+      providerName="System.Data.SqlClient" />
+
+    <add name="EfideFactoring.Properties.Settings.dbFactoringRptConnectionString"
+      connectionString="Data Source=efidesis\serv_efide;Initial Catalog=dbFactoring;Persist Security Info=True;User ID=rlarosa;Password=19190365;"
+      providerName="System.Data.SqlClient" />-->
+    
+    <add name="ConexionStrDBEfideFactoring" connectionString="Data Source=srvEfideCloud01.cloudapp.net;Initial Catalog=dbFactoring;Persist Security Info=True;User ID=sa;Password=19190365;"
+      providerName="System.Data.SqlClient" />    
+    
+    <add name="EfideFactoring.Properties.Settings.dbFactoringRptConnectionString"
+      connectionString="Data Source=srvEfideCloud01.cloudapp.net;Initial Catalog=dbFactoring;Persist Security Info=True;User ID=sa;Password=19190365;"
+      providerName="System.Data.SqlClient" />
+    
+  </connectionStrings>
+  <startup> 
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+  </startup>
+
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0"/>
+  </startup>
+  
+  <system.web>
+    <globalization culture="es-PE" uiCulture="es-PE" />
+  </system.web>
+</configuration>

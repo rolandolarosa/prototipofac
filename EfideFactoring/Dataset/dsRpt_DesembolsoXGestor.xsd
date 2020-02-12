@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRpt_DesembolsoXGestor" targetNamespace="http://tempuri.org/dsRpt_DesembolsoXGestor.xsd" xmlns:mstns="http://tempuri.org/dsRpt_DesembolsoXGestor.xsd" xmlns="http://tempuri.org/dsRpt_DesembolsoXGestor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRpt_DesembolsoXGestor" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRpt_DesembolsoXGestor" msprop:Generator_UserDSName="dsRpt_DesembolsoXGestor">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtRpt_DesembolsoXGestor" msprop:Generator_TableClassName="dtRpt_DesembolsoXGestorDataTable" msprop:Generator_TableVarName="tabledtRpt_DesembolsoXGestor" msprop:Generator_TablePropName="dtRpt_DesembolsoXGestor" msprop:Generator_RowDeletingName="dtRpt_DesembolsoXGestorRowDeleting" msprop:Generator_RowChangingName="dtRpt_DesembolsoXGestorRowChanging" msprop:Generator_RowEvHandlerName="dtRpt_DesembolsoXGestorRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRpt_DesembolsoXGestorRowDeleted" msprop:Generator_UserTableName="dtRpt_DesembolsoXGestor" msprop:Generator_RowChangedName="dtRpt_DesembolsoXGestorRowChanged" msprop:Generator_RowEvArgName="dtRpt_DesembolsoXGestorRowChangeEvent" msprop:Generator_RowClassName="dtRpt_DesembolsoXGestorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdGestor" msprop:Generator_ColumnVarNameInTable="columnIdGestor" msprop:Generator_ColumnPropNameInRow="IdGestor" msprop:Generator_ColumnPropNameInTable="IdGestorColumn" msprop:Generator_UserColumnName="IdGestor" type="xs:string" minOccurs="0" />
+              <xs:element name="IdGestor_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdGestor_Dsc" msprop:Generator_ColumnPropNameInRow="IdGestor_Dsc" msprop:Generator_ColumnPropNameInTable="IdGestor_DscColumn" msprop:Generator_UserColumnName="IdGestor_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTipoGestor_tt" msprop:Generator_ColumnVarNameInTable="columnIdTipoGestor_tt" msprop:Generator_ColumnPropNameInRow="IdTipoGestor_tt" msprop:Generator_ColumnPropNameInTable="IdTipoGestor_ttColumn" msprop:Generator_UserColumnName="IdTipoGestor_tt" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTipoGestor_tt_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdTipoGestor_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdTipoGestor_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdTipoGestor_tt_DscColumn" msprop:Generator_UserColumnName="IdTipoGestor_tt_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="nTeorico" msprop:Generator_ColumnVarNameInTable="columnnTeorico" msprop:Generator_ColumnPropNameInRow="nTeorico" msprop:Generator_ColumnPropNameInTable="nTeoricoColumn" msprop:Generator_UserColumnName="nTeorico" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nReal" msprop:Generator_ColumnVarNameInTable="columnnReal" msprop:Generator_ColumnPropNameInRow="nReal" msprop:Generator_ColumnPropNameInTable="nRealColumn" msprop:Generator_UserColumnName="nReal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nDesembolso" msprop:Generator_ColumnVarNameInTable="columnnDesembolso" msprop:Generator_ColumnPropNameInRow="nDesembolso" msprop:Generator_ColumnPropNameInTable="nDesembolsoColumn" msprop:Generator_UserColumnName="nDesembolso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Meta" msprop:Generator_ColumnVarNameInTable="columnMeta" msprop:Generator_ColumnPropNameInRow="Meta" msprop:Generator_ColumnPropNameInTable="MetaColumn" msprop:Generator_UserColumnName="Meta" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Avance" msprop:Generator_ColumnVarNameInTable="columnAvance" msprop:Generator_ColumnPropNameInRow="Avance" msprop:Generator_ColumnPropNameInTable="AvanceColumn" msprop:Generator_UserColumnName="Avance" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

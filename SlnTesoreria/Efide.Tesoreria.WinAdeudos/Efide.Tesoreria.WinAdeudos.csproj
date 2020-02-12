@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6513D284-A919-4171-ADA6-899FE7B583B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Efide.Tesoreria.WinAdeudos</RootNamespace>
+    <AssemblyName>Efide.Tesoreria.WinAdeudos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.9.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Efide.ControlsComponent">
+      <HintPath>..\..\ReportesFenacrep\Efide.ControlsComponent\bin\Debug\Efide.ControlsComponent.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adeudo\frmAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adeudo\frmAdeudo.Designer.cs">
+      <DependentUpon>frmAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adeudo\frmConfirmacionAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adeudo\frmConfirmacionAdeudo.Designer.cs">
+      <DependentUpon>frmConfirmacionAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adeudo\frmConfirmacionRenovacionAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adeudo\frmConfirmacionRenovacionAdeudo.Designer.cs">
+      <DependentUpon>frmConfirmacionRenovacionAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adeudo\frmConfirmacionRescisionAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adeudo\frmConfirmacionRescisionAdeudo.Designer.cs">
+      <DependentUpon>frmConfirmacionRescisionAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adeudo\frmGeneracionCarteraAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adeudo\frmGeneracionCarteraAdeudo.Designer.cs">
+      <DependentUpon>frmGeneracionCarteraAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adeudo\frmObservacionesAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adeudo\frmObservacionesAdeudo.Designer.cs">
+      <DependentUpon>frmObservacionesAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adeudo\frmRenovacionAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adeudo\frmRenovacionAdeudo.Designer.cs">
+      <DependentUpon>frmRenovacionAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adeudo\frmRescisionAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adeudo\frmRescisionAdeudo.Designer.cs">
+      <DependentUpon>frmRescisionAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaAdeudo.Designer.cs">
+      <DependentUpon>frmBusquedaAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaRenovacionAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaRenovacionAdeudo.Designer.cs">
+      <DependentUpon>frmBusquedaRenovacionAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaRescisionAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaRescisionAdeudo.Designer.cs">
+      <DependentUpon>frmBusquedaRescisionAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaTransfDepo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaTransfDepo.Designer.cs">
+      <DependentUpon>frmBusquedaTransfDepo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaTransfXAplicarAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="busqueda\frmBusquedaTransfXAplicarAdeudo.Designer.cs">
+      <DependentUpon>frmBusquedaTransfXAplicarAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cuentaBancos\frmCuentaBancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cuentaBancos\frmCuentaBancos.Designer.cs">
+      <DependentUpon>frmCuentaBancos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cuentaBancos\frmListCuentaBancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cuentaBancos\frmListCuentaBancos.Designer.cs">
+      <DependentUpon>frmListCuentaBancos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBase\frmBusquedaBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase\frmBusquedaBase.Designer.cs">
+      <DependentUpon>frmBusquedaBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBase\frmConfirmacionBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase\frmConfirmacionBase.Designer.cs">
+      <DependentUpon>frmConfirmacionBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBase\frmListaBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase\frmListaBase.Designer.cs">
+      <DependentUpon>frmListaBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBase\frmMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase\frmMDI.Designer.cs">
+      <DependentUpon>frmMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBase\frmRegistroBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBase\frmRegistroBase.Designer.cs">
+      <DependentUpon>frmRegistroBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lista\frmListaAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lista\frmListaAdeudo.Designer.cs">
+      <DependentUpon>frmListaAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lista\frmListaRescisionAdeudo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lista\frmListaRescisionAdeudo.Designer.cs">
+      <DependentUpon>frmListaRescisionAdeudo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="adeudo\frmAdeudo.resx">
+      <DependentUpon>frmAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adeudo\frmConfirmacionAdeudo.resx">
+      <DependentUpon>frmConfirmacionAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adeudo\frmConfirmacionRenovacionAdeudo.resx">
+      <DependentUpon>frmConfirmacionRenovacionAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adeudo\frmConfirmacionRescisionAdeudo.resx">
+      <DependentUpon>frmConfirmacionRescisionAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adeudo\frmGeneracionCarteraAdeudo.resx">
+      <DependentUpon>frmGeneracionCarteraAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adeudo\frmObservacionesAdeudo.resx">
+      <DependentUpon>frmObservacionesAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adeudo\frmRenovacionAdeudo.resx">
+      <DependentUpon>frmRenovacionAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adeudo\frmRescisionAdeudo.resx">
+      <DependentUpon>frmRescisionAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="busqueda\frmBusquedaAdeudo.resx">
+      <DependentUpon>frmBusquedaAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="busqueda\frmBusquedaRenovacionAdeudo.resx">
+      <DependentUpon>frmBusquedaRenovacionAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="busqueda\frmBusquedaRescisionAdeudo.resx">
+      <DependentUpon>frmBusquedaRescisionAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="busqueda\frmBusquedaTransfDepo.resx">
+      <DependentUpon>frmBusquedaTransfDepo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="busqueda\frmBusquedaTransfXAplicarAdeudo.resx">
+      <DependentUpon>frmBusquedaTransfXAplicarAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cuentaBancos\frmCuentaBancos.resx">
+      <DependentUpon>frmCuentaBancos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cuentaBancos\frmListCuentaBancos.resx">
+      <DependentUpon>frmListCuentaBancos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase\frmBusquedaBase.resx">
+      <DependentUpon>frmBusquedaBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase\frmConfirmacionBase.resx">
+      <DependentUpon>frmConfirmacionBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase\frmListaBase.resx">
+      <DependentUpon>frmListaBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase\frmMDI.resx">
+      <DependentUpon>frmMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBase\frmRegistroBase.resx">
+      <DependentUpon>frmRegistroBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lista\frmListaAdeudo.resx">
+      <DependentUpon>frmListaAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lista\frmListaRescisionAdeudo.resx">
+      <DependentUpon>frmListaRescisionAdeudo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Efide.Tesoreria.BusinessEntity\Efide.Tesoreria.BusinessEntity.csproj">
+      <Project>{7f6ccc90-0e8a-492b-be83-b7011cb9f5aa}</Project>
+      <Name>Efide.Tesoreria.BusinessEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Efide.Tesoreria.BusinessLogic\Efide.Tesoreria.BusinessLogic.csproj">
+      <Project>{8167e5be-101e-4b04-944a-c3e0e8a91dfc}</Project>
+      <Name>Efide.Tesoreria.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Efide.Tesoreria.DataAccess\Efide.Tesoreria.DataAccess.csproj">
+      <Project>{4ffb48e4-783a-4ef1-8c0a-8ace9cd7bc38}</Project>
+      <Name>Efide.Tesoreria.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Efide.Tesoreria.IntercafeData\Efide.Tesoreria.IntercafeData.csproj">
+      <Project>{35d2bafd-1118-48a9-9213-7f771bc7a9d6}</Project>
+      <Name>Efide.Tesoreria.IntercafeData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Efide.Tesoreria.Util\Efide.Tesoreria.Util.csproj">
+      <Project>{204cd915-7cc7-4799-b64f-3cd9b3ca9380}</Project>
+      <Name>Efide.Tesoreria.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resource\About.png" />
+    <Content Include="resource\btn_ok.png" />
+    <Content Include="resource\elimina.png" />
+    <Content Include="resource\loading.gif" />
+    <Content Include="resource\logo-final-Efide.jpg" />
+    <None Include="resource\refresh.png" />
+    <None Include="resource\quitar.gif" />
+    <None Include="resource\nuevo.png" />
+    <None Include="resource\modifica.png" />
+    <None Include="resource\magifier_zoom_out.png" />
+    <None Include="resource\cerrar.png" />
+    <None Include="resource\buscar.png" />
+    <None Include="resource\Binocular.png" />
+    <None Include="resource\arrow_up.png" />
+    <None Include="resource\arrow_down.png" />
+    <None Include="resource\add.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

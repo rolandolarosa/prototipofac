@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCobranzaP" targetNamespace="http://tempuri.org/dsCobranzaP.xsd" xmlns:mstns="http://tempuri.org/dsCobranzaP.xsd" xmlns="http://tempuri.org/dsCobranzaP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCobranzaP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsCobranzaP" msprop:Generator_UserDSName="dsCobranzaP">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Rpt_CobranzaP_Cab" msprop:Generator_TableClassName="Rpt_CobranzaP_CabDataTable" msprop:Generator_TableVarName="tableRpt_CobranzaP_Cab" msprop:Generator_RowChangedName="Rpt_CobranzaP_CabRowChanged" msprop:Generator_TablePropName="Rpt_CobranzaP_Cab" msprop:Generator_RowDeletingName="Rpt_CobranzaP_CabRowDeleting" msprop:Generator_RowChangingName="Rpt_CobranzaP_CabRowChanging" msprop:Generator_RowEvHandlerName="Rpt_CobranzaP_CabRowChangeEventHandler" msprop:Generator_RowDeletedName="Rpt_CobranzaP_CabRowDeleted" msprop:Generator_RowClassName="Rpt_CobranzaP_CabRow" msprop:Generator_UserTableName="Rpt_CobranzaP_Cab" msprop:Generator_RowEvArgName="Rpt_CobranzaP_CabRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCobranza" msprop:Generator_ColumnVarNameInTable="columnIdCobranza" msprop:Generator_ColumnPropNameInRow="IdCobranza" msprop:Generator_ColumnPropNameInTable="IdCobranzaColumn" msprop:Generator_UserColumnName="IdCobranza" type="xs:string" />
+              <xs:element name="IdPagadora_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdPagadora_Dsc" msprop:Generator_ColumnPropNameInRow="IdPagadora_Dsc" msprop:Generator_ColumnPropNameInTable="IdPagadora_DscColumn" msprop:Generator_UserColumnName="IdPagadora_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="dtRegistro" msprop:Generator_ColumnVarNameInTable="columndtRegistro" msprop:Generator_ColumnPropNameInRow="dtRegistro" msprop:Generator_ColumnPropNameInTable="dtRegistroColumn" msprop:Generator_UserColumnName="dtRegistro" type="xs:string" minOccurs="0" />
+              <xs:element name="dtValuta" msprop:Generator_ColumnVarNameInTable="columndtValuta" msprop:Generator_ColumnPropNameInRow="dtValuta" msprop:Generator_ColumnPropNameInTable="dtValutaColumn" msprop:Generator_UserColumnName="dtValuta" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTipoCobranza_tt" msprop:Generator_ColumnVarNameInTable="columnIdTipoCobranza_tt" msprop:Generator_ColumnPropNameInRow="IdTipoCobranza_tt" msprop:Generator_ColumnPropNameInTable="IdTipoCobranza_ttColumn" msprop:Generator_UserColumnName="IdTipoCobranza_tt" type="xs:string" minOccurs="0" />
+              <xs:element name="IdMoneda_tt_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdMoneda_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdMoneda_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdMoneda_tt_DscColumn" msprop:Generator_UserColumnName="IdMoneda_tt_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="Banco" msprop:Generator_ColumnVarNameInTable="columnBanco" msprop:Generator_ColumnPropNameInRow="Banco" msprop:Generator_ColumnPropNameInTable="BancoColumn" msprop:Generator_UserColumnName="Banco" type="xs:string" minOccurs="0" />
+              <xs:element name="nTotal" msprop:Generator_ColumnVarNameInTable="columnnTotal" msprop:Generator_ColumnPropNameInRow="nTotal" msprop:Generator_ColumnPropNameInTable="nTotalColumn" msprop:Generator_UserColumnName="nTotal" type="xs:string" minOccurs="0" />
+              <xs:element name="NroCheque" msprop:Generator_ColumnVarNameInTable="columnNroCheque" msprop:Generator_ColumnPropNameInRow="NroCheque" msprop:Generator_ColumnPropNameInTable="NroChequeColumn" msprop:Generator_UserColumnName="NroCheque" type="xs:string" minOccurs="0" />
+              <xs:element name="IdOperacion_tt_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdOperacion_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdOperacion_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdOperacion_tt_DscColumn" msprop:Generator_UserColumnName="IdOperacion_tt_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="sbNumOperacion" msprop:Generator_ColumnVarNameInTable="columnsbNumOperacion" msprop:Generator_ColumnPropNameInRow="sbNumOperacion" msprop:Generator_ColumnPropNameInTable="sbNumOperacionColumn" msprop:Generator_UserColumnName="sbNumOperacion" type="xs:string" minOccurs="0" />
+              <xs:element name="TipoMpago" msprop:Generator_ColumnVarNameInTable="columnTipoMpago" msprop:Generator_ColumnPropNameInRow="TipoMpago" msprop:Generator_ColumnPropNameInTable="TipoMpagoColumn" msprop:Generator_UserColumnName="TipoMpago" type="xs:string" minOccurs="0" />
+              <xs:element name="UsuarioCobranza" msprop:Generator_ColumnVarNameInTable="columnUsuarioCobranza" msprop:Generator_ColumnPropNameInRow="UsuarioCobranza" msprop:Generator_ColumnPropNameInTable="UsuarioCobranzaColumn" msprop:Generator_UserColumnName="UsuarioCobranza" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Rpt_CobranzaP_Det" msprop:Generator_TableClassName="Rpt_CobranzaP_DetDataTable" msprop:Generator_TableVarName="tableRpt_CobranzaP_Det" msprop:Generator_RowChangedName="Rpt_CobranzaP_DetRowChanged" msprop:Generator_TablePropName="Rpt_CobranzaP_Det" msprop:Generator_RowDeletingName="Rpt_CobranzaP_DetRowDeleting" msprop:Generator_RowChangingName="Rpt_CobranzaP_DetRowChanging" msprop:Generator_RowEvHandlerName="Rpt_CobranzaP_DetRowChangeEventHandler" msprop:Generator_RowDeletedName="Rpt_CobranzaP_DetRowDeleted" msprop:Generator_RowClassName="Rpt_CobranzaP_DetRow" msprop:Generator_UserTableName="Rpt_CobranzaP_Det" msprop:Generator_RowEvArgName="Rpt_CobranzaP_DetRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCobranza" msprop:Generator_ColumnVarNameInTable="columnIdCobranza" msprop:Generator_ColumnPropNameInRow="IdCobranza" msprop:Generator_ColumnPropNameInTable="IdCobranzaColumn" msprop:Generator_UserColumnName="IdCobranza" type="xs:string" />
+              <xs:element name="IdLote" msprop:Generator_ColumnVarNameInTable="columnIdLote" msprop:Generator_ColumnPropNameInRow="IdLote" msprop:Generator_ColumnPropNameInTable="IdLoteColumn" msprop:Generator_UserColumnName="IdLote" type="xs:string" minOccurs="0" />
+              <xs:element name="IdSocio" msprop:Generator_ColumnVarNameInTable="columnIdSocio" msprop:Generator_ColumnPropNameInRow="IdSocio" msprop:Generator_ColumnPropNameInTable="IdSocioColumn" msprop:Generator_UserColumnName="IdSocio" type="xs:string" minOccurs="0" />
+              <xs:element name="IdSocio_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdSocio_Dsc" msprop:Generator_ColumnPropNameInRow="IdSocio_Dsc" msprop:Generator_ColumnPropNameInTable="IdSocio_DscColumn" msprop:Generator_UserColumnName="IdSocio_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="IdDocumento" msprop:Generator_ColumnVarNameInTable="columnIdDocumento" msprop:Generator_ColumnPropNameInRow="IdDocumento" msprop:Generator_ColumnPropNameInTable="IdDocumentoColumn" msprop:Generator_UserColumnName="IdDocumento" type="xs:string" minOccurs="0" />
+              <xs:element name="vDocumento" msprop:Generator_ColumnVarNameInTable="columnvDocumento" msprop:Generator_ColumnPropNameInRow="vDocumento" msprop:Generator_ColumnPropNameInTable="vDocumentoColumn" msprop:Generator_UserColumnName="vDocumento" type="xs:string" minOccurs="0" />
+              <xs:element name="nvNominal" msprop:Generator_ColumnVarNameInTable="columnnvNominal" msprop:Generator_ColumnPropNameInRow="nvNominal" msprop:Generator_ColumnPropNameInTable="nvNominalColumn" msprop:Generator_UserColumnName="nvNominal" type="xs:string" minOccurs="0" />
+              <xs:element name="nvNegociable" msprop:Generator_ColumnVarNameInTable="columnnvNegociable" msprop:Generator_ColumnPropNameInRow="nvNegociable" msprop:Generator_ColumnPropNameInTable="nvNegociableColumn" msprop:Generator_UserColumnName="nvNegociable" type="xs:string" minOccurs="0" />
+              <xs:element name="nvImpCancelado" msprop:Generator_ColumnVarNameInTable="columnnvImpCancelado" msprop:Generator_ColumnPropNameInRow="nvImpCancelado" msprop:Generator_ColumnPropNameInTable="nvImpCanceladoColumn" msprop:Generator_UserColumnName="nvImpCancelado" type="xs:string" minOccurs="0" />
+              <xs:element name="Diferencia" msprop:Generator_ColumnVarNameInTable="columnDiferencia" msprop:Generator_ColumnPropNameInRow="Diferencia" msprop:Generator_ColumnPropNameInTable="DiferenciaColumn" msprop:Generator_UserColumnName="Diferencia" type="xs:string" minOccurs="0" />
+              <xs:element name="Dias" msprop:Generator_ColumnVarNameInTable="columnDias" msprop:Generator_ColumnPropNameInRow="Dias" msprop:Generator_ColumnPropNameInTable="DiasColumn" msprop:Generator_UserColumnName="Dias" type="xs:string" minOccurs="0" />
+              <xs:element name="Interes" msprop:Generator_ColumnVarNameInTable="columnInteres" msprop:Generator_ColumnPropNameInRow="Interes" msprop:Generator_ColumnPropNameInTable="InteresColumn" msprop:Generator_UserColumnName="Interes" type="xs:string" minOccurs="0" />
+              <xs:element name="Garantia" msprop:Generator_ColumnVarNameInTable="columnGarantia" msprop:Generator_ColumnPropNameInRow="Garantia" msprop:Generator_ColumnPropNameInTable="GarantiaColumn" msprop:Generator_UserColumnName="Garantia" type="xs:string" minOccurs="0" />
+              <xs:element name="sdVencimiento" msprop:Generator_ColumnVarNameInTable="columnsdVencimiento" msprop:Generator_ColumnPropNameInRow="sdVencimiento" msprop:Generator_ColumnPropNameInTable="sdVencimientoColumn" msprop:Generator_UserColumnName="sdVencimiento" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Rpt_CobranzaPago" msprop:Generator_TableClassName="Rpt_CobranzaPagoDataTable" msprop:Generator_TableVarName="tableRpt_CobranzaPago" msprop:Generator_TablePropName="Rpt_CobranzaPago" msprop:Generator_RowDeletingName="Rpt_CobranzaPagoRowDeleting" msprop:Generator_RowChangingName="Rpt_CobranzaPagoRowChanging" msprop:Generator_RowEvHandlerName="Rpt_CobranzaPagoRowChangeEventHandler" msprop:Generator_RowDeletedName="Rpt_CobranzaPagoRowDeleted" msprop:Generator_UserTableName="Rpt_CobranzaPago" msprop:Generator_RowChangedName="Rpt_CobranzaPagoRowChanged" msprop:Generator_RowEvArgName="Rpt_CobranzaPagoRowChangeEvent" msprop:Generator_RowClassName="Rpt_CobranzaPagoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdCobranza" msprop:Generator_ColumnVarNameInTable="columnIdCobranza" msprop:Generator_ColumnPropNameInRow="IdCobranza" msprop:Generator_ColumnPropNameInTable="IdCobranzaColumn" msprop:Generator_UserColumnName="IdCobranza" type="xs:string" minOccurs="0" />
+              <xs:element name="socioBancoID" msprop:Generator_ColumnVarNameInTable="columnsocioBancoID" msprop:Generator_ColumnPropNameInRow="socioBancoID" msprop:Generator_ColumnPropNameInTable="socioBancoIDColumn" msprop:Generator_UserColumnName="socioBancoID" type="xs:string" minOccurs="0" />
+              <xs:element name="IdOperacion_tt_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdOperacion_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdOperacion_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdOperacion_tt_DscColumn" msprop:Generator_UserColumnName="IdOperacion_tt_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="Banco" msprop:Generator_ColumnVarNameInTable="columnBanco" msprop:Generator_ColumnPropNameInRow="Banco" msprop:Generator_ColumnPropNameInTable="BancoColumn" msprop:Generator_UserColumnName="Banco" type="xs:string" minOccurs="0" />
+              <xs:element name="IdTipoAbono_tt_Dsc" msprop:Generator_ColumnVarNameInTable="columnIdTipoAbono_tt_Dsc" msprop:Generator_ColumnPropNameInRow="IdTipoAbono_tt_Dsc" msprop:Generator_ColumnPropNameInTable="IdTipoAbono_tt_DscColumn" msprop:Generator_UserColumnName="IdTipoAbono_tt_Dsc" type="xs:string" minOccurs="0" />
+              <xs:element name="sbNumOperacion" msprop:Generator_ColumnVarNameInTable="columnsbNumOperacion" msprop:Generator_ColumnPropNameInRow="sbNumOperacion" msprop:Generator_ColumnPropNameInTable="sbNumOperacionColumn" msprop:Generator_UserColumnName="sbNumOperacion" type="xs:string" minOccurs="0" />
+              <xs:element name="NroCheque" msprop:Generator_ColumnVarNameInTable="columnNroCheque" msprop:Generator_ColumnPropNameInRow="NroCheque" msprop:Generator_ColumnPropNameInTable="NroChequeColumn" msprop:Generator_UserColumnName="NroCheque" type="xs:string" minOccurs="0" />
+              <xs:element name="nTotal" msprop:Generator_ColumnVarNameInTable="columnnTotal" msprop:Generator_ColumnPropNameInRow="nTotal" msprop:Generator_ColumnPropNameInTable="nTotalColumn" msprop:Generator_UserColumnName="nTotal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Saldo" msprop:Generator_ColumnVarNameInTable="columnSaldo" msprop:Generator_ColumnPropNameInRow="Saldo" msprop:Generator_ColumnPropNameInTable="SaldoColumn" msprop:Generator_UserColumnName="Saldo" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Rpt_CobranzaP_CabKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Rpt_CobranzaP_Cab" />
+      <xs:field xpath="mstns:IdCobranza" />
+    </xs:unique>
+    <xs:unique name="Rpt_CobranzaP_DetKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Rpt_CobranzaP_Det" />
+      <xs:field xpath="mstns:IdCobranza" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

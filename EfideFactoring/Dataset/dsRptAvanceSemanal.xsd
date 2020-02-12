@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRptAvanceSemanal" targetNamespace="http://tempuri.org/dsRptAvanceSemanal.xsd" xmlns:mstns="http://tempuri.org/dsRptAvanceSemanal.xsd" xmlns="http://tempuri.org/dsRptAvanceSemanal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRptAvanceSemanal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRptAvanceSemanal" msprop:Generator_UserDSName="dsRptAvanceSemanal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtSemana" msprop:Generator_TableClassName="dtSemanaDataTable" msprop:Generator_TableVarName="tabledtSemana" msprop:Generator_TablePropName="dtSemana" msprop:Generator_RowDeletingName="dtSemanaRowDeleting" msprop:Generator_RowChangingName="dtSemanaRowChanging" msprop:Generator_RowEvHandlerName="dtSemanaRowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemanaRowDeleted" msprop:Generator_UserTableName="dtSemana" msprop:Generator_RowChangedName="dtSemanaRowChanged" msprop:Generator_RowEvArgName="dtSemanaRowChangeEvent" msprop:Generator_RowClassName="dtSemanaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Portafolio" msprop:Generator_ColumnVarNameInTable="columnPortafolio" msprop:Generator_ColumnPropNameInRow="Portafolio" msprop:Generator_ColumnPropNameInTable="PortafolioColumn" msprop:Generator_UserColumnName="Portafolio" type="xs:string" minOccurs="0" />
+              <xs:element name="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" msprop:Generator_UserColumnName="Moneda" type="xs:string" minOccurs="0" />
+              <xs:element name="valorMonedaID" msprop:Generator_ColumnVarNameInTable="columnvalorMonedaID" msprop:Generator_ColumnPropNameInRow="valorMonedaID" msprop:Generator_ColumnPropNameInTable="valorMonedaIDColumn" msprop:Generator_UserColumnName="valorMonedaID" type="xs:int" minOccurs="0" />
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:string" minOccurs="0" />
+              <xs:element name="PendCob" msprop:Generator_ColumnVarNameInTable="columnPendCob" msprop:Generator_ColumnPropNameInRow="PendCob" msprop:Generator_ColumnPropNameInTable="PendCobColumn" msprop:Generator_UserColumnName="PendCob" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CobReal" msprop:Generator_ColumnVarNameInTable="columnCobReal" msprop:Generator_ColumnPropNameInRow="CobReal" msprop:Generator_ColumnPropNameInTable="CobRealColumn" msprop:Generator_UserColumnName="CobReal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nDesembolso" msprop:Generator_ColumnVarNameInTable="columnnDesembolso" msprop:Generator_ColumnPropNameInRow="nDesembolso" msprop:Generator_ColumnPropNameInTable="nDesembolsoColumn" msprop:Generator_UserColumnName="nDesembolso" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemana1" msprop:Generator_TableClassName="dtSemana1DataTable" msprop:Generator_TableVarName="tabledtSemana1" msprop:Generator_TablePropName="dtSemana1" msprop:Generator_RowDeletingName="dtSemana1RowDeleting" msprop:Generator_RowChangingName="dtSemana1RowChanging" msprop:Generator_RowEvHandlerName="dtSemana1RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemana1RowDeleted" msprop:Generator_UserTableName="dtSemana1" msprop:Generator_RowChangedName="dtSemana1RowChanged" msprop:Generator_RowEvArgName="dtSemana1RowChangeEvent" msprop:Generator_RowClassName="dtSemana1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Portafolio" msprop:Generator_ColumnVarNameInTable="columnPortafolio" msprop:Generator_ColumnPropNameInRow="Portafolio" msprop:Generator_ColumnPropNameInTable="PortafolioColumn" msprop:Generator_UserColumnName="Portafolio" type="xs:string" minOccurs="0" />
+              <xs:element name="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" msprop:Generator_UserColumnName="Moneda" type="xs:string" minOccurs="0" />
+              <xs:element name="valorMonedaID" msprop:Generator_ColumnVarNameInTable="columnvalorMonedaID" msprop:Generator_ColumnPropNameInRow="valorMonedaID" msprop:Generator_ColumnPropNameInTable="valorMonedaIDColumn" msprop:Generator_UserColumnName="valorMonedaID" type="xs:int" minOccurs="0" />
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:string" minOccurs="0" />
+              <xs:element name="PendCob" msprop:Generator_ColumnVarNameInTable="columnPendCob" msprop:Generator_ColumnPropNameInRow="PendCob" msprop:Generator_ColumnPropNameInTable="PendCobColumn" msprop:Generator_UserColumnName="PendCob" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CobReal" msprop:Generator_ColumnVarNameInTable="columnCobReal" msprop:Generator_ColumnPropNameInRow="CobReal" msprop:Generator_ColumnPropNameInTable="CobRealColumn" msprop:Generator_UserColumnName="CobReal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nDesembolso" msprop:Generator_ColumnVarNameInTable="columnnDesembolso" msprop:Generator_ColumnPropNameInRow="nDesembolso" msprop:Generator_ColumnPropNameInTable="nDesembolsoColumn" msprop:Generator_UserColumnName="nDesembolso" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemana2" msprop:Generator_TableClassName="dtSemana2DataTable" msprop:Generator_TableVarName="tabledtSemana2" msprop:Generator_TablePropName="dtSemana2" msprop:Generator_RowDeletingName="dtSemana2RowDeleting" msprop:Generator_RowChangingName="dtSemana2RowChanging" msprop:Generator_RowEvHandlerName="dtSemana2RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemana2RowDeleted" msprop:Generator_UserTableName="dtSemana2" msprop:Generator_RowChangedName="dtSemana2RowChanged" msprop:Generator_RowEvArgName="dtSemana2RowChangeEvent" msprop:Generator_RowClassName="dtSemana2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Portafolio" msprop:Generator_ColumnVarNameInTable="columnPortafolio" msprop:Generator_ColumnPropNameInRow="Portafolio" msprop:Generator_ColumnPropNameInTable="PortafolioColumn" msprop:Generator_UserColumnName="Portafolio" type="xs:string" minOccurs="0" />
+              <xs:element name="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" msprop:Generator_UserColumnName="Moneda" type="xs:string" minOccurs="0" />
+              <xs:element name="valorMonedaID" msprop:Generator_ColumnVarNameInTable="columnvalorMonedaID" msprop:Generator_ColumnPropNameInRow="valorMonedaID" msprop:Generator_ColumnPropNameInTable="valorMonedaIDColumn" msprop:Generator_UserColumnName="valorMonedaID" type="xs:int" minOccurs="0" />
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:string" minOccurs="0" />
+              <xs:element name="PendCob" msprop:Generator_ColumnVarNameInTable="columnPendCob" msprop:Generator_ColumnPropNameInRow="PendCob" msprop:Generator_ColumnPropNameInTable="PendCobColumn" msprop:Generator_UserColumnName="PendCob" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CobReal" msprop:Generator_ColumnVarNameInTable="columnCobReal" msprop:Generator_ColumnPropNameInRow="CobReal" msprop:Generator_ColumnPropNameInTable="CobRealColumn" msprop:Generator_UserColumnName="CobReal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nDesembolso" msprop:Generator_ColumnVarNameInTable="columnnDesembolso" msprop:Generator_ColumnPropNameInRow="nDesembolso" msprop:Generator_ColumnPropNameInTable="nDesembolsoColumn" msprop:Generator_UserColumnName="nDesembolso" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemana3" msprop:Generator_TableClassName="dtSemana3DataTable" msprop:Generator_TableVarName="tabledtSemana3" msprop:Generator_TablePropName="dtSemana3" msprop:Generator_RowDeletingName="dtSemana3RowDeleting" msprop:Generator_RowChangingName="dtSemana3RowChanging" msprop:Generator_RowEvHandlerName="dtSemana3RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemana3RowDeleted" msprop:Generator_UserTableName="dtSemana3" msprop:Generator_RowChangedName="dtSemana3RowChanged" msprop:Generator_RowEvArgName="dtSemana3RowChangeEvent" msprop:Generator_RowClassName="dtSemana3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Portafolio" msprop:Generator_ColumnVarNameInTable="columnPortafolio" msprop:Generator_ColumnPropNameInRow="Portafolio" msprop:Generator_ColumnPropNameInTable="PortafolioColumn" msprop:Generator_UserColumnName="Portafolio" type="xs:string" minOccurs="0" />
+              <xs:element name="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" msprop:Generator_UserColumnName="Moneda" type="xs:string" minOccurs="0" />
+              <xs:element name="valorMonedaID" msprop:Generator_ColumnVarNameInTable="columnvalorMonedaID" msprop:Generator_ColumnPropNameInRow="valorMonedaID" msprop:Generator_ColumnPropNameInTable="valorMonedaIDColumn" msprop:Generator_UserColumnName="valorMonedaID" type="xs:int" minOccurs="0" />
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:string" minOccurs="0" />
+              <xs:element name="PendCob" msprop:Generator_ColumnVarNameInTable="columnPendCob" msprop:Generator_ColumnPropNameInRow="PendCob" msprop:Generator_ColumnPropNameInTable="PendCobColumn" msprop:Generator_UserColumnName="PendCob" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CobReal" msprop:Generator_ColumnVarNameInTable="columnCobReal" msprop:Generator_ColumnPropNameInRow="CobReal" msprop:Generator_ColumnPropNameInTable="CobRealColumn" msprop:Generator_UserColumnName="CobReal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nDesembolso" msprop:Generator_ColumnVarNameInTable="columnnDesembolso" msprop:Generator_ColumnPropNameInRow="nDesembolso" msprop:Generator_ColumnPropNameInTable="nDesembolsoColumn" msprop:Generator_UserColumnName="nDesembolso" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemana4" msprop:Generator_TableClassName="dtSemana4DataTable" msprop:Generator_TableVarName="tabledtSemana4" msprop:Generator_TablePropName="dtSemana4" msprop:Generator_RowDeletingName="dtSemana4RowDeleting" msprop:Generator_RowChangingName="dtSemana4RowChanging" msprop:Generator_RowEvHandlerName="dtSemana4RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemana4RowDeleted" msprop:Generator_UserTableName="dtSemana4" msprop:Generator_RowChangedName="dtSemana4RowChanged" msprop:Generator_RowEvArgName="dtSemana4RowChangeEvent" msprop:Generator_RowClassName="dtSemana4Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Portafolio" msprop:Generator_ColumnVarNameInTable="columnPortafolio" msprop:Generator_ColumnPropNameInRow="Portafolio" msprop:Generator_ColumnPropNameInTable="PortafolioColumn" msprop:Generator_UserColumnName="Portafolio" type="xs:string" minOccurs="0" />
+              <xs:element name="Moneda" msprop:Generator_ColumnVarNameInTable="columnMoneda" msprop:Generator_ColumnPropNameInRow="Moneda" msprop:Generator_ColumnPropNameInTable="MonedaColumn" msprop:Generator_UserColumnName="Moneda" type="xs:string" minOccurs="0" />
+              <xs:element name="valorMonedaID" msprop:Generator_ColumnVarNameInTable="columnvalorMonedaID" msprop:Generator_ColumnPropNameInRow="valorMonedaID" msprop:Generator_ColumnPropNameInTable="valorMonedaIDColumn" msprop:Generator_UserColumnName="valorMonedaID" type="xs:int" minOccurs="0" />
+              <xs:element name="Semana" msprop:Generator_ColumnVarNameInTable="columnSemana" msprop:Generator_ColumnPropNameInRow="Semana" msprop:Generator_ColumnPropNameInTable="SemanaColumn" msprop:Generator_UserColumnName="Semana" type="xs:string" minOccurs="0" />
+              <xs:element name="PendCob" msprop:Generator_ColumnVarNameInTable="columnPendCob" msprop:Generator_ColumnPropNameInRow="PendCob" msprop:Generator_ColumnPropNameInTable="PendCobColumn" msprop:Generator_UserColumnName="PendCob" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CobReal" msprop:Generator_ColumnVarNameInTable="columnCobReal" msprop:Generator_ColumnPropNameInRow="CobReal" msprop:Generator_ColumnPropNameInTable="CobRealColumn" msprop:Generator_UserColumnName="CobReal" type="xs:decimal" minOccurs="0" />
+              <xs:element name="nDesembolso" msprop:Generator_ColumnVarNameInTable="columnnDesembolso" msprop:Generator_ColumnPropNameInRow="nDesembolso" msprop:Generator_ColumnPropNameInTable="nDesembolsoColumn" msprop:Generator_UserColumnName="nDesembolso" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemanaResumen" msprop:Generator_TableClassName="dtSemanaResumenDataTable" msprop:Generator_TableVarName="tabledtSemanaResumen" msprop:Generator_RowChangedName="dtSemanaResumenRowChanged" msprop:Generator_TablePropName="dtSemanaResumen" msprop:Generator_RowDeletingName="dtSemanaResumenRowDeleting" msprop:Generator_RowChangingName="dtSemanaResumenRowChanging" msprop:Generator_RowEvHandlerName="dtSemanaResumenRowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemanaResumenRowDeleted" msprop:Generator_RowClassName="dtSemanaResumenRow" msprop:Generator_UserTableName="dtSemanaResumen" msprop:Generator_RowEvArgName="dtSemanaResumenRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NroDocG" msprop:Generator_ColumnVarNameInTable="columnNroDocG" msprop:Generator_ColumnPropNameInRow="NroDocG" msprop:Generator_ColumnPropNameInTable="NroDocGColumn" msprop:Generator_UserColumnName="NroDocG" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolsoG" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolsoG" msprop:Generator_ColumnPropNameInRow="TotalnDesembolsoG" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoGColumn" msprop:Generator_UserColumnName="TotalnDesembolsoG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMetaG" msprop:Generator_ColumnVarNameInTable="columnTotalMetaG" msprop:Generator_ColumnPropNameInRow="TotalMetaG" msprop:Generator_ColumnPropNameInTable="TotalMetaGColumn" msprop:Generator_UserColumnName="TotalMetaG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NroDoc" msprop:Generator_ColumnVarNameInTable="columnNroDoc" msprop:Generator_ColumnPropNameInRow="NroDoc" msprop:Generator_ColumnPropNameInTable="NroDocColumn" msprop:Generator_UserColumnName="NroDoc" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolso" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolso" msprop:Generator_ColumnPropNameInRow="TotalnDesembolso" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoColumn" msprop:Generator_UserColumnName="TotalnDesembolso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMeta" msprop:Generator_ColumnVarNameInTable="columnTotalMeta" msprop:Generator_ColumnPropNameInRow="TotalMeta" msprop:Generator_ColumnPropNameInTable="TotalMetaColumn" msprop:Generator_UserColumnName="TotalMeta" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemanaResumen1" msprop:Generator_TableClassName="dtSemanaResumen1DataTable" msprop:Generator_TableVarName="tabledtSemanaResumen1" msprop:Generator_RowChangedName="dtSemanaResumen1RowChanged" msprop:Generator_TablePropName="dtSemanaResumen1" msprop:Generator_RowDeletingName="dtSemanaResumen1RowDeleting" msprop:Generator_RowChangingName="dtSemanaResumen1RowChanging" msprop:Generator_RowEvHandlerName="dtSemanaResumen1RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemanaResumen1RowDeleted" msprop:Generator_RowClassName="dtSemanaResumen1Row" msprop:Generator_UserTableName="dtSemanaResumen1" msprop:Generator_RowEvArgName="dtSemanaResumen1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NroDocG" msprop:Generator_ColumnVarNameInTable="columnNroDocG" msprop:Generator_ColumnPropNameInRow="NroDocG" msprop:Generator_ColumnPropNameInTable="NroDocGColumn" msprop:Generator_UserColumnName="NroDocG" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolsoG" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolsoG" msprop:Generator_ColumnPropNameInRow="TotalnDesembolsoG" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoGColumn" msprop:Generator_UserColumnName="TotalnDesembolsoG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMetaG" msprop:Generator_ColumnVarNameInTable="columnTotalMetaG" msprop:Generator_ColumnPropNameInRow="TotalMetaG" msprop:Generator_ColumnPropNameInTable="TotalMetaGColumn" msprop:Generator_UserColumnName="TotalMetaG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NroDoc" msprop:Generator_ColumnVarNameInTable="columnNroDoc" msprop:Generator_ColumnPropNameInRow="NroDoc" msprop:Generator_ColumnPropNameInTable="NroDocColumn" msprop:Generator_UserColumnName="NroDoc" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolso" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolso" msprop:Generator_ColumnPropNameInRow="TotalnDesembolso" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoColumn" msprop:Generator_UserColumnName="TotalnDesembolso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMeta" msprop:Generator_ColumnVarNameInTable="columnTotalMeta" msprop:Generator_ColumnPropNameInRow="TotalMeta" msprop:Generator_ColumnPropNameInTable="TotalMetaColumn" msprop:Generator_UserColumnName="TotalMeta" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemanaResumen2" msprop:Generator_TableClassName="dtSemanaResumen2DataTable" msprop:Generator_TableVarName="tabledtSemanaResumen2" msprop:Generator_RowChangedName="dtSemanaResumen2RowChanged" msprop:Generator_TablePropName="dtSemanaResumen2" msprop:Generator_RowDeletingName="dtSemanaResumen2RowDeleting" msprop:Generator_RowChangingName="dtSemanaResumen2RowChanging" msprop:Generator_RowEvHandlerName="dtSemanaResumen2RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemanaResumen2RowDeleted" msprop:Generator_RowClassName="dtSemanaResumen2Row" msprop:Generator_UserTableName="dtSemanaResumen2" msprop:Generator_RowEvArgName="dtSemanaResumen2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NroDocG" msprop:Generator_ColumnVarNameInTable="columnNroDocG" msprop:Generator_ColumnPropNameInRow="NroDocG" msprop:Generator_ColumnPropNameInTable="NroDocGColumn" msprop:Generator_UserColumnName="NroDocG" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolsoG" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolsoG" msprop:Generator_ColumnPropNameInRow="TotalnDesembolsoG" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoGColumn" msprop:Generator_UserColumnName="TotalnDesembolsoG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMetaG" msprop:Generator_ColumnVarNameInTable="columnTotalMetaG" msprop:Generator_ColumnPropNameInRow="TotalMetaG" msprop:Generator_ColumnPropNameInTable="TotalMetaGColumn" msprop:Generator_UserColumnName="TotalMetaG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NroDoc" msprop:Generator_ColumnVarNameInTable="columnNroDoc" msprop:Generator_ColumnPropNameInRow="NroDoc" msprop:Generator_ColumnPropNameInTable="NroDocColumn" msprop:Generator_UserColumnName="NroDoc" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolso" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolso" msprop:Generator_ColumnPropNameInRow="TotalnDesembolso" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoColumn" msprop:Generator_UserColumnName="TotalnDesembolso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMeta" msprop:Generator_ColumnVarNameInTable="columnTotalMeta" msprop:Generator_ColumnPropNameInRow="TotalMeta" msprop:Generator_ColumnPropNameInTable="TotalMetaColumn" msprop:Generator_UserColumnName="TotalMeta" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemanaResumen3" msprop:Generator_TableClassName="dtSemanaResumen3DataTable" msprop:Generator_TableVarName="tabledtSemanaResumen3" msprop:Generator_RowChangedName="dtSemanaResumen3RowChanged" msprop:Generator_TablePropName="dtSemanaResumen3" msprop:Generator_RowDeletingName="dtSemanaResumen3RowDeleting" msprop:Generator_RowChangingName="dtSemanaResumen3RowChanging" msprop:Generator_RowEvHandlerName="dtSemanaResumen3RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemanaResumen3RowDeleted" msprop:Generator_RowClassName="dtSemanaResumen3Row" msprop:Generator_UserTableName="dtSemanaResumen3" msprop:Generator_RowEvArgName="dtSemanaResumen3RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NroDocG" msprop:Generator_ColumnVarNameInTable="columnNroDocG" msprop:Generator_ColumnPropNameInRow="NroDocG" msprop:Generator_ColumnPropNameInTable="NroDocGColumn" msprop:Generator_UserColumnName="NroDocG" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolsoG" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolsoG" msprop:Generator_ColumnPropNameInRow="TotalnDesembolsoG" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoGColumn" msprop:Generator_UserColumnName="TotalnDesembolsoG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMetaG" msprop:Generator_ColumnVarNameInTable="columnTotalMetaG" msprop:Generator_ColumnPropNameInRow="TotalMetaG" msprop:Generator_ColumnPropNameInTable="TotalMetaGColumn" msprop:Generator_UserColumnName="TotalMetaG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NroDoc" msprop:Generator_ColumnVarNameInTable="columnNroDoc" msprop:Generator_ColumnPropNameInRow="NroDoc" msprop:Generator_ColumnPropNameInTable="NroDocColumn" msprop:Generator_UserColumnName="NroDoc" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolso" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolso" msprop:Generator_ColumnPropNameInRow="TotalnDesembolso" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoColumn" msprop:Generator_UserColumnName="TotalnDesembolso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMeta" msprop:Generator_ColumnVarNameInTable="columnTotalMeta" msprop:Generator_ColumnPropNameInRow="TotalMeta" msprop:Generator_ColumnPropNameInTable="TotalMetaColumn" msprop:Generator_UserColumnName="TotalMeta" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemanaResumen4" msprop:Generator_TableClassName="dtSemanaResumen4DataTable" msprop:Generator_TableVarName="tabledtSemanaResumen4" msprop:Generator_RowChangedName="dtSemanaResumen4RowChanged" msprop:Generator_TablePropName="dtSemanaResumen4" msprop:Generator_RowDeletingName="dtSemanaResumen4RowDeleting" msprop:Generator_RowChangingName="dtSemanaResumen4RowChanging" msprop:Generator_RowEvHandlerName="dtSemanaResumen4RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemanaResumen4RowDeleted" msprop:Generator_RowClassName="dtSemanaResumen4Row" msprop:Generator_UserTableName="dtSemanaResumen4" msprop:Generator_RowEvArgName="dtSemanaResumen4RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NroDocG" msprop:Generator_ColumnVarNameInTable="columnNroDocG" msprop:Generator_ColumnPropNameInRow="NroDocG" msprop:Generator_ColumnPropNameInTable="NroDocGColumn" msprop:Generator_UserColumnName="NroDocG" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolsoG" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolsoG" msprop:Generator_ColumnPropNameInRow="TotalnDesembolsoG" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoGColumn" msprop:Generator_UserColumnName="TotalnDesembolsoG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMetaG" msprop:Generator_ColumnVarNameInTable="columnTotalMetaG" msprop:Generator_ColumnPropNameInRow="TotalMetaG" msprop:Generator_ColumnPropNameInTable="TotalMetaGColumn" msprop:Generator_UserColumnName="TotalMetaG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NroDoc" msprop:Generator_ColumnVarNameInTable="columnNroDoc" msprop:Generator_ColumnPropNameInRow="NroDoc" msprop:Generator_ColumnPropNameInTable="NroDocColumn" msprop:Generator_UserColumnName="NroDoc" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalnDesembolso" msprop:Generator_ColumnVarNameInTable="columnTotalnDesembolso" msprop:Generator_ColumnPropNameInRow="TotalnDesembolso" msprop:Generator_ColumnPropNameInTable="TotalnDesembolsoColumn" msprop:Generator_UserColumnName="TotalnDesembolso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalMeta" msprop:Generator_ColumnVarNameInTable="columnTotalMeta" msprop:Generator_ColumnPropNameInRow="TotalMeta" msprop:Generator_ColumnPropNameInTable="TotalMetaColumn" msprop:Generator_UserColumnName="TotalMeta" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSemana5" msprop:Generator_TableClassName="dtSemana5DataTable" msprop:Generator_TableVarName="tabledtSemana5" msprop:Generator_TablePropName="dtSemana5" msprop:Generator_RowDeletingName="dtSemana5RowDeleting" msprop:Generator_RowChangingName="dtSemana5RowChanging" msprop:Generator_RowEvHandlerName="dtSemana5RowChangeEventHandler" msprop:Generator_RowDeletedName="dtSemana5RowDeleted" msprop:Generator_UserTableName="dtSemana5" msprop:Generator_RowChangedName="dtSemana5RowChanged" msprop:Generator_RowEvArgName="dtSemana5RowChangeEvent" msprop:Generator_RowClassName="dtSemana5Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Semana1" msdata:Caption="NroDocG" msprop:Generator_ColumnVarNameInTable="columnSemana1" msprop:Generator_ColumnPropNameInRow="Semana1" msprop:Generator_ColumnPropNameInTable="Semana1Column" msprop:Generator_UserColumnName="Semana1" type="xs:int" minOccurs="0" />
+              <xs:element name="Semana2" msdata:Caption="TotalnDesembolsoG" msprop:Generator_ColumnVarNameInTable="columnSemana2" msprop:Generator_ColumnPropNameInRow="Semana2" msprop:Generator_ColumnPropNameInTable="Semana2Column" msprop:Generator_UserColumnName="Semana2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Semana3" msdata:Caption="TotalMetaG" msprop:Generator_ColumnVarNameInTable="columnSemana3" msprop:Generator_ColumnPropNameInRow="Semana3" msprop:Generator_ColumnPropNameInTable="Semana3Column" msprop:Generator_UserColumnName="Semana3" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Semana4" msdata:Caption="NroDoc" msprop:Generator_ColumnVarNameInTable="columnSemana4" msprop:Generator_ColumnPropNameInRow="Semana4" msprop:Generator_ColumnPropNameInTable="Semana4Column" msprop:Generator_UserColumnName="Semana4" type="xs:int" minOccurs="0" />
+              <xs:element name="Semana5" msdata:Caption="TotalnDesembolso" msprop:Generator_ColumnVarNameInTable="columnSemana5" msprop:Generator_ColumnPropNameInRow="Semana5" msprop:Generator_ColumnPropNameInTable="Semana5Column" msprop:Generator_UserColumnName="Semana5" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
