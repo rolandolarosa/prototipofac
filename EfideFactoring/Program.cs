@@ -36,11 +36,13 @@ namespace EfideFactoring
                     OPCION = 1,
                     USUARIO = "ADMIN",
                 };
+                /*
                 dsFechaSistema = FechaSistemaBL.ProcesarFechaSistema(FechaSistemaBE);
                 if (dsFechaSistema.Tables[0].Rows.Count > 0)
                 {
                     EfideFactoring.General.General.gFechaOp = Convert.ToDateTime(dsFechaSistema.Tables[0].Rows[0]["fechaDia"]);
                 }
+                
 
                 //getParam();
                 //logged = false;
@@ -103,6 +105,12 @@ namespace EfideFactoring
                 {
                     throw new Exception("No se pudo iniciar sesión");
                 }
+
+                */
+
+                logged = true;
+                EfideFactoring.General.General.gFechaOp = DateTime.Now;
+                Application.Run(new FormulaBase.frmMenu());
             }
             catch (Exception ex)
             {
