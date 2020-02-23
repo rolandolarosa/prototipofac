@@ -102,13 +102,9 @@
       <HintPath>..\..\Tesoreria\Efide.Tesoreria.WinAdeudosInversiones\bin\Debug\Efide.ControlsComponent.dll</HintPath>
     </Reference>
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
-    <Reference Include="itextsharp">
-      <HintPath>..\Library\itextsharp.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="itextsharp.pdfa">
-      <HintPath>..\Library\itextsharp.pdfa.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="itextsharp, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\itextsharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -1822,12 +1818,6 @@
     <Compile Include="Formula\Registros\frmIngresoSocioFactoring.Designer.cs">
       <DependentUpon>frmIngresoSocioFactoring.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formula\Registros\frmMantDocumentoSocio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formula\Registros\frmMantDocumentoSocio.Designer.cs">
-      <DependentUpon>frmMantDocumentoSocio.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formula\Registros\frmMantTercerCasoAux.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -3026,9 +3016,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formula\Registros\frmIngresoSocioFactoring.resx">
       <DependentUpon>frmIngresoSocioFactoring.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formula\Registros\frmMantDocumentoSocio.resx">
-      <DependentUpon>frmMantDocumentoSocio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formula\Registros\frmMantTercerCasoAux.resx">
       <DependentUpon>frmMantTercerCasoAux.cs</DependentUpon>
