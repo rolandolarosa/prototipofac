@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfideFactoring", "EfideFactoring\EfideFactoring.csproj", "{81E60D1B-37CA-40E8-8BE0-DA297C6A4133}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfideFactoringBE", "EfideFactoringBE\EfideFactoringBE.csproj", "{E69796A2-0E60-4171-AF8E-4114A4724A1A}"
@@ -9,40 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfideFactoringBL", "EfideFa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfideFactoringDA", "EfideFactoringDA\EfideFactoringDA.csproj", "{0806687B-42EC-43DD-B79C-D299612776A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfideFactoringPDF", "EfideFactoringPDF\EfideFactoringPDF.csproj", "{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfideFactoringXML", "EfideFactoringXML\EfideFactoringXML.csproj", "{96CBFA6F-9C85-4448-B237-452DC0F1C844}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfideResumenBanco", "EfideResumenBanco\EfideResumenBanco.csproj", "{E962D036-0688-4501-B1B8-CD367700C581}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://os03:8080/tfs/efidesis
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = EfideFactoring\\EfideFactoring.csproj
-		SccProjectName1 = EfideFactoring
-		SccLocalPath1 = EfideFactoring
-		SccProjectUniqueName2 = EfideFactoringBE\\EfideFactoringBE.csproj
-		SccProjectName2 = EfideFactoringBE
-		SccLocalPath2 = EfideFactoringBE
-		SccProjectUniqueName3 = EfideFactoringBL\\EfideFactoringBL.csproj
-		SccProjectName3 = EfideFactoringBL
-		SccLocalPath3 = EfideFactoringBL
-		SccProjectUniqueName4 = EfideFactoringDA\\EfideFactoringDA.csproj
-		SccProjectName4 = EfideFactoringDA
-		SccLocalPath4 = EfideFactoringDA
-		SccProjectUniqueName5 = EfideFactoringPDF\\EfideFactoringPDF.csproj
-		SccProjectName5 = EfideFactoringPDF
-		SccLocalPath5 = EfideFactoringPDF
-		SccProjectUniqueName6 = EfideFactoringXML\\EfideFactoringXML.csproj
-		SccProjectName6 = EfideFactoringXML
-		SccLocalPath6 = EfideFactoringXML
-		SccProjectUniqueName7 = EfideResumenBanco\\EfideResumenBanco.csproj
-		SccProjectName7 = EfideResumenBanco
-		SccLocalPath7 = EfideResumenBanco
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
 		Debug|Any CPU = Debug|Any CPU
@@ -91,16 +64,6 @@ Global
 		{0806687B-42EC-43DD-B79C-D299612776A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0806687B-42EC-43DD-B79C-D299612776A0}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{0806687B-42EC-43DD-B79C-D299612776A0}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
-		{0E8C4F27-6A72-4404-BE56-791BEA03B6A5}.SingleImage|Any CPU.Build.0 = Release|Any CPU
 		{96CBFA6F-9C85-4448-B237-452DC0F1C844}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
 		{96CBFA6F-9C85-4448-B237-452DC0F1C844}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{96CBFA6F-9C85-4448-B237-452DC0F1C844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -124,6 +87,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9E0860A-5787-474F-BF82-2F58E9F06308}
 	EndGlobalSection
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
