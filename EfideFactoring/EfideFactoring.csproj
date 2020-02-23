@@ -3629,6 +3629,7 @@
     <Content Include="Library\EfideGestion.DataAccess.dll" />
     <Content Include="Library\EfideGestion.Utility.dll" />
     <Content Include="Library\itextsharp.dll" />
+    <Content Include="Library\itextsharp.pdfa.dll" />
     <Content Include="Resources\add.png" />
     <None Include="Resources\arrow_down.png" />
     <None Include="Resources\arrow_up.png" />
