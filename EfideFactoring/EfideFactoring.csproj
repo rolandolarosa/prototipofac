@@ -3613,6 +3613,12 @@
     <Content Include="bin\Debug\itextsharp.pdfa.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Library\EfideGestion.Aplicacion.exe" />
+    <Content Include="Library\EfideGestion.BusinessEntity.dll" />
+    <Content Include="Library\EfideGestion.BusinessLogic.dll" />
+    <Content Include="Library\EfideGestion.DataAccess.dll" />
+    <Content Include="Library\EfideGestion.Utility.dll" />
+    <Content Include="Library\itextsharp.dll" />
     <Content Include="Resources\add.png" />
     <None Include="Resources\arrow_down.png" />
     <None Include="Resources\arrow_up.png" />
