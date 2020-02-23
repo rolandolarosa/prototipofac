@@ -134,11 +134,17 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Microsoft.Practices.Unity.Interception.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
-      <Private>True</Private>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
-      <Private>True</Private>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.10.0.40219.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\VisualBasic.PowerPacks.Vs.1.0.0\lib\Microsoft.VisualBasic.dll</HintPath>
@@ -1840,12 +1846,6 @@
     <Compile Include="Formula\Registros\frmIngresoSocioFactoring.Designer.cs">
       <DependentUpon>frmIngresoSocioFactoring.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formula\Registros\frmMantTercerCasoAux.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formula\Registros\frmMantTercerCasoAux.Designer.cs">
-      <DependentUpon>frmMantTercerCasoAux.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formula\Registros\frmMntCuentasxPagarTMBloqueo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1857,12 +1857,6 @@
     </Compile>
     <Compile Include="Formula\Registros\frmMntLoteDatoArchivo.Designer.cs">
       <DependentUpon>frmMntLoteDatoArchivo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formula\Registros\frmMntSaldoSocio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formula\Registros\frmMntSaldoSocio.Designer.cs">
-      <DependentUpon>frmMntSaldoSocio.cs</DependentUpon>
     </Compile>
     <Compile Include="Formula\Registros\frmMntTercerCaso.cs">
       <SubType>Form</SubType>
@@ -3039,17 +3033,11 @@
     <EmbeddedResource Include="Formula\Registros\frmIngresoSocioFactoring.resx">
       <DependentUpon>frmIngresoSocioFactoring.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formula\Registros\frmMantTercerCasoAux.resx">
-      <DependentUpon>frmMantTercerCasoAux.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formula\Registros\frmMntCuentasxPagarTMBloqueo.resx">
       <DependentUpon>frmMntCuentasxPagarTMBloqueo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formula\Registros\frmMntLoteDatoArchivo.resx">
       <DependentUpon>frmMntLoteDatoArchivo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formula\Registros\frmMntSaldoSocio.resx">
-      <DependentUpon>frmMntSaldoSocio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formula\Registros\frmMntTercerCaso.resx">
       <DependentUpon>frmMntTercerCaso.cs</DependentUpon>
@@ -3906,16 +3894,6 @@
       <FileType>Assembly</FileType>
     </PublishFile>
     <PublishFile Include="log4net">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="Microsoft.ReportViewer.Common">
       <Visible>False</Visible>
       <Group>
       </Group>
