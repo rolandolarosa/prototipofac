@@ -36,6 +36,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuProductosFactoring = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator17 = new System.Windows.Forms.ToolStripSeparator();
             this.riesgoUnicoSocioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.magnitudPersonaEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuEstadoCuenta = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuTarifario = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuTarifarioExepciones = new System.Windows.Forms.ToolStripMenuItem();
@@ -196,7 +197,6 @@ namespace EfideFactoring.FormulaBase
             this.barToolMain = new DevComponents.DotNetBar.Bar();
             this.lblusuario1 = new DevComponents.DotNetBar.LabelX();
             this.lblFecha1 = new DevComponents.DotNetBar.LabelX();
-            this.magnitudPersonaEmpresaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuDesktop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.barStatusMain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barToolMain)).BeginInit();
@@ -285,6 +285,13 @@ namespace EfideFactoring.FormulaBase
             this.riesgoUnicoSocioToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
             this.riesgoUnicoSocioToolStripMenuItem.Text = "Riesgo Unico Socio";
             this.riesgoUnicoSocioToolStripMenuItem.Click += new System.EventHandler(this.riesgoUnicoSocioToolStripMenuItem_Click);
+            // 
+            // magnitudPersonaEmpresaToolStripMenuItem
+            // 
+            this.magnitudPersonaEmpresaToolStripMenuItem.Name = "magnitudPersonaEmpresaToolStripMenuItem";
+            this.magnitudPersonaEmpresaToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.magnitudPersonaEmpresaToolStripMenuItem.Text = "Magnitud Persona/Empresa";
+            this.magnitudPersonaEmpresaToolStripMenuItem.Click += new System.EventHandler(this.magnitudPersonaEmpresaToolStripMenuItem_Click);
             // 
             // mnuEstadoCuenta
             // 
@@ -1280,34 +1287,34 @@ namespace EfideFactoring.FormulaBase
             this.mmuCargaDeDatosSentinel,
             this.mmuAprobaciónDeComite});
             this.sentinelToolStripMenuItem.Name = "sentinelToolStripMenuItem";
-            this.sentinelToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
+            this.sentinelToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
             this.sentinelToolStripMenuItem.Text = "Empresas Top 10K";
             // 
             // mnuCargaDatosTop10kLinea
             // 
             this.mnuCargaDatosTop10kLinea.Name = "mnuCargaDatosTop10kLinea";
-            this.mnuCargaDatosTop10kLinea.Size = new System.Drawing.Size(232, 22);
+            this.mnuCargaDatosTop10kLinea.Size = new System.Drawing.Size(231, 22);
             this.mnuCargaDatosTop10kLinea.Text = "Carga de Datos Top10K Lineas";
             this.mnuCargaDatosTop10kLinea.Click += new System.EventHandler(this.mnuCargaDatosTop10kLinea_Click);
             // 
             // micargaDeDatosTop10K
             // 
             this.micargaDeDatosTop10K.Name = "micargaDeDatosTop10K";
-            this.micargaDeDatosTop10K.Size = new System.Drawing.Size(232, 22);
+            this.micargaDeDatosTop10K.Size = new System.Drawing.Size(231, 22);
             this.micargaDeDatosTop10K.Text = "Carga de Datos Top10K";
             this.micargaDeDatosTop10K.Click += new System.EventHandler(this.micargaDeDatosTop10K_Click);
             // 
             // mmuCargaDeDatosSentinel
             // 
             this.mmuCargaDeDatosSentinel.Name = "mmuCargaDeDatosSentinel";
-            this.mmuCargaDeDatosSentinel.Size = new System.Drawing.Size(232, 22);
+            this.mmuCargaDeDatosSentinel.Size = new System.Drawing.Size(231, 22);
             this.mmuCargaDeDatosSentinel.Text = "Carga de Datos Sentinel";
             this.mmuCargaDeDatosSentinel.Click += new System.EventHandler(this.mmuCargaDeDatosSentinel_Click);
             // 
             // mmuAprobaciónDeComite
             // 
             this.mmuAprobaciónDeComite.Name = "mmuAprobaciónDeComite";
-            this.mmuAprobaciónDeComite.Size = new System.Drawing.Size(232, 22);
+            this.mmuAprobaciónDeComite.Size = new System.Drawing.Size(231, 22);
             this.mmuAprobaciónDeComite.Text = "Aprobación de Comite";
             this.mmuAprobaciónDeComite.Click += new System.EventHandler(this.mmuAprobaciónDeComite_Click);
             // 
@@ -1541,17 +1548,9 @@ namespace EfideFactoring.FormulaBase
             this.lblFecha1.Text = "xxxxxxxxxx";
             this.lblFecha1.TextAlignment = System.Drawing.StringAlignment.Far;
             // 
-            // magnitudPersonaEmpresaToolStripMenuItem
-            // 
-            this.magnitudPersonaEmpresaToolStripMenuItem.Name = "magnitudPersonaEmpresaToolStripMenuItem";
-            this.magnitudPersonaEmpresaToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
-            this.magnitudPersonaEmpresaToolStripMenuItem.Text = "Magnitud Persona/Empresa";
-            this.magnitudPersonaEmpresaToolStripMenuItem.Click += new System.EventHandler(this.magnitudPersonaEmpresaToolStripMenuItem_Click);
-            // 
             // frmMenu
             // 
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.BackgroundImage = global::EfideFactoring.Properties.Resources.logo_final_Efide;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1358, 547);
             this.Controls.Add(this.lblFecha1);

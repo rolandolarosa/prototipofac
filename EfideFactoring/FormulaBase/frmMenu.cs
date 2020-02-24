@@ -28,6 +28,7 @@ namespace EfideFactoring.FormulaBase
         {
             validaActivacionMenu();
 
+
             foreach (Control control in this.Controls)
             {
                 MdiClient client = control as MdiClient;
