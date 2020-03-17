@@ -28,30 +28,30 @@ namespace EfideFactoring.Formula.Registros
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvCuentasxCobrarTM = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.chkcxc = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.tipCxcID_Dsc = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -219,19 +219,19 @@ namespace EfideFactoring.Formula.Registros
             this.TipoCambio,
             this.TotalCalculado,
             this.ImporteLiquidarCXC});
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCuentasxCobrarTM.DefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCuentasxCobrarTM.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgvCuentasxCobrarTM.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgvCuentasxCobrarTM.Location = new System.Drawing.Point(23, 104);
             this.dgvCuentasxCobrarTM.Name = "dgvCuentasxCobrarTM";
             this.dgvCuentasxCobrarTM.RowHeadersWidth = 10;
-            this.dgvCuentasxCobrarTM.Size = new System.Drawing.Size(850, 131);
+            this.dgvCuentasxCobrarTM.Size = new System.Drawing.Size(850, 172);
             this.dgvCuentasxCobrarTM.TabIndex = 136;
             this.dgvCuentasxCobrarTM.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCuentasxCobrarTM_CellEndEdit);
             this.dgvCuentasxCobrarTM.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCuentasxCobrarTM_CellValueChanged);
@@ -281,10 +281,10 @@ namespace EfideFactoring.Formula.Registros
             // FechaVencimiento
             // 
             this.FechaVencimiento.DataPropertyName = "FechaVencimiento";
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle25.Format = "d";
-            dataGridViewCellStyle25.NullValue = null;
-            this.FechaVencimiento.DefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = null;
+            this.FechaVencimiento.DefaultCellStyle = dataGridViewCellStyle1;
             this.FechaVencimiento.HeaderText = "F.Vencimiento";
             this.FechaVencimiento.Name = "FechaVencimiento";
             this.FechaVencimiento.ReadOnly = true;
@@ -307,10 +307,10 @@ namespace EfideFactoring.Formula.Registros
             // cxcImpComis
             // 
             this.cxcImpComis.DataPropertyName = "cxcImpComis";
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle26.Format = "N2";
-            dataGridViewCellStyle26.NullValue = "0";
-            this.cxcImpComis.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.Format = "N2";
+            dataGridViewCellStyle2.NullValue = "0";
+            this.cxcImpComis.DefaultCellStyle = dataGridViewCellStyle2;
             this.cxcImpComis.HeaderText = "Importe";
             this.cxcImpComis.Name = "cxcImpComis";
             this.cxcImpComis.ReadOnly = true;
@@ -319,10 +319,10 @@ namespace EfideFactoring.Formula.Registros
             // Interes
             // 
             this.Interes.DataPropertyName = "Interes";
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle27.Format = "N2";
-            dataGridViewCellStyle27.NullValue = "0";
-            this.Interes.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.Format = "N2";
+            dataGridViewCellStyle3.NullValue = "0";
+            this.Interes.DefaultCellStyle = dataGridViewCellStyle3;
             this.Interes.HeaderText = "Interes";
             this.Interes.Name = "Interes";
             this.Interes.ReadOnly = true;
@@ -331,10 +331,10 @@ namespace EfideFactoring.Formula.Registros
             // Total
             // 
             this.Total.DataPropertyName = "Total";
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle28.Format = "N2";
-            dataGridViewCellStyle28.NullValue = "0";
-            this.Total.DefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "N2";
+            dataGridViewCellStyle4.NullValue = "0";
+            this.Total.DefaultCellStyle = dataGridViewCellStyle4;
             this.Total.HeaderText = "Total";
             this.Total.Name = "Total";
             this.Total.ReadOnly = true;
@@ -343,10 +343,10 @@ namespace EfideFactoring.Formula.Registros
             // TipoCambio
             // 
             this.TipoCambio.DataPropertyName = "TipoCambio";
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle29.Format = "N2";
-            dataGridViewCellStyle29.NullValue = "0";
-            this.TipoCambio.DefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle5.Format = "N2";
+            dataGridViewCellStyle5.NullValue = "0";
+            this.TipoCambio.DefaultCellStyle = dataGridViewCellStyle5;
             this.TipoCambio.HeaderText = "T/C";
             this.TipoCambio.Name = "TipoCambio";
             this.TipoCambio.ReadOnly = true;
@@ -355,10 +355,10 @@ namespace EfideFactoring.Formula.Registros
             // TotalCalculado
             // 
             this.TotalCalculado.DataPropertyName = "TotalCalculado";
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle30.Format = "N2";
-            dataGridViewCellStyle30.NullValue = "0";
-            this.TotalCalculado.DefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle6.Format = "N2";
+            dataGridViewCellStyle6.NullValue = "0";
+            this.TotalCalculado.DefaultCellStyle = dataGridViewCellStyle6;
             this.TotalCalculado.HeaderText = "Total";
             this.TotalCalculado.Name = "TotalCalculado";
             this.TotalCalculado.ReadOnly = true;
@@ -367,10 +367,10 @@ namespace EfideFactoring.Formula.Registros
             // ImporteLiquidarCXC
             // 
             this.ImporteLiquidarCXC.DataPropertyName = "ImporteLiquidar";
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle31.Format = "N2";
-            dataGridViewCellStyle31.NullValue = "0";
-            this.ImporteLiquidarCXC.DefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle7.Format = "N2";
+            dataGridViewCellStyle7.NullValue = "0";
+            this.ImporteLiquidarCXC.DefaultCellStyle = dataGridViewCellStyle7;
             this.ImporteLiquidarCXC.HeaderText = "Monto a Liquidar";
             this.ImporteLiquidarCXC.Name = "ImporteLiquidarCXC";
             this.ImporteLiquidarCXC.Width = 80;
@@ -398,19 +398,19 @@ namespace EfideFactoring.Formula.Registros
             this.TotalCalculadoCXP,
             this.ImporteLiquidarCXP,
             this.FlgBloqueo});
-            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle40.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCuentasxPagarTM.DefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCuentasxPagarTM.DefaultCellStyle = dataGridViewCellStyle16;
             this.dgvCuentasxPagarTM.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dgvCuentasxPagarTM.Location = new System.Drawing.Point(23, 241);
+            this.dgvCuentasxPagarTM.Location = new System.Drawing.Point(23, 282);
             this.dgvCuentasxPagarTM.Name = "dgvCuentasxPagarTM";
             this.dgvCuentasxPagarTM.RowHeadersWidth = 10;
-            this.dgvCuentasxPagarTM.Size = new System.Drawing.Size(850, 155);
+            this.dgvCuentasxPagarTM.Size = new System.Drawing.Size(850, 198);
             this.dgvCuentasxPagarTM.TabIndex = 138;
             this.dgvCuentasxPagarTM.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCuentasxPagarTM_CellEndEdit);
             this.dgvCuentasxPagarTM.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCuentasxPagarTM_CellValueChanged);
@@ -457,10 +457,10 @@ namespace EfideFactoring.Formula.Registros
             // FechaVencimientoCXP
             // 
             this.FechaVencimientoCXP.DataPropertyName = "FechaVencimiento";
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle33.Format = "d";
-            dataGridViewCellStyle33.NullValue = null;
-            this.FechaVencimientoCXP.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle9.Format = "d";
+            dataGridViewCellStyle9.NullValue = null;
+            this.FechaVencimientoCXP.DefaultCellStyle = dataGridViewCellStyle9;
             this.FechaVencimientoCXP.HeaderText = "F.Vencimiento";
             this.FechaVencimientoCXP.Name = "FechaVencimientoCXP";
             // 
@@ -481,10 +481,10 @@ namespace EfideFactoring.Formula.Registros
             // cxpImpComis
             // 
             this.cxpImpComis.DataPropertyName = "cxpImpComis";
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle34.Format = "N2";
-            dataGridViewCellStyle34.NullValue = "0";
-            this.cxpImpComis.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle10.Format = "N2";
+            dataGridViewCellStyle10.NullValue = "0";
+            this.cxpImpComis.DefaultCellStyle = dataGridViewCellStyle10;
             this.cxpImpComis.HeaderText = "Importe";
             this.cxpImpComis.Name = "cxpImpComis";
             this.cxpImpComis.Width = 80;
@@ -492,10 +492,10 @@ namespace EfideFactoring.Formula.Registros
             // InteresCXP
             // 
             this.InteresCXP.DataPropertyName = "Interes";
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle35.Format = "N2";
-            dataGridViewCellStyle35.NullValue = "0";
-            this.InteresCXP.DefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle11.Format = "N2";
+            dataGridViewCellStyle11.NullValue = "0";
+            this.InteresCXP.DefaultCellStyle = dataGridViewCellStyle11;
             this.InteresCXP.HeaderText = "Interes";
             this.InteresCXP.Name = "InteresCXP";
             this.InteresCXP.Width = 45;
@@ -503,10 +503,10 @@ namespace EfideFactoring.Formula.Registros
             // TotalCXP
             // 
             this.TotalCXP.DataPropertyName = "Total";
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle36.Format = "N2";
-            dataGridViewCellStyle36.NullValue = "0";
-            this.TotalCXP.DefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle12.Format = "N2";
+            dataGridViewCellStyle12.NullValue = "0";
+            this.TotalCXP.DefaultCellStyle = dataGridViewCellStyle12;
             this.TotalCXP.HeaderText = "Total";
             this.TotalCXP.Name = "TotalCXP";
             this.TotalCXP.Width = 80;
@@ -514,10 +514,10 @@ namespace EfideFactoring.Formula.Registros
             // TipoCambioCXP
             // 
             this.TipoCambioCXP.DataPropertyName = "TipoCambio";
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle37.Format = "N2";
-            dataGridViewCellStyle37.NullValue = "0";
-            this.TipoCambioCXP.DefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle13.Format = "N2";
+            dataGridViewCellStyle13.NullValue = "0";
+            this.TipoCambioCXP.DefaultCellStyle = dataGridViewCellStyle13;
             this.TipoCambioCXP.HeaderText = "T/C";
             this.TipoCambioCXP.Name = "TipoCambioCXP";
             this.TipoCambioCXP.Width = 30;
@@ -525,10 +525,10 @@ namespace EfideFactoring.Formula.Registros
             // TotalCalculadoCXP
             // 
             this.TotalCalculadoCXP.DataPropertyName = "TotalCalculado";
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle38.Format = "N2";
-            dataGridViewCellStyle38.NullValue = "0";
-            this.TotalCalculadoCXP.DefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle14.Format = "N2";
+            dataGridViewCellStyle14.NullValue = "0";
+            this.TotalCalculadoCXP.DefaultCellStyle = dataGridViewCellStyle14;
             this.TotalCalculadoCXP.HeaderText = "Total";
             this.TotalCalculadoCXP.Name = "TotalCalculadoCXP";
             this.TotalCalculadoCXP.Width = 80;
@@ -536,10 +536,10 @@ namespace EfideFactoring.Formula.Registros
             // ImporteLiquidarCXP
             // 
             this.ImporteLiquidarCXP.DataPropertyName = "ImporteLiquidar";
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle39.Format = "N2";
-            dataGridViewCellStyle39.NullValue = "0";
-            this.ImporteLiquidarCXP.DefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle15.Format = "N2";
+            dataGridViewCellStyle15.NullValue = "0";
+            this.ImporteLiquidarCXP.DefaultCellStyle = dataGridViewCellStyle15;
             this.ImporteLiquidarCXP.HeaderText = "Monto a Liquidar";
             this.ImporteLiquidarCXP.Name = "ImporteLiquidarCXP";
             this.ImporteLiquidarCXP.Width = 80;
@@ -574,20 +574,21 @@ namespace EfideFactoring.Formula.Registros
             this.TipoCambioGN,
             this.TotalCalculadoGN,
             this.ImporteLiquidarGN});
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvGN.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvGN.DefaultCellStyle = dataGridViewCellStyle24;
             this.dgvGN.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dgvGN.Location = new System.Drawing.Point(23, 400);
+            this.dgvGN.Location = new System.Drawing.Point(23, 469);
             this.dgvGN.Name = "dgvGN";
             this.dgvGN.RowHeadersWidth = 10;
-            this.dgvGN.Size = new System.Drawing.Size(850, 81);
+            this.dgvGN.Size = new System.Drawing.Size(850, 11);
             this.dgvGN.TabIndex = 140;
+            this.dgvGN.Visible = false;
             this.dgvGN.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGN_CellEndEdit);
             this.dgvGN.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvGN_CellValueChanged);
             this.dgvGN.CurrentCellDirtyStateChanged += new System.EventHandler(this.dgvGN_CurrentCellDirtyStateChanged);
@@ -636,10 +637,10 @@ namespace EfideFactoring.Formula.Registros
             // FechaVencimientoGN
             // 
             this.FechaVencimientoGN.DataPropertyName = "FechaVencimiento";
-            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle41.Format = "d";
-            dataGridViewCellStyle41.NullValue = null;
-            this.FechaVencimientoGN.DefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.Format = "d";
+            dataGridViewCellStyle17.NullValue = null;
+            this.FechaVencimientoGN.DefaultCellStyle = dataGridViewCellStyle17;
             this.FechaVencimientoGN.HeaderText = "F.Vencimiento";
             this.FechaVencimientoGN.Name = "FechaVencimientoGN";
             this.FechaVencimientoGN.ReadOnly = true;
@@ -662,10 +663,10 @@ namespace EfideFactoring.Formula.Registros
             // cxcImpComisGN
             // 
             this.cxcImpComisGN.DataPropertyName = "cxcImpComis";
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle42.Format = "N2";
-            dataGridViewCellStyle42.NullValue = "0";
-            this.cxcImpComisGN.DefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle18.Format = "N2";
+            dataGridViewCellStyle18.NullValue = "0";
+            this.cxcImpComisGN.DefaultCellStyle = dataGridViewCellStyle18;
             this.cxcImpComisGN.HeaderText = "Importe";
             this.cxcImpComisGN.Name = "cxcImpComisGN";
             this.cxcImpComisGN.ReadOnly = true;
@@ -674,10 +675,10 @@ namespace EfideFactoring.Formula.Registros
             // InteresGN
             // 
             this.InteresGN.DataPropertyName = "Interes";
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle43.Format = "N2";
-            dataGridViewCellStyle43.NullValue = "0";
-            this.InteresGN.DefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle19.Format = "N2";
+            dataGridViewCellStyle19.NullValue = "0";
+            this.InteresGN.DefaultCellStyle = dataGridViewCellStyle19;
             this.InteresGN.HeaderText = "Interes";
             this.InteresGN.Name = "InteresGN";
             this.InteresGN.ReadOnly = true;
@@ -686,10 +687,10 @@ namespace EfideFactoring.Formula.Registros
             // TotalGN
             // 
             this.TotalGN.DataPropertyName = "Total";
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle44.Format = "N2";
-            dataGridViewCellStyle44.NullValue = "0";
-            this.TotalGN.DefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle20.Format = "N2";
+            dataGridViewCellStyle20.NullValue = "0";
+            this.TotalGN.DefaultCellStyle = dataGridViewCellStyle20;
             this.TotalGN.HeaderText = "Total";
             this.TotalGN.Name = "TotalGN";
             this.TotalGN.ReadOnly = true;
@@ -698,10 +699,10 @@ namespace EfideFactoring.Formula.Registros
             // TipoCambioGN
             // 
             this.TipoCambioGN.DataPropertyName = "TipoCambio";
-            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            dataGridViewCellStyle45.Format = "N2";
-            dataGridViewCellStyle45.NullValue = "0";
-            this.TipoCambioGN.DefaultCellStyle = dataGridViewCellStyle45;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            dataGridViewCellStyle21.Format = "N2";
+            dataGridViewCellStyle21.NullValue = "0";
+            this.TipoCambioGN.DefaultCellStyle = dataGridViewCellStyle21;
             this.TipoCambioGN.HeaderText = "T/C";
             this.TipoCambioGN.Name = "TipoCambioGN";
             this.TipoCambioGN.ReadOnly = true;
@@ -710,10 +711,10 @@ namespace EfideFactoring.Formula.Registros
             // TotalCalculadoGN
             // 
             this.TotalCalculadoGN.DataPropertyName = "TotalCalculado";
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle46.Format = "N2";
-            dataGridViewCellStyle46.NullValue = "0";
-            this.TotalCalculadoGN.DefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle22.Format = "N2";
+            dataGridViewCellStyle22.NullValue = "0";
+            this.TotalCalculadoGN.DefaultCellStyle = dataGridViewCellStyle22;
             this.TotalCalculadoGN.HeaderText = "Total";
             this.TotalCalculadoGN.Name = "TotalCalculadoGN";
             this.TotalCalculadoGN.ReadOnly = true;
@@ -722,10 +723,10 @@ namespace EfideFactoring.Formula.Registros
             // ImporteLiquidarGN
             // 
             this.ImporteLiquidarGN.DataPropertyName = "ImporteLiquidar";
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle47.Format = "N2";
-            dataGridViewCellStyle47.NullValue = "0";
-            this.ImporteLiquidarGN.DefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle23.Format = "N2";
+            dataGridViewCellStyle23.NullValue = "0";
+            this.ImporteLiquidarGN.DefaultCellStyle = dataGridViewCellStyle23;
             this.ImporteLiquidarGN.HeaderText = "Monto a Liquidar";
             this.ImporteLiquidarGN.Name = "ImporteLiquidarGN";
             this.ImporteLiquidarGN.Width = 80;
@@ -940,6 +941,7 @@ namespace EfideFactoring.Formula.Registros
             this.btnRegistrarDeuda.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnRegistrarDeuda.TabIndex = 14;
             this.btnRegistrarDeuda.Text = "Registrar Deuda";
+            this.btnRegistrarDeuda.Visible = false;
             this.btnRegistrarDeuda.Click += new System.EventHandler(this.btnRegistrarDeuda_Click);
             // 
             // txtTotalGN
@@ -951,10 +953,11 @@ namespace EfideFactoring.Formula.Registros
             this.txtTotalGN.Border.Class = "TextBoxBorder";
             this.txtTotalGN.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtTotalGN.Enabled = false;
-            this.txtTotalGN.Location = new System.Drawing.Point(557, 8);
+            this.txtTotalGN.Location = new System.Drawing.Point(72, 12);
             this.txtTotalGN.Name = "txtTotalGN";
             this.txtTotalGN.Size = new System.Drawing.Size(80, 20);
             this.txtTotalGN.TabIndex = 159;
+            this.txtTotalGN.Visible = false;
             // 
             // labelX11
             // 
@@ -992,11 +995,12 @@ namespace EfideFactoring.Formula.Registros
             // 
             // 
             this.labelX12.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX12.Location = new System.Drawing.Point(512, 5);
+            this.labelX12.Location = new System.Drawing.Point(27, 9);
             this.labelX12.Name = "labelX12";
             this.labelX12.Size = new System.Drawing.Size(50, 23);
             this.labelX12.TabIndex = 160;
             this.labelX12.Text = "G. Nota";
+            this.labelX12.Visible = false;
             // 
             // labelX13
             // 
@@ -1006,7 +1010,7 @@ namespace EfideFactoring.Formula.Registros
             // 
             // 
             this.labelX13.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX13.Location = new System.Drawing.Point(357, 6);
+            this.labelX13.Location = new System.Drawing.Point(556, 6);
             this.labelX13.Name = "labelX13";
             this.labelX13.Size = new System.Drawing.Size(26, 23);
             this.labelX13.TabIndex = 158;
@@ -1021,7 +1025,7 @@ namespace EfideFactoring.Formula.Registros
             this.txtTotalCxP.Border.Class = "TextBoxBorder";
             this.txtTotalCxP.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtTotalCxP.Enabled = false;
-            this.txtTotalCxP.Location = new System.Drawing.Point(387, 9);
+            this.txtTotalCxP.Location = new System.Drawing.Point(586, 9);
             this.txtTotalCxP.Name = "txtTotalCxP";
             this.txtTotalCxP.Size = new System.Drawing.Size(81, 20);
             this.txtTotalCxP.TabIndex = 157;
@@ -1034,7 +1038,7 @@ namespace EfideFactoring.Formula.Registros
             // 
             // 
             this.labelX14.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX14.Location = new System.Drawing.Point(208, 5);
+            this.labelX14.Location = new System.Drawing.Point(407, 5);
             this.labelX14.Name = "labelX14";
             this.labelX14.Size = new System.Drawing.Size(26, 23);
             this.labelX14.TabIndex = 156;
@@ -1049,7 +1053,7 @@ namespace EfideFactoring.Formula.Registros
             this.txtTotalCxC.Border.Class = "TextBoxBorder";
             this.txtTotalCxC.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.txtTotalCxC.Enabled = false;
-            this.txtTotalCxC.Location = new System.Drawing.Point(240, 8);
+            this.txtTotalCxC.Location = new System.Drawing.Point(439, 8);
             this.txtTotalCxC.Name = "txtTotalCxC";
             this.txtTotalCxC.Size = new System.Drawing.Size(80, 20);
             this.txtTotalCxC.TabIndex = 155;
@@ -1245,7 +1249,7 @@ namespace EfideFactoring.Formula.Registros
             // ChkAllCxP
             // 
             this.ChkAllCxP.AutoSize = true;
-            this.ChkAllCxP.Location = new System.Drawing.Point(5, 241);
+            this.ChkAllCxP.Location = new System.Drawing.Point(5, 282);
             this.ChkAllCxP.Name = "ChkAllCxP";
             this.ChkAllCxP.Size = new System.Drawing.Size(15, 14);
             this.ChkAllCxP.TabIndex = 167;
@@ -1263,6 +1267,7 @@ namespace EfideFactoring.Formula.Registros
             this.btnFormatoCesionCobranza.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnFormatoCesionCobranza.TabIndex = 16;
             this.btnFormatoCesionCobranza.Text = "Cesión Cobranza";
+            this.btnFormatoCesionCobranza.Visible = false;
             this.btnFormatoCesionCobranza.Click += new System.EventHandler(this.btnFormatoCesionCobranza_Click);
             // 
             // btnCargoDocumento
@@ -1276,6 +1281,7 @@ namespace EfideFactoring.Formula.Registros
             this.btnCargoDocumento.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnCargoDocumento.TabIndex = 17;
             this.btnCargoDocumento.Text = "Cargo Documento";
+            this.btnCargoDocumento.Visible = false;
             this.btnCargoDocumento.Click += new System.EventHandler(this.btnCargoDocumento_Click);
             // 
             // labelX2
@@ -1287,11 +1293,12 @@ namespace EfideFactoring.Formula.Registros
             // 
             this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.labelX2.ForeColor = System.Drawing.Color.Red;
-            this.labelX2.Location = new System.Drawing.Point(-9, 261);
+            this.labelX2.Location = new System.Drawing.Point(-6, 316);
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(26, 15);
             this.labelX2.TabIndex = 168;
             this.labelX2.Text = "RUC";
+            this.labelX2.Visible = false;
             // 
             // labelX1
             // 
@@ -1301,12 +1308,13 @@ namespace EfideFactoring.Formula.Registros
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX1.ForeColor = System.Drawing.Color.Red;
-            this.labelX1.Location = new System.Drawing.Point(-3, 282);
+            this.labelX1.Location = new System.Drawing.Point(-6, 355);
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(26, 79);
             this.labelX1.TabIndex = 169;
             this.labelX1.Text = "Bloqueado";
             this.labelX1.TextOrientation = DevComponents.DotNetBar.eOrientation.Vertical;
+            this.labelX1.Visible = false;
             // 
             // frmMntLiquidacionLinea
             // 

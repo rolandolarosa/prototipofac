@@ -422,6 +422,7 @@ namespace EfideFactoring.FormulaBase
             this.registroDePlanillaFase0ToolStripMenuItem.Name = "registroDePlanillaFase0ToolStripMenuItem";
             this.registroDePlanillaFase0ToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
             this.registroDePlanillaFase0ToolStripMenuItem.Text = "Registro de Planilla - Fase 0";
+            this.registroDePlanillaFase0ToolStripMenuItem.Visible = false;
             this.registroDePlanillaFase0ToolStripMenuItem.Click += new System.EventHandler(this.registroDePlanillaFase0ToolStripMenuItem_Click);
             // 
             // mmuEnvioConfirmacion
@@ -436,6 +437,7 @@ namespace EfideFactoring.FormulaBase
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(262, 6);
+            this.toolStripSeparator5.Visible = false;
             // 
             // mnuRegistroLotes
             // 

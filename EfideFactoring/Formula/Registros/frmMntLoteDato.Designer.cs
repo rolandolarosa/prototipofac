@@ -29,6 +29,7 @@ namespace EfideFactoring.Formula.Registros
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMntLoteDato));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -38,7 +39,6 @@ namespace EfideFactoring.Formula.Registros
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMntLoteDato));
             this.btnImprimirLote = new DevComponents.DotNetBar.ButtonX();
             this.btnLiquidar = new DevComponents.DotNetBar.ButtonX();
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
@@ -55,44 +55,6 @@ namespace EfideFactoring.Formula.Registros
             this.btnEliminar = new DevComponents.DotNetBar.ButtonX();
             this.btnAgregar = new DevComponents.DotNetBar.ButtonX();
             this.dgvDetalleLote = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.IdLote = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cItem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdPagadora = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdPagadora_Dsc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.vDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdSocio_Beneficiario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdSocio_BeneficiarioRuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cNumDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sdRecepcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iPlazo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sdVencimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nvNominal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cNotaCredito = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nNotaCredito = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nPorRetencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nvRetencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descuento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nvNegociable = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nTazaActiva = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nFondoGarantia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nTasaSobregiro = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdSocio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Opcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdMoneda_tt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dtRenovacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bNoRequiereProtesto = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.gSesionID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gPlazaID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gFechaOp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ImageDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FlgEnvioCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dtEnvioCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FlgConfirmadoPagadora = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dtConfirmadoPagadora = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IdImageDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.txtRucSocio = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.lblEjecutivo = new DevComponents.DotNetBar.LabelX();
@@ -133,6 +95,44 @@ namespace EfideFactoring.Formula.Registros
             this.btnFormatoCesionCobranza = new DevComponents.DotNetBar.ButtonX();
             this.btnPlantilla = new DevComponents.DotNetBar.ButtonX();
             this.btnCargarXML = new DevComponents.DotNetBar.ButtonX();
+            this.IdLote = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cItem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdPagadora = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdPagadora_Dsc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdSocio_Beneficiario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdSocio_BeneficiarioRuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cNumDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sdRecepcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.iPlazo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sdVencimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nvNominal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cNotaCredito = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nNotaCredito = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nPorRetencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nvRetencion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descuento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nvNegociable = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nTazaActiva = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nFondoGarantia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nTasaSobregiro = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdSocio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Opcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdMoneda_tt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtRenovacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bNoRequiereProtesto = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.gSesionID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gPlazaID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gFechaOp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ImageDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FlgEnvioCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtEnvioCorreo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FlgConfirmadoPagadora = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dtConfirmadoPagadora = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IdImageDoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grpDato.SuspendLayout();
             this.groupPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalleLote)).BeginInit();
@@ -504,357 +504,6 @@ namespace EfideFactoring.Formula.Registros
             this.dgvDetalleLote.SelectAllSignVisible = false;
             this.dgvDetalleLote.Size = new System.Drawing.Size(1177, 231);
             this.dgvDetalleLote.TabIndex = 2;
-            // 
-            // IdLote
-            // 
-            this.IdLote.DataPropertyName = "IdLote";
-            this.IdLote.HeaderText = "IdLote";
-            this.IdLote.Name = "IdLote";
-            this.IdLote.ReadOnly = true;
-            this.IdLote.Visible = false;
-            this.IdLote.Width = 62;
-            // 
-            // cItem
-            // 
-            this.cItem.DataPropertyName = "cItem";
-            this.cItem.HeaderText = "cItem";
-            this.cItem.Name = "cItem";
-            this.cItem.ReadOnly = true;
-            this.cItem.Visible = false;
-            this.cItem.Width = 58;
-            // 
-            // IdPagadora
-            // 
-            this.IdPagadora.DataPropertyName = "IdPagadora";
-            this.IdPagadora.HeaderText = "IdPagadora";
-            this.IdPagadora.Name = "IdPagadora";
-            this.IdPagadora.ReadOnly = true;
-            this.IdPagadora.Visible = false;
-            this.IdPagadora.Width = 87;
-            // 
-            // IdPagadora_Dsc
-            // 
-            this.IdPagadora_Dsc.DataPropertyName = "IdPagadora_Dsc";
-            this.IdPagadora_Dsc.HeaderText = "Pagadora";
-            this.IdPagadora_Dsc.Name = "IdPagadora_Dsc";
-            this.IdPagadora_Dsc.ReadOnly = true;
-            this.IdPagadora_Dsc.Width = 90;
-            // 
-            // IdDocumento
-            // 
-            this.IdDocumento.DataPropertyName = "IdDocumento";
-            this.IdDocumento.HeaderText = "IdDocumento";
-            this.IdDocumento.Name = "IdDocumento";
-            this.IdDocumento.ReadOnly = true;
-            this.IdDocumento.Visible = false;
-            this.IdDocumento.Width = 96;
-            // 
-            // vDocumento
-            // 
-            this.vDocumento.DataPropertyName = "vDocumento";
-            this.vDocumento.HeaderText = "Documento";
-            this.vDocumento.Name = "vDocumento";
-            this.vDocumento.ReadOnly = true;
-            this.vDocumento.Width = 160;
-            // 
-            // IdSocio_Beneficiario
-            // 
-            this.IdSocio_Beneficiario.DataPropertyName = "IdSocio_Beneficiario";
-            this.IdSocio_Beneficiario.HeaderText = "Girador Original";
-            this.IdSocio_Beneficiario.Name = "IdSocio_Beneficiario";
-            this.IdSocio_Beneficiario.ReadOnly = true;
-            this.IdSocio_Beneficiario.Width = 150;
-            // 
-            // IdSocio_BeneficiarioRuc
-            // 
-            this.IdSocio_BeneficiarioRuc.DataPropertyName = "IdSocio_BeneficiarioRuc";
-            this.IdSocio_BeneficiarioRuc.HeaderText = "IdSocio_BeneficiarioRuc";
-            this.IdSocio_BeneficiarioRuc.Name = "IdSocio_BeneficiarioRuc";
-            this.IdSocio_BeneficiarioRuc.ReadOnly = true;
-            this.IdSocio_BeneficiarioRuc.Visible = false;
-            // 
-            // cNumDoc
-            // 
-            this.cNumDoc.DataPropertyName = "cNumDoc";
-            this.cNumDoc.HeaderText = "cNumDoc";
-            this.cNumDoc.Name = "cNumDoc";
-            this.cNumDoc.ReadOnly = true;
-            this.cNumDoc.Visible = false;
-            this.cNumDoc.Width = 80;
-            // 
-            // sdRecepcion
-            // 
-            this.sdRecepcion.DataPropertyName = "sdRecepcion";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.Format = "d";
-            dataGridViewCellStyle1.NullValue = null;
-            this.sdRecepcion.DefaultCellStyle = dataGridViewCellStyle1;
-            this.sdRecepcion.HeaderText = "Fecha Recepción";
-            this.sdRecepcion.Name = "sdRecepcion";
-            this.sdRecepcion.ReadOnly = true;
-            this.sdRecepcion.Width = 75;
-            // 
-            // iPlazo
-            // 
-            this.iPlazo.DataPropertyName = "iPlazo";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N2";
-            dataGridViewCellStyle2.NullValue = null;
-            this.iPlazo.DefaultCellStyle = dataGridViewCellStyle2;
-            this.iPlazo.HeaderText = "Plazo";
-            this.iPlazo.Name = "iPlazo";
-            this.iPlazo.ReadOnly = true;
-            this.iPlazo.Width = 45;
-            // 
-            // sdVencimiento
-            // 
-            this.sdVencimiento.DataPropertyName = "sdVencimiento";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.Format = "d";
-            this.sdVencimiento.DefaultCellStyle = dataGridViewCellStyle3;
-            this.sdVencimiento.HeaderText = "Fecha Vencimiento";
-            this.sdVencimiento.Name = "sdVencimiento";
-            this.sdVencimiento.ReadOnly = true;
-            this.sdVencimiento.Width = 75;
-            // 
-            // nvNominal
-            // 
-            this.nvNominal.DataPropertyName = "nvNominal";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "N2";
-            dataGridViewCellStyle4.NullValue = "0";
-            this.nvNominal.DefaultCellStyle = dataGridViewCellStyle4;
-            this.nvNominal.HeaderText = "Importe Neto de Pago";
-            this.nvNominal.Name = "nvNominal";
-            this.nvNominal.ReadOnly = true;
-            this.nvNominal.Width = 80;
-            // 
-            // cNotaCredito
-            // 
-            this.cNotaCredito.DataPropertyName = "cNotaCredito";
-            this.cNotaCredito.HeaderText = "Nota de Credito";
-            this.cNotaCredito.Name = "cNotaCredito";
-            this.cNotaCredito.ReadOnly = true;
-            this.cNotaCredito.Width = 85;
-            // 
-            // nNotaCredito
-            // 
-            this.nNotaCredito.DataPropertyName = "nNotaCredito";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "N2";
-            dataGridViewCellStyle5.NullValue = null;
-            this.nNotaCredito.DefaultCellStyle = dataGridViewCellStyle5;
-            this.nNotaCredito.HeaderText = "Total Nota de Credito";
-            this.nNotaCredito.Name = "nNotaCredito";
-            this.nNotaCredito.ReadOnly = true;
-            this.nNotaCredito.Width = 80;
-            // 
-            // nPorRetencion
-            // 
-            this.nPorRetencion.DataPropertyName = "nPorRetencion";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.nPorRetencion.DefaultCellStyle = dataGridViewCellStyle6;
-            this.nPorRetencion.HeaderText = "%Retención";
-            this.nPorRetencion.Name = "nPorRetencion";
-            this.nPorRetencion.ReadOnly = true;
-            this.nPorRetencion.Width = 65;
-            // 
-            // nvRetencion
-            // 
-            this.nvRetencion.DataPropertyName = "nvRetencion";
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle7.Format = "N2";
-            dataGridViewCellStyle7.NullValue = "0";
-            this.nvRetencion.DefaultCellStyle = dataGridViewCellStyle7;
-            this.nvRetencion.HeaderText = "Retención";
-            this.nvRetencion.Name = "nvRetencion";
-            this.nvRetencion.ReadOnly = true;
-            this.nvRetencion.Width = 65;
-            // 
-            // Descuento
-            // 
-            this.Descuento.DataPropertyName = "Descuento";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle8.Format = "N2";
-            dataGridViewCellStyle8.NullValue = "0";
-            this.Descuento.DefaultCellStyle = dataGridViewCellStyle8;
-            this.Descuento.HeaderText = "Descuento";
-            this.Descuento.Name = "Descuento";
-            this.Descuento.ReadOnly = true;
-            this.Descuento.Width = 80;
-            // 
-            // nvNegociable
-            // 
-            this.nvNegociable.DataPropertyName = "nvNegociable";
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle9.Format = "N2";
-            dataGridViewCellStyle9.NullValue = "0";
-            this.nvNegociable.DefaultCellStyle = dataGridViewCellStyle9;
-            this.nvNegociable.HeaderText = "Valor Negociable";
-            this.nvNegociable.Name = "nvNegociable";
-            this.nvNegociable.ReadOnly = true;
-            this.nvNegociable.Visible = false;
-            this.nvNegociable.Width = 80;
-            // 
-            // nTazaActiva
-            // 
-            this.nTazaActiva.DataPropertyName = "nTazaActiva";
-            this.nTazaActiva.HeaderText = "nTazaActiva";
-            this.nTazaActiva.Name = "nTazaActiva";
-            this.nTazaActiva.ReadOnly = true;
-            this.nTazaActiva.Visible = false;
-            this.nTazaActiva.Width = 92;
-            // 
-            // nFondoGarantia
-            // 
-            this.nFondoGarantia.DataPropertyName = "nFondoGarantia";
-            this.nFondoGarantia.HeaderText = "nFondoGarantia";
-            this.nFondoGarantia.Name = "nFondoGarantia";
-            this.nFondoGarantia.ReadOnly = true;
-            this.nFondoGarantia.Visible = false;
-            this.nFondoGarantia.Width = 108;
-            // 
-            // nTasaSobregiro
-            // 
-            this.nTasaSobregiro.DataPropertyName = "nTasaSobregiro";
-            this.nTasaSobregiro.HeaderText = "nTasaSobregiro";
-            this.nTasaSobregiro.Name = "nTasaSobregiro";
-            this.nTasaSobregiro.ReadOnly = true;
-            this.nTasaSobregiro.Visible = false;
-            this.nTasaSobregiro.Width = 107;
-            // 
-            // IdSocio
-            // 
-            this.IdSocio.DataPropertyName = "IdSocio";
-            this.IdSocio.HeaderText = "IdSocio";
-            this.IdSocio.Name = "IdSocio";
-            this.IdSocio.ReadOnly = true;
-            this.IdSocio.Visible = false;
-            this.IdSocio.Width = 68;
-            // 
-            // Usuario
-            // 
-            this.Usuario.DataPropertyName = "Usuario";
-            this.Usuario.HeaderText = "Usuario";
-            this.Usuario.Name = "Usuario";
-            this.Usuario.ReadOnly = true;
-            this.Usuario.Visible = false;
-            this.Usuario.Width = 68;
-            // 
-            // Opcion
-            // 
-            this.Opcion.DataPropertyName = "Opcion";
-            this.Opcion.HeaderText = "Opcion";
-            this.Opcion.Name = "Opcion";
-            this.Opcion.ReadOnly = true;
-            this.Opcion.Visible = false;
-            this.Opcion.Width = 66;
-            // 
-            // IdMoneda_tt
-            // 
-            this.IdMoneda_tt.DataPropertyName = "IdMoneda_tt";
-            this.IdMoneda_tt.HeaderText = "IdMoneda_tt";
-            this.IdMoneda_tt.Name = "IdMoneda_tt";
-            this.IdMoneda_tt.ReadOnly = true;
-            this.IdMoneda_tt.Visible = false;
-            // 
-            // Tipo
-            // 
-            this.Tipo.DataPropertyName = "Tipo";
-            this.Tipo.HeaderText = "Tipo";
-            this.Tipo.Name = "Tipo";
-            this.Tipo.ReadOnly = true;
-            this.Tipo.Visible = false;
-            // 
-            // dtRenovacion
-            // 
-            this.dtRenovacion.DataPropertyName = "dtRenovacion";
-            this.dtRenovacion.HeaderText = "dtRenovacion";
-            this.dtRenovacion.Name = "dtRenovacion";
-            this.dtRenovacion.ReadOnly = true;
-            this.dtRenovacion.Visible = false;
-            // 
-            // bNoRequiereProtesto
-            // 
-            this.bNoRequiereProtesto.DataPropertyName = "bNoRequiereProtesto";
-            this.bNoRequiereProtesto.HeaderText = "*";
-            this.bNoRequiereProtesto.Name = "bNoRequiereProtesto";
-            this.bNoRequiereProtesto.ReadOnly = true;
-            this.bNoRequiereProtesto.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.bNoRequiereProtesto.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.bNoRequiereProtesto.Width = 20;
-            // 
-            // gSesionID
-            // 
-            this.gSesionID.DataPropertyName = "gSesionID";
-            this.gSesionID.HeaderText = "gSesionID";
-            this.gSesionID.Name = "gSesionID";
-            this.gSesionID.ReadOnly = true;
-            this.gSesionID.Visible = false;
-            // 
-            // gPlazaID
-            // 
-            this.gPlazaID.DataPropertyName = "gPlazaID";
-            this.gPlazaID.HeaderText = "gPlazaID";
-            this.gPlazaID.Name = "gPlazaID";
-            this.gPlazaID.ReadOnly = true;
-            this.gPlazaID.Visible = false;
-            // 
-            // gFechaOp
-            // 
-            this.gFechaOp.DataPropertyName = "gFechaOp";
-            this.gFechaOp.HeaderText = "gFechaOp";
-            this.gFechaOp.Name = "gFechaOp";
-            this.gFechaOp.ReadOnly = true;
-            this.gFechaOp.Visible = false;
-            // 
-            // ImageDoc
-            // 
-            this.ImageDoc.DataPropertyName = "ImageDoc";
-            this.ImageDoc.HeaderText = "ImageDoc";
-            this.ImageDoc.Name = "ImageDoc";
-            this.ImageDoc.ReadOnly = true;
-            this.ImageDoc.Visible = false;
-            // 
-            // FlgEnvioCorreo
-            // 
-            this.FlgEnvioCorreo.DataPropertyName = "FlgEnvioCorreo";
-            this.FlgEnvioCorreo.HeaderText = "FlgEnvioCorreo";
-            this.FlgEnvioCorreo.Name = "FlgEnvioCorreo";
-            this.FlgEnvioCorreo.ReadOnly = true;
-            this.FlgEnvioCorreo.Visible = false;
-            // 
-            // dtEnvioCorreo
-            // 
-            this.dtEnvioCorreo.DataPropertyName = "dtEnvioCorreo";
-            this.dtEnvioCorreo.HeaderText = "dtEnvioCorreo";
-            this.dtEnvioCorreo.Name = "dtEnvioCorreo";
-            this.dtEnvioCorreo.ReadOnly = true;
-            this.dtEnvioCorreo.Visible = false;
-            // 
-            // FlgConfirmadoPagadora
-            // 
-            this.FlgConfirmadoPagadora.DataPropertyName = "FlgConfirmadoPagadora";
-            this.FlgConfirmadoPagadora.HeaderText = "FlgConfirmadoPagadora";
-            this.FlgConfirmadoPagadora.Name = "FlgConfirmadoPagadora";
-            this.FlgConfirmadoPagadora.ReadOnly = true;
-            this.FlgConfirmadoPagadora.Visible = false;
-            // 
-            // dtConfirmadoPagadora
-            // 
-            this.dtConfirmadoPagadora.DataPropertyName = "dtConfirmadoPagadora";
-            this.dtConfirmadoPagadora.HeaderText = "dtConfirmadoPagadora";
-            this.dtConfirmadoPagadora.Name = "dtConfirmadoPagadora";
-            this.dtConfirmadoPagadora.ReadOnly = true;
-            this.dtConfirmadoPagadora.Visible = false;
-            // 
-            // IdImageDoc
-            // 
-            this.IdImageDoc.DataPropertyName = "IdImageDoc";
-            this.IdImageDoc.HeaderText = "IdImageDoc";
-            this.IdImageDoc.Name = "IdImageDoc";
-            this.IdImageDoc.ReadOnly = true;
-            this.IdImageDoc.Visible = false;
             // 
             // groupPanel1
             // 
@@ -1328,6 +977,7 @@ namespace EfideFactoring.Formula.Registros
             this.labelX6.TabIndex = 13;
             this.labelX6.Text = "* No Requiere Protesto";
             this.labelX6.TextAlignment = System.Drawing.StringAlignment.Far;
+            this.labelX6.Visible = false;
             // 
             // groupPanel5
             // 
@@ -1472,6 +1122,7 @@ namespace EfideFactoring.Formula.Registros
             this.btnImportar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnImportar.TabIndex = 11;
             this.btnImportar.Text = "&Importar";
+            this.btnImportar.Visible = false;
             this.btnImportar.Click += new System.EventHandler(this.btnImportar_Click);
             // 
             // openFileDialog1
@@ -1489,6 +1140,7 @@ namespace EfideFactoring.Formula.Registros
             this.btnCargoDocumento.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnCargoDocumento.TabIndex = 19;
             this.btnCargoDocumento.Text = "Cargo Documento";
+            this.btnCargoDocumento.Visible = false;
             this.btnCargoDocumento.Click += new System.EventHandler(this.btnCargoDocumento_Click);
             // 
             // btnFormatoCesionCobranza
@@ -1502,6 +1154,7 @@ namespace EfideFactoring.Formula.Registros
             this.btnFormatoCesionCobranza.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnFormatoCesionCobranza.TabIndex = 18;
             this.btnFormatoCesionCobranza.Text = "Cesión Cobranza";
+            this.btnFormatoCesionCobranza.Visible = false;
             this.btnFormatoCesionCobranza.Click += new System.EventHandler(this.btnFormatoCesionCobranza_Click);
             // 
             // btnPlantilla
@@ -1515,6 +1168,7 @@ namespace EfideFactoring.Formula.Registros
             this.btnPlantilla.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnPlantilla.TabIndex = 20;
             this.btnPlantilla.Text = "&Plantilla";
+            this.btnPlantilla.Visible = false;
             this.btnPlantilla.Click += new System.EventHandler(this.btnPlantilla_Click);
             // 
             // btnCargarXML
@@ -1529,7 +1183,361 @@ namespace EfideFactoring.Formula.Registros
             this.btnCargarXML.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnCargarXML.TabIndex = 21;
             this.btnCargarXML.Text = "Importar";
+            this.btnCargarXML.Visible = false;
             this.btnCargarXML.Click += new System.EventHandler(this.btnCargarXML_Click);
+            // 
+            // IdLote
+            // 
+            this.IdLote.DataPropertyName = "IdLote";
+            this.IdLote.HeaderText = "IdLote";
+            this.IdLote.Name = "IdLote";
+            this.IdLote.ReadOnly = true;
+            this.IdLote.Visible = false;
+            this.IdLote.Width = 62;
+            // 
+            // cItem
+            // 
+            this.cItem.DataPropertyName = "cItem";
+            this.cItem.HeaderText = "cItem";
+            this.cItem.Name = "cItem";
+            this.cItem.ReadOnly = true;
+            this.cItem.Visible = false;
+            this.cItem.Width = 58;
+            // 
+            // IdPagadora
+            // 
+            this.IdPagadora.DataPropertyName = "IdPagadora";
+            this.IdPagadora.HeaderText = "IdPagadora";
+            this.IdPagadora.Name = "IdPagadora";
+            this.IdPagadora.ReadOnly = true;
+            this.IdPagadora.Visible = false;
+            this.IdPagadora.Width = 87;
+            // 
+            // IdPagadora_Dsc
+            // 
+            this.IdPagadora_Dsc.DataPropertyName = "IdPagadora_Dsc";
+            this.IdPagadora_Dsc.HeaderText = "Pagadora";
+            this.IdPagadora_Dsc.Name = "IdPagadora_Dsc";
+            this.IdPagadora_Dsc.ReadOnly = true;
+            this.IdPagadora_Dsc.Width = 200;
+            // 
+            // IdDocumento
+            // 
+            this.IdDocumento.DataPropertyName = "IdDocumento";
+            this.IdDocumento.HeaderText = "IdDocumento";
+            this.IdDocumento.Name = "IdDocumento";
+            this.IdDocumento.ReadOnly = true;
+            this.IdDocumento.Visible = false;
+            this.IdDocumento.Width = 96;
+            // 
+            // vDocumento
+            // 
+            this.vDocumento.DataPropertyName = "vDocumento";
+            this.vDocumento.HeaderText = "Documento";
+            this.vDocumento.Name = "vDocumento";
+            this.vDocumento.ReadOnly = true;
+            this.vDocumento.Width = 160;
+            // 
+            // IdSocio_Beneficiario
+            // 
+            this.IdSocio_Beneficiario.DataPropertyName = "IdSocio_Beneficiario";
+            this.IdSocio_Beneficiario.HeaderText = "Girador Original";
+            this.IdSocio_Beneficiario.Name = "IdSocio_Beneficiario";
+            this.IdSocio_Beneficiario.ReadOnly = true;
+            this.IdSocio_Beneficiario.Visible = false;
+            this.IdSocio_Beneficiario.Width = 150;
+            // 
+            // IdSocio_BeneficiarioRuc
+            // 
+            this.IdSocio_BeneficiarioRuc.DataPropertyName = "IdSocio_BeneficiarioRuc";
+            this.IdSocio_BeneficiarioRuc.HeaderText = "IdSocio_BeneficiarioRuc";
+            this.IdSocio_BeneficiarioRuc.Name = "IdSocio_BeneficiarioRuc";
+            this.IdSocio_BeneficiarioRuc.ReadOnly = true;
+            this.IdSocio_BeneficiarioRuc.Visible = false;
+            // 
+            // cNumDoc
+            // 
+            this.cNumDoc.DataPropertyName = "cNumDoc";
+            this.cNumDoc.HeaderText = "cNumDoc";
+            this.cNumDoc.Name = "cNumDoc";
+            this.cNumDoc.ReadOnly = true;
+            this.cNumDoc.Visible = false;
+            this.cNumDoc.Width = 80;
+            // 
+            // sdRecepcion
+            // 
+            this.sdRecepcion.DataPropertyName = "sdRecepcion";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.Format = "d";
+            dataGridViewCellStyle1.NullValue = null;
+            this.sdRecepcion.DefaultCellStyle = dataGridViewCellStyle1;
+            this.sdRecepcion.HeaderText = "Fecha Recepción";
+            this.sdRecepcion.Name = "sdRecepcion";
+            this.sdRecepcion.ReadOnly = true;
+            this.sdRecepcion.Width = 75;
+            // 
+            // iPlazo
+            // 
+            this.iPlazo.DataPropertyName = "iPlazo";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.Format = "N2";
+            dataGridViewCellStyle2.NullValue = null;
+            this.iPlazo.DefaultCellStyle = dataGridViewCellStyle2;
+            this.iPlazo.HeaderText = "Plazo";
+            this.iPlazo.Name = "iPlazo";
+            this.iPlazo.ReadOnly = true;
+            this.iPlazo.Width = 45;
+            // 
+            // sdVencimiento
+            // 
+            this.sdVencimiento.DataPropertyName = "sdVencimiento";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.Format = "d";
+            this.sdVencimiento.DefaultCellStyle = dataGridViewCellStyle3;
+            this.sdVencimiento.HeaderText = "Fecha Vencimiento";
+            this.sdVencimiento.Name = "sdVencimiento";
+            this.sdVencimiento.ReadOnly = true;
+            this.sdVencimiento.Width = 75;
+            // 
+            // nvNominal
+            // 
+            this.nvNominal.DataPropertyName = "nvNominal";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "N2";
+            dataGridViewCellStyle4.NullValue = "0";
+            this.nvNominal.DefaultCellStyle = dataGridViewCellStyle4;
+            this.nvNominal.HeaderText = "Importe Neto de Pago";
+            this.nvNominal.Name = "nvNominal";
+            this.nvNominal.ReadOnly = true;
+            this.nvNominal.Width = 80;
+            // 
+            // cNotaCredito
+            // 
+            this.cNotaCredito.DataPropertyName = "cNotaCredito";
+            this.cNotaCredito.HeaderText = "Nota de Credito";
+            this.cNotaCredito.Name = "cNotaCredito";
+            this.cNotaCredito.ReadOnly = true;
+            this.cNotaCredito.Width = 85;
+            // 
+            // nNotaCredito
+            // 
+            this.nNotaCredito.DataPropertyName = "nNotaCredito";
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle5.Format = "N2";
+            dataGridViewCellStyle5.NullValue = null;
+            this.nNotaCredito.DefaultCellStyle = dataGridViewCellStyle5;
+            this.nNotaCredito.HeaderText = "Total Nota de Credito";
+            this.nNotaCredito.Name = "nNotaCredito";
+            this.nNotaCredito.ReadOnly = true;
+            this.nNotaCredito.Width = 80;
+            // 
+            // nPorRetencion
+            // 
+            this.nPorRetencion.DataPropertyName = "nPorRetencion";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.nPorRetencion.DefaultCellStyle = dataGridViewCellStyle6;
+            this.nPorRetencion.HeaderText = "%Retención";
+            this.nPorRetencion.Name = "nPorRetencion";
+            this.nPorRetencion.ReadOnly = true;
+            this.nPorRetencion.Width = 65;
+            // 
+            // nvRetencion
+            // 
+            this.nvRetencion.DataPropertyName = "nvRetencion";
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle7.Format = "N2";
+            dataGridViewCellStyle7.NullValue = "0";
+            this.nvRetencion.DefaultCellStyle = dataGridViewCellStyle7;
+            this.nvRetencion.HeaderText = "Retención";
+            this.nvRetencion.Name = "nvRetencion";
+            this.nvRetencion.ReadOnly = true;
+            this.nvRetencion.Width = 65;
+            // 
+            // Descuento
+            // 
+            this.Descuento.DataPropertyName = "Descuento";
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle8.Format = "N2";
+            dataGridViewCellStyle8.NullValue = "0";
+            this.Descuento.DefaultCellStyle = dataGridViewCellStyle8;
+            this.Descuento.HeaderText = "Descuento";
+            this.Descuento.Name = "Descuento";
+            this.Descuento.ReadOnly = true;
+            this.Descuento.Width = 80;
+            // 
+            // nvNegociable
+            // 
+            this.nvNegociable.DataPropertyName = "nvNegociable";
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle9.Format = "N2";
+            dataGridViewCellStyle9.NullValue = "0";
+            this.nvNegociable.DefaultCellStyle = dataGridViewCellStyle9;
+            this.nvNegociable.HeaderText = "Valor Negociable";
+            this.nvNegociable.Name = "nvNegociable";
+            this.nvNegociable.ReadOnly = true;
+            this.nvNegociable.Visible = false;
+            this.nvNegociable.Width = 80;
+            // 
+            // nTazaActiva
+            // 
+            this.nTazaActiva.DataPropertyName = "nTazaActiva";
+            this.nTazaActiva.HeaderText = "nTazaActiva";
+            this.nTazaActiva.Name = "nTazaActiva";
+            this.nTazaActiva.ReadOnly = true;
+            this.nTazaActiva.Visible = false;
+            this.nTazaActiva.Width = 92;
+            // 
+            // nFondoGarantia
+            // 
+            this.nFondoGarantia.DataPropertyName = "nFondoGarantia";
+            this.nFondoGarantia.HeaderText = "nFondoGarantia";
+            this.nFondoGarantia.Name = "nFondoGarantia";
+            this.nFondoGarantia.ReadOnly = true;
+            this.nFondoGarantia.Visible = false;
+            this.nFondoGarantia.Width = 108;
+            // 
+            // nTasaSobregiro
+            // 
+            this.nTasaSobregiro.DataPropertyName = "nTasaSobregiro";
+            this.nTasaSobregiro.HeaderText = "nTasaSobregiro";
+            this.nTasaSobregiro.Name = "nTasaSobregiro";
+            this.nTasaSobregiro.ReadOnly = true;
+            this.nTasaSobregiro.Visible = false;
+            this.nTasaSobregiro.Width = 107;
+            // 
+            // IdSocio
+            // 
+            this.IdSocio.DataPropertyName = "IdSocio";
+            this.IdSocio.HeaderText = "IdSocio";
+            this.IdSocio.Name = "IdSocio";
+            this.IdSocio.ReadOnly = true;
+            this.IdSocio.Visible = false;
+            this.IdSocio.Width = 68;
+            // 
+            // Usuario
+            // 
+            this.Usuario.DataPropertyName = "Usuario";
+            this.Usuario.HeaderText = "Usuario";
+            this.Usuario.Name = "Usuario";
+            this.Usuario.ReadOnly = true;
+            this.Usuario.Visible = false;
+            this.Usuario.Width = 68;
+            // 
+            // Opcion
+            // 
+            this.Opcion.DataPropertyName = "Opcion";
+            this.Opcion.HeaderText = "Opcion";
+            this.Opcion.Name = "Opcion";
+            this.Opcion.ReadOnly = true;
+            this.Opcion.Visible = false;
+            this.Opcion.Width = 66;
+            // 
+            // IdMoneda_tt
+            // 
+            this.IdMoneda_tt.DataPropertyName = "IdMoneda_tt";
+            this.IdMoneda_tt.HeaderText = "IdMoneda_tt";
+            this.IdMoneda_tt.Name = "IdMoneda_tt";
+            this.IdMoneda_tt.ReadOnly = true;
+            this.IdMoneda_tt.Visible = false;
+            // 
+            // Tipo
+            // 
+            this.Tipo.DataPropertyName = "Tipo";
+            this.Tipo.HeaderText = "Tipo";
+            this.Tipo.Name = "Tipo";
+            this.Tipo.ReadOnly = true;
+            this.Tipo.Visible = false;
+            // 
+            // dtRenovacion
+            // 
+            this.dtRenovacion.DataPropertyName = "dtRenovacion";
+            this.dtRenovacion.HeaderText = "dtRenovacion";
+            this.dtRenovacion.Name = "dtRenovacion";
+            this.dtRenovacion.ReadOnly = true;
+            this.dtRenovacion.Visible = false;
+            // 
+            // bNoRequiereProtesto
+            // 
+            this.bNoRequiereProtesto.DataPropertyName = "bNoRequiereProtesto";
+            this.bNoRequiereProtesto.HeaderText = "*";
+            this.bNoRequiereProtesto.Name = "bNoRequiereProtesto";
+            this.bNoRequiereProtesto.ReadOnly = true;
+            this.bNoRequiereProtesto.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.bNoRequiereProtesto.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.bNoRequiereProtesto.Visible = false;
+            this.bNoRequiereProtesto.Width = 20;
+            // 
+            // gSesionID
+            // 
+            this.gSesionID.DataPropertyName = "gSesionID";
+            this.gSesionID.HeaderText = "gSesionID";
+            this.gSesionID.Name = "gSesionID";
+            this.gSesionID.ReadOnly = true;
+            this.gSesionID.Visible = false;
+            // 
+            // gPlazaID
+            // 
+            this.gPlazaID.DataPropertyName = "gPlazaID";
+            this.gPlazaID.HeaderText = "gPlazaID";
+            this.gPlazaID.Name = "gPlazaID";
+            this.gPlazaID.ReadOnly = true;
+            this.gPlazaID.Visible = false;
+            // 
+            // gFechaOp
+            // 
+            this.gFechaOp.DataPropertyName = "gFechaOp";
+            this.gFechaOp.HeaderText = "gFechaOp";
+            this.gFechaOp.Name = "gFechaOp";
+            this.gFechaOp.ReadOnly = true;
+            this.gFechaOp.Visible = false;
+            // 
+            // ImageDoc
+            // 
+            this.ImageDoc.DataPropertyName = "ImageDoc";
+            this.ImageDoc.HeaderText = "ImageDoc";
+            this.ImageDoc.Name = "ImageDoc";
+            this.ImageDoc.ReadOnly = true;
+            this.ImageDoc.Visible = false;
+            // 
+            // FlgEnvioCorreo
+            // 
+            this.FlgEnvioCorreo.DataPropertyName = "FlgEnvioCorreo";
+            this.FlgEnvioCorreo.HeaderText = "FlgEnvioCorreo";
+            this.FlgEnvioCorreo.Name = "FlgEnvioCorreo";
+            this.FlgEnvioCorreo.ReadOnly = true;
+            this.FlgEnvioCorreo.Visible = false;
+            // 
+            // dtEnvioCorreo
+            // 
+            this.dtEnvioCorreo.DataPropertyName = "dtEnvioCorreo";
+            this.dtEnvioCorreo.HeaderText = "dtEnvioCorreo";
+            this.dtEnvioCorreo.Name = "dtEnvioCorreo";
+            this.dtEnvioCorreo.ReadOnly = true;
+            this.dtEnvioCorreo.Visible = false;
+            // 
+            // FlgConfirmadoPagadora
+            // 
+            this.FlgConfirmadoPagadora.DataPropertyName = "FlgConfirmadoPagadora";
+            this.FlgConfirmadoPagadora.HeaderText = "FlgConfirmadoPagadora";
+            this.FlgConfirmadoPagadora.Name = "FlgConfirmadoPagadora";
+            this.FlgConfirmadoPagadora.ReadOnly = true;
+            this.FlgConfirmadoPagadora.Visible = false;
+            // 
+            // dtConfirmadoPagadora
+            // 
+            this.dtConfirmadoPagadora.DataPropertyName = "dtConfirmadoPagadora";
+            this.dtConfirmadoPagadora.HeaderText = "dtConfirmadoPagadora";
+            this.dtConfirmadoPagadora.Name = "dtConfirmadoPagadora";
+            this.dtConfirmadoPagadora.ReadOnly = true;
+            this.dtConfirmadoPagadora.Visible = false;
+            // 
+            // IdImageDoc
+            // 
+            this.IdImageDoc.DataPropertyName = "IdImageDoc";
+            this.IdImageDoc.HeaderText = "IdImageDoc";
+            this.IdImageDoc.Name = "IdImageDoc";
+            this.IdImageDoc.ReadOnly = true;
+            this.IdImageDoc.Visible = false;
             // 
             // frmMntLoteDato
             // 
@@ -1604,6 +1612,9 @@ namespace EfideFactoring.Formula.Registros
         private DevComponents.DotNetBar.ButtonX btnFormatoCesionCobranza;
         private DevComponents.DotNetBar.ButtonX btnActualizarFechaDesembolso;
         private DevComponents.DotNetBar.LabelX lblEjecutivo;
+        private DevComponents.DotNetBar.ButtonX btnPlantilla;
+        private DevComponents.DotNetBar.ButtonX btnCargarXML;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtRucSocio;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdLote;
         private System.Windows.Forms.DataGridViewTextBoxColumn cItem;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdPagadora;
@@ -1642,8 +1653,5 @@ namespace EfideFactoring.Formula.Registros
         private System.Windows.Forms.DataGridViewTextBoxColumn FlgConfirmadoPagadora;
         private System.Windows.Forms.DataGridViewTextBoxColumn dtConfirmadoPagadora;
         private System.Windows.Forms.DataGridViewTextBoxColumn IdImageDoc;
-        private DevComponents.DotNetBar.ButtonX btnPlantilla;
-        private DevComponents.DotNetBar.ButtonX btnCargarXML;
-        private DevComponents.DotNetBar.Controls.TextBoxX txtRucSocio;
     }
 }

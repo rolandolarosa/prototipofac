@@ -544,6 +544,7 @@ namespace EfideFactoring.Formula.Registros
             this.lblBeneficiario.Size = new System.Drawing.Size(78, 14);
             this.lblBeneficiario.TabIndex = 26;
             this.lblBeneficiario.Text = "Girador Original";
+            this.lblBeneficiario.Visible = false;
             // 
             // btnBusquedaSocio
             // 
@@ -555,6 +556,7 @@ namespace EfideFactoring.Formula.Registros
             this.btnBusquedaSocio.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnBusquedaSocio.TabIndex = 28;
             this.btnBusquedaSocio.Text = "...";
+            this.btnBusquedaSocio.Visible = false;
             this.btnBusquedaSocio.Click += new System.EventHandler(this.btnBusquedaSocio_Click);
             // 
             // txtRazonSocialSocio
@@ -570,6 +572,7 @@ namespace EfideFactoring.Formula.Registros
             this.txtRazonSocialSocio.ReadOnly = true;
             this.txtRazonSocialSocio.Size = new System.Drawing.Size(234, 20);
             this.txtRazonSocialSocio.TabIndex = 27;
+            this.txtRazonSocialSocio.Visible = false;
             // 
             // CheckNoRequiereProtesto
             // 
@@ -622,7 +625,7 @@ namespace EfideFactoring.Formula.Registros
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(346, 152);
+            this.pictureBox1.Size = new System.Drawing.Size(340, 152);
             this.pictureBox1.TabIndex = 33;
             this.pictureBox1.TabStop = false;
             // 
@@ -838,6 +841,7 @@ namespace EfideFactoring.Formula.Registros
             this.txtIdSocio_BeneficiarioRuc.ReadOnly = true;
             this.txtIdSocio_BeneficiarioRuc.Size = new System.Drawing.Size(119, 20);
             this.txtIdSocio_BeneficiarioRuc.TabIndex = 46;
+            this.txtIdSocio_BeneficiarioRuc.Visible = false;
             // 
             // rbtnTercerCaso
             // 
@@ -850,6 +854,7 @@ namespace EfideFactoring.Formula.Registros
             this.rbtnTercerCaso.TabStop = true;
             this.rbtnTercerCaso.Text = "Tercer Caso";
             this.rbtnTercerCaso.UseVisualStyleBackColor = false;
+            this.rbtnTercerCaso.Visible = false;
             // 
             // rbtnDobleEndoso
             // 
@@ -862,6 +867,7 @@ namespace EfideFactoring.Formula.Registros
             this.rbtnDobleEndoso.TabStop = true;
             this.rbtnDobleEndoso.Text = "Doble Endoso";
             this.rbtnDobleEndoso.UseVisualStyleBackColor = false;
+            this.rbtnDobleEndoso.Visible = false;
             // 
             // labelX16
             // 
