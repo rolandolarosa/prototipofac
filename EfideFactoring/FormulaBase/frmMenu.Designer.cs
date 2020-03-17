@@ -258,6 +258,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuGrupo.Name = "mnuGrupo";
             this.mnuGrupo.Size = new System.Drawing.Size(229, 22);
             this.mnuGrupo.Text = "Grupos";
+            this.mnuGrupo.Visible = false;
             this.mnuGrupo.Click += new System.EventHandler(this.mnuGrupo_Click);
             // 
             // mnuDocumentos
@@ -272,6 +273,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuProductosFactoring.Name = "mnuProductosFactoring";
             this.mnuProductosFactoring.Size = new System.Drawing.Size(229, 22);
             this.mnuProductosFactoring.Text = "Productos Factoring";
+            this.mnuProductosFactoring.Visible = false;
             this.mnuProductosFactoring.Click += new System.EventHandler(this.mnuProductosFactoring_Click);
             // 
             // toolStripSeparator17
@@ -284,6 +286,7 @@ namespace EfideFactoring.FormulaBase
             this.riesgoUnicoSocioToolStripMenuItem.Name = "riesgoUnicoSocioToolStripMenuItem";
             this.riesgoUnicoSocioToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
             this.riesgoUnicoSocioToolStripMenuItem.Text = "Riesgo Unico Socio";
+            this.riesgoUnicoSocioToolStripMenuItem.Visible = false;
             this.riesgoUnicoSocioToolStripMenuItem.Click += new System.EventHandler(this.riesgoUnicoSocioToolStripMenuItem_Click);
             // 
             // magnitudPersonaEmpresaToolStripMenuItem
@@ -291,6 +294,7 @@ namespace EfideFactoring.FormulaBase
             this.magnitudPersonaEmpresaToolStripMenuItem.Name = "magnitudPersonaEmpresaToolStripMenuItem";
             this.magnitudPersonaEmpresaToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
             this.magnitudPersonaEmpresaToolStripMenuItem.Text = "Magnitud Persona/Empresa";
+            this.magnitudPersonaEmpresaToolStripMenuItem.Visible = false;
             this.magnitudPersonaEmpresaToolStripMenuItem.Click += new System.EventHandler(this.magnitudPersonaEmpresaToolStripMenuItem_Click);
             // 
             // mnuEstadoCuenta
@@ -298,6 +302,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuEstadoCuenta.Name = "mnuEstadoCuenta";
             this.mnuEstadoCuenta.Size = new System.Drawing.Size(229, 22);
             this.mnuEstadoCuenta.Text = "Configuración Estado Cuenta";
+            this.mnuEstadoCuenta.Visible = false;
             this.mnuEstadoCuenta.Click += new System.EventHandler(this.mnuEstadoCuenta_Click);
             // 
             // mnuTarifario
@@ -369,6 +374,7 @@ namespace EfideFactoring.FormulaBase
             this.registroTercerCasoToolStripMenuItem.Name = "registroTercerCasoToolStripMenuItem";
             this.registroTercerCasoToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
             this.registroTercerCasoToolStripMenuItem.Text = "Registro Tercer Caso";
+            this.registroTercerCasoToolStripMenuItem.Visible = false;
             this.registroTercerCasoToolStripMenuItem.Click += new System.EventHandler(this.registroTercerCasoToolStripMenuItem_Click);
             // 
             // toolStripSeparator11
@@ -395,6 +401,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuIngresosRetirosSocios.Name = "mnuIngresosRetirosSocios";
             this.mnuIngresosRetirosSocios.Size = new System.Drawing.Size(265, 22);
             this.mnuIngresosRetirosSocios.Text = "Ingresos y Retiros de Socios";
+            this.mnuIngresosRetirosSocios.Visible = false;
             this.mnuIngresosRetirosSocios.Click += new System.EventHandler(this.mnuIngresosRetirosSocios_Click);
             // 
             // mnuAportacionesOrdinarias
@@ -402,6 +409,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuAportacionesOrdinarias.Name = "mnuAportacionesOrdinarias";
             this.mnuAportacionesOrdinarias.Size = new System.Drawing.Size(265, 22);
             this.mnuAportacionesOrdinarias.Text = "Deuda de Aportaciones Ordinarias";
+            this.mnuAportacionesOrdinarias.Visible = false;
             this.mnuAportacionesOrdinarias.Click += new System.EventHandler(this.mnuAportacionesOrdinarias_Click);
             // 
             // toolStripSeparator4
@@ -421,6 +429,7 @@ namespace EfideFactoring.FormulaBase
             this.mmuEnvioConfirmacion.Name = "mmuEnvioConfirmacion";
             this.mmuEnvioConfirmacion.Size = new System.Drawing.Size(265, 22);
             this.mmuEnvioConfirmacion.Text = "Visor de Envío y Confirmación";
+            this.mmuEnvioConfirmacion.Visible = false;
             this.mmuEnvioConfirmacion.Click += new System.EventHandler(this.mmuEnvioConfirmacion_Click);
             // 
             // toolStripSeparator5
@@ -452,6 +461,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuConfirmacionOperaciones.Name = "mnuConfirmacionOperaciones";
             this.mnuConfirmacionOperaciones.Size = new System.Drawing.Size(265, 22);
             this.mnuConfirmacionOperaciones.Text = "Atención de Desembolso";
+            this.mnuConfirmacionOperaciones.Visible = false;
             this.mnuConfirmacionOperaciones.Click += new System.EventHandler(this.mnuConfirmacionOperaciones_Click);
             // 
             // mnuGastosNotariales
@@ -484,6 +494,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuGenerarLotes.Name = "mnuGenerarLotes";
             this.mnuGenerarLotes.Size = new System.Drawing.Size(265, 22);
             this.mnuGenerarLotes.Text = "Generar Lotes - WEB electrónico";
+            this.mnuGenerarLotes.Visible = false;
             this.mnuGenerarLotes.Click += new System.EventHandler(this.mnuGenerarLotes_Click);
             // 
             // planillaEjecutivoTSM
@@ -491,6 +502,7 @@ namespace EfideFactoring.FormulaBase
             this.planillaEjecutivoTSM.Name = "planillaEjecutivoTSM";
             this.planillaEjecutivoTSM.Size = new System.Drawing.Size(265, 22);
             this.planillaEjecutivoTSM.Text = "Planilla Ejecutivo";
+            this.planillaEjecutivoTSM.Visible = false;
             this.planillaEjecutivoTSM.Click += new System.EventHandler(this.planillaEjecutivoTSM_Click);
             // 
             // bancosOperacionesPorConfirmarToolStripMenuItem
@@ -498,6 +510,7 @@ namespace EfideFactoring.FormulaBase
             this.bancosOperacionesPorConfirmarToolStripMenuItem.Name = "bancosOperacionesPorConfirmarToolStripMenuItem";
             this.bancosOperacionesPorConfirmarToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
             this.bancosOperacionesPorConfirmarToolStripMenuItem.Text = "Bancos Operaciones por Confirmar";
+            this.bancosOperacionesPorConfirmarToolStripMenuItem.Visible = false;
             this.bancosOperacionesPorConfirmarToolStripMenuItem.Click += new System.EventHandler(this.bancosOperacionesPorConfirmarToolStripMenuItem_Click);
             // 
             // simuladorDeCronogramaDPFToolStripMenuItem
@@ -505,6 +518,7 @@ namespace EfideFactoring.FormulaBase
             this.simuladorDeCronogramaDPFToolStripMenuItem.Name = "simuladorDeCronogramaDPFToolStripMenuItem";
             this.simuladorDeCronogramaDPFToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
             this.simuladorDeCronogramaDPFToolStripMenuItem.Text = "Simulador de cronograma DPF";
+            this.simuladorDeCronogramaDPFToolStripMenuItem.Visible = false;
             this.simuladorDeCronogramaDPFToolStripMenuItem.Click += new System.EventHandler(this.simuladorDeCronogramaDPFToolStripMenuItem_Click);
             // 
             // simuladorDeCronogramaPréstamoToolStripMenuItem
@@ -512,6 +526,7 @@ namespace EfideFactoring.FormulaBase
             this.simuladorDeCronogramaPréstamoToolStripMenuItem.Name = "simuladorDeCronogramaPréstamoToolStripMenuItem";
             this.simuladorDeCronogramaPréstamoToolStripMenuItem.Size = new System.Drawing.Size(265, 22);
             this.simuladorDeCronogramaPréstamoToolStripMenuItem.Text = "Simulador de cronograma Préstamo";
+            this.simuladorDeCronogramaPréstamoToolStripMenuItem.Visible = false;
             this.simuladorDeCronogramaPréstamoToolStripMenuItem.Click += new System.EventHandler(this.simuladorDeCronogramaPréstamoToolStripMenuItem_Click);
             // 
             // simuladorDeCronogramaDPFToolStripMenuItem1
@@ -519,6 +534,7 @@ namespace EfideFactoring.FormulaBase
             this.simuladorDeCronogramaDPFToolStripMenuItem1.Name = "simuladorDeCronogramaDPFToolStripMenuItem1";
             this.simuladorDeCronogramaDPFToolStripMenuItem1.Size = new System.Drawing.Size(265, 22);
             this.simuladorDeCronogramaDPFToolStripMenuItem1.Text = "Simulador de cronograma BTB";
+            this.simuladorDeCronogramaDPFToolStripMenuItem1.Visible = false;
             this.simuladorDeCronogramaDPFToolStripMenuItem1.Click += new System.EventHandler(this.simuladorDeCronogramaDPFToolStripMenuItem1_Click);
             // 
             // mnuCobranza
@@ -546,6 +562,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuCobranza.Name = "mnuCobranza";
             this.mnuCobranza.Size = new System.Drawing.Size(69, 20);
             this.mnuCobranza.Text = "Cobranza";
+            this.mnuCobranza.Visible = false;
             // 
             // mnuRegistroCobranza
             // 
@@ -683,6 +700,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuConsultas.Name = "mnuConsultas";
             this.mnuConsultas.Size = new System.Drawing.Size(71, 20);
             this.mnuConsultas.Text = "Consultas";
+            this.mnuConsultas.Visible = false;
             // 
             // mnuSaldosLineasSocios
             // 
@@ -748,6 +766,7 @@ namespace EfideFactoring.FormulaBase
             this.gestiónPagadoraToolStripMenuItem.Name = "gestiónPagadoraToolStripMenuItem";
             this.gestiónPagadoraToolStripMenuItem.Size = new System.Drawing.Size(112, 20);
             this.gestiónPagadoraToolStripMenuItem.Text = "Gestión Pagadora";
+            this.gestiónPagadoraToolStripMenuItem.Visible = false;
             // 
             // mnuEmpresasTop10k
             // 
@@ -817,6 +836,7 @@ namespace EfideFactoring.FormulaBase
             this.gestiónComercialToolStripMenuItem.Name = "gestiónComercialToolStripMenuItem";
             this.gestiónComercialToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
             this.gestiónComercialToolStripMenuItem.Text = "Gestión Comercial";
+            this.gestiónComercialToolStripMenuItem.Visible = false;
             this.gestiónComercialToolStripMenuItem.Click += new System.EventHandler(this.gestiónComercialToolStripMenuItem_Click);
             // 
             // mnuCargaSocios
@@ -1016,6 +1036,7 @@ namespace EfideFactoring.FormulaBase
             this.gestionCobranzasToolStripMenuItem.Name = "gestionCobranzasToolStripMenuItem";
             this.gestionCobranzasToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
             this.gestionCobranzasToolStripMenuItem.Text = "GestionCobranzas";
+            this.gestionCobranzasToolStripMenuItem.Visible = false;
             this.gestionCobranzasToolStripMenuItem.Click += new System.EventHandler(this.gestionCobranzasToolStripMenuItem_Click);
             // 
             // mnuReportes
@@ -1057,6 +1078,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuReportes.Name = "mnuReportes";
             this.mnuReportes.Size = new System.Drawing.Size(65, 20);
             this.mnuReportes.Text = "Reportes";
+            this.mnuReportes.Visible = false;
             // 
             // mnuRepCobranzas
             // 
@@ -1287,34 +1309,35 @@ namespace EfideFactoring.FormulaBase
             this.mmuCargaDeDatosSentinel,
             this.mmuAprobaciónDeComite});
             this.sentinelToolStripMenuItem.Name = "sentinelToolStripMenuItem";
-            this.sentinelToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
+            this.sentinelToolStripMenuItem.Size = new System.Drawing.Size(114, 20);
             this.sentinelToolStripMenuItem.Text = "Empresas Top 10K";
+            this.sentinelToolStripMenuItem.Visible = false;
             // 
             // mnuCargaDatosTop10kLinea
             // 
             this.mnuCargaDatosTop10kLinea.Name = "mnuCargaDatosTop10kLinea";
-            this.mnuCargaDatosTop10kLinea.Size = new System.Drawing.Size(231, 22);
+            this.mnuCargaDatosTop10kLinea.Size = new System.Drawing.Size(232, 22);
             this.mnuCargaDatosTop10kLinea.Text = "Carga de Datos Top10K Lineas";
             this.mnuCargaDatosTop10kLinea.Click += new System.EventHandler(this.mnuCargaDatosTop10kLinea_Click);
             // 
             // micargaDeDatosTop10K
             // 
             this.micargaDeDatosTop10K.Name = "micargaDeDatosTop10K";
-            this.micargaDeDatosTop10K.Size = new System.Drawing.Size(231, 22);
+            this.micargaDeDatosTop10K.Size = new System.Drawing.Size(232, 22);
             this.micargaDeDatosTop10K.Text = "Carga de Datos Top10K";
             this.micargaDeDatosTop10K.Click += new System.EventHandler(this.micargaDeDatosTop10K_Click);
             // 
             // mmuCargaDeDatosSentinel
             // 
             this.mmuCargaDeDatosSentinel.Name = "mmuCargaDeDatosSentinel";
-            this.mmuCargaDeDatosSentinel.Size = new System.Drawing.Size(231, 22);
+            this.mmuCargaDeDatosSentinel.Size = new System.Drawing.Size(232, 22);
             this.mmuCargaDeDatosSentinel.Text = "Carga de Datos Sentinel";
             this.mmuCargaDeDatosSentinel.Click += new System.EventHandler(this.mmuCargaDeDatosSentinel_Click);
             // 
             // mmuAprobaciónDeComite
             // 
             this.mmuAprobaciónDeComite.Name = "mmuAprobaciónDeComite";
-            this.mmuAprobaciónDeComite.Size = new System.Drawing.Size(231, 22);
+            this.mmuAprobaciónDeComite.Size = new System.Drawing.Size(232, 22);
             this.mmuAprobaciónDeComite.Text = "Aprobación de Comite";
             this.mmuAprobaciónDeComite.Click += new System.EventHandler(this.mmuAprobaciónDeComite_Click);
             // 
@@ -1329,6 +1352,7 @@ namespace EfideFactoring.FormulaBase
             this.legalToolStripMenuItem1.Name = "legalToolStripMenuItem1";
             this.legalToolStripMenuItem1.Size = new System.Drawing.Size(47, 20);
             this.legalToolStripMenuItem1.Text = "Legal";
+            this.legalToolStripMenuItem1.Visible = false;
             // 
             // configuraciónDeFormatosToolStripMenuItem
             // 
@@ -1373,6 +1397,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuProcesos.Name = "mnuProcesos";
             this.mnuProcesos.Size = new System.Drawing.Size(66, 20);
             this.mnuProcesos.Text = "Procesos";
+            this.mnuProcesos.Visible = false;
             // 
             // mnuAppCCyCP
             // 
@@ -1398,6 +1423,7 @@ namespace EfideFactoring.FormulaBase
             this.bóvedaToolStripMenuItem.Name = "bóvedaToolStripMenuItem";
             this.bóvedaToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.bóvedaToolStripMenuItem.Text = "Bóveda";
+            this.bóvedaToolStripMenuItem.Visible = false;
             // 
             // registroDeIngresoYSalidaToolStripMenuItem
             // 
@@ -1432,6 +1458,7 @@ namespace EfideFactoring.FormulaBase
             this.adeudosEInversionesToolStripMenuItem.Name = "adeudosEInversionesToolStripMenuItem";
             this.adeudosEInversionesToolStripMenuItem.Size = new System.Drawing.Size(137, 20);
             this.adeudosEInversionesToolStripMenuItem.Text = "Adeudos e Inversiones";
+            this.adeudosEInversionesToolStripMenuItem.Visible = false;
             // 
             // adeudosToolStripMenuItem
             // 

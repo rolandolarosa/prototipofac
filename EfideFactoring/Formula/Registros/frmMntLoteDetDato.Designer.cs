@@ -81,12 +81,12 @@ namespace EfideFactoring.Formula.Registros
             this.rbtnDobleEndoso = new System.Windows.Forms.RadioButton();
             this.labelX16 = new DevComponents.DotNetBar.LabelX();
             this.dgvCuotas = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.txtNroCuota = new DevComponents.DotNetBar.Controls.TextBoxX();
-            this.labelX17 = new DevComponents.DotNetBar.LabelX();
-            this.lblTotal = new DevComponents.DotNetBar.LabelX();
             this.NroCuota = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FechaVnc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Importe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtNroCuota = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.labelX17 = new DevComponents.DotNetBar.LabelX();
+            this.lblTotal = new DevComponents.DotNetBar.LabelX();
             this.grpDato.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpPDF.SuspendLayout();
@@ -143,7 +143,7 @@ namespace EfideFactoring.Formula.Registros
             this.grpDato.Controls.Add(this.labelX2);
             this.grpDato.Controls.Add(this.labelX1);
             this.grpDato.Location = new System.Drawing.Point(4, 7);
-            this.grpDato.Size = new System.Drawing.Size(1212, 311);
+            this.grpDato.Size = new System.Drawing.Size(1155, 311);
             // 
             // 
             // 
@@ -178,7 +178,7 @@ namespace EfideFactoring.Formula.Registros
             // btnCancelar
             // 
             this.btnCancelar.Image = global::EfideFactoring.Properties.Resources.cerrar;
-            this.btnCancelar.Location = new System.Drawing.Point(1131, 324);
+            this.btnCancelar.Location = new System.Drawing.Point(1074, 324);
             this.btnCancelar.TabIndex = 1;
             this.btnCancelar.Text = "Salir";
             // 
@@ -186,7 +186,7 @@ namespace EfideFactoring.Formula.Registros
             // 
             this.btnAceptar.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnAceptar.Image = global::EfideFactoring.Properties.Resources.add;
-            this.btnAceptar.Location = new System.Drawing.Point(1040, 324);
+            this.btnAceptar.Location = new System.Drawing.Point(983, 324);
             this.btnAceptar.TabIndex = 0;
             this.btnAceptar.Text = "Agregar";
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -622,7 +622,7 @@ namespace EfideFactoring.Formula.Registros
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(352, 152);
+            this.pictureBox1.Size = new System.Drawing.Size(346, 152);
             this.pictureBox1.TabIndex = 33;
             this.pictureBox1.TabStop = false;
             // 
@@ -870,11 +870,12 @@ namespace EfideFactoring.Formula.Registros
             // 
             // 
             this.labelX16.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX16.Location = new System.Drawing.Point(1145, 41);
+            this.labelX16.Location = new System.Drawing.Point(912, 96);
             this.labelX16.Name = "labelX16";
             this.labelX16.Size = new System.Drawing.Size(45, 23);
             this.labelX16.TabIndex = 49;
             this.labelX16.Text = "Cuota";
+            this.labelX16.Visible = false;
             // 
             // dgvCuotas
             // 
@@ -896,53 +897,9 @@ namespace EfideFactoring.Formula.Registros
             this.dgvCuotas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgvCuotas.Location = new System.Drawing.Point(879, 125);
             this.dgvCuotas.Name = "dgvCuotas";
-            this.dgvCuotas.Size = new System.Drawing.Size(311, 177);
+            this.dgvCuotas.Size = new System.Drawing.Size(242, 177);
             this.dgvCuotas.TabIndex = 50;
-            // 
-            // txtNroCuota
-            // 
-            // 
-            // 
-            // 
-            this.txtNroCuota.Border.Class = "TextBoxBorder";
-            this.txtNroCuota.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.txtNroCuota.Location = new System.Drawing.Point(1145, 63);
-            this.txtNroCuota.Name = "txtNroCuota";
-            this.txtNroCuota.Size = new System.Drawing.Size(45, 20);
-            this.txtNroCuota.TabIndex = 51;
-            this.txtNroCuota.Text = "1";
-            this.txtNroCuota.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtNroCuota.TextChanged += new System.EventHandler(this.txtNroCuota_TextChanged);
-            this.txtNroCuota.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNroCuota_KeyPress);
-            // 
-            // labelX17
-            // 
-            this.labelX17.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.labelX17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX17.Location = new System.Drawing.Point(1065, 96);
-            this.labelX17.Name = "labelX17";
-            this.labelX17.Size = new System.Drawing.Size(56, 23);
-            this.labelX17.TabIndex = 52;
-            this.labelX17.Text = "Total";
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.BackColor = System.Drawing.Color.Transparent;
-            // 
-            // 
-            // 
-            this.lblTotal.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(1107, 96);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(83, 23);
-            this.lblTotal.TabIndex = 53;
-            this.lblTotal.Text = "0.00";
-            this.lblTotal.TextAlignment = System.Drawing.StringAlignment.Far;
+            this.dgvCuotas.Visible = false;
             // 
             // NroCuota
             // 
@@ -972,9 +929,57 @@ namespace EfideFactoring.Formula.Registros
             this.Importe.HeaderText = "Importe";
             this.Importe.Name = "Importe";
             // 
+            // txtNroCuota
+            // 
+            // 
+            // 
+            // 
+            this.txtNroCuota.Border.Class = "TextBoxBorder";
+            this.txtNroCuota.Border.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.txtNroCuota.Location = new System.Drawing.Point(990, 96);
+            this.txtNroCuota.Name = "txtNroCuota";
+            this.txtNroCuota.Size = new System.Drawing.Size(45, 20);
+            this.txtNroCuota.TabIndex = 51;
+            this.txtNroCuota.Text = "1";
+            this.txtNroCuota.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtNroCuota.Visible = false;
+            this.txtNroCuota.TextChanged += new System.EventHandler(this.txtNroCuota_TextChanged);
+            this.txtNroCuota.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNroCuota_KeyPress);
+            // 
+            // labelX17
+            // 
+            this.labelX17.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.labelX17.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX17.Location = new System.Drawing.Point(1065, 96);
+            this.labelX17.Name = "labelX17";
+            this.labelX17.Size = new System.Drawing.Size(56, 23);
+            this.labelX17.TabIndex = 52;
+            this.labelX17.Text = "Total";
+            this.labelX17.Visible = false;
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.BackColor = System.Drawing.Color.Transparent;
+            // 
+            // 
+            // 
+            this.lblTotal.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Location = new System.Drawing.Point(1056, 96);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(83, 23);
+            this.lblTotal.TabIndex = 53;
+            this.lblTotal.Text = "0.00";
+            this.lblTotal.TextAlignment = System.Drawing.StringAlignment.Far;
+            this.lblTotal.Visible = false;
+            // 
             // frmMntLoteDetDato
             // 
-            this.ClientSize = new System.Drawing.Size(1220, 360);
+            this.ClientSize = new System.Drawing.Size(1163, 360);
             this.DoubleBuffered = true;
             this.Name = "frmMntLoteDetDato";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

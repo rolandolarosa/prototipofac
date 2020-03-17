@@ -51,7 +51,7 @@ namespace EfideFactoring.Formula.Registros
                 if (Operacion.Equals("N") && IsChange.Equals("0"))
                 {
                     LlenarCombos();
-                    CargarGiradorOriginal();
+                    //CargarGiradorOriginal();
                     dtsdRecepcion.Value = General.General.gFechaOp;
                     dtsdVencimiento.Value = General.General.gFechaOp;
                 }

@@ -408,7 +408,7 @@ namespace EfideFactoring.Formula.Registros
                 txtRucSocio.Text = ofrmBusquedaSocio.RUCSocio.Trim();
                 txtRazonSocialSocio.Text = ofrmBusquedaSocio.RazorSocialSocio.Trim();
                 LlenarLineas();
-                CargarGiradorOriginal();
+                //CargarGiradorOriginal();
             }
             catch (Exception ex)
             {
@@ -1006,7 +1006,7 @@ namespace EfideFactoring.Formula.Registros
                     cboIdFormaDesembolso_tt.SelectedValue = varCodigo;
                 }
 
-                ObtenerEjecutivo();
+                //ObtenerEjecutivo();
 
             }
             catch (Exception ex)
