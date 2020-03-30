@@ -28,21 +28,22 @@ namespace EfideFactoring.Formula.Cobranza
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.RibbonBar1 = new DevComponents.DotNetBar.RibbonBar();
             this.btnConsultar = new DevComponents.DotNetBar.ButtonItem();
             this.btnConfirmar = new DevComponents.DotNetBar.ButtonItem();
             this.btnExtornar = new DevComponents.DotNetBar.ButtonItem();
             this.btnSalir = new DevComponents.DotNetBar.ButtonItem();
             this.PanelEx1 = new DevComponents.DotNetBar.PanelEx();
+            this.cboIdEstado_tt = new DevComponents.DotNetBar.Controls.ComboBoxEx();
+            this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.dtRegistroFiltro = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
             this.btnLimpiar = new DevComponents.DotNetBar.ButtonX();
             this.btnBuscar = new DevComponents.DotNetBar.ButtonX();
             this.LabelX1 = new DevComponents.DotNetBar.LabelX();
             this.lblGrilla = new DevComponents.DotNetBar.LabelX();
             this.dgvCobranza = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.lblRegistros = new DevComponents.DotNetBar.LabelX();
             this.IdCobranza = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IdTipoCobranza_tt_Dsc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Entidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -58,8 +59,7 @@ namespace EfideFactoring.Formula.Cobranza
             this.socioBancoID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cboIdEstado_tt = new DevComponents.DotNetBar.Controls.ComboBoxEx();
-            this.labelX2 = new DevComponents.DotNetBar.LabelX();
+            this.lblRegistros = new DevComponents.DotNetBar.LabelX();
             this.PanelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtRegistroFiltro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCobranza)).BeginInit();
@@ -122,6 +122,7 @@ namespace EfideFactoring.Formula.Cobranza
             this.btnExtornar.Name = "btnExtornar";
             this.btnExtornar.SubItemsExpandWidth = 14;
             this.btnExtornar.Text = "Extornar";
+            this.btnExtornar.Visible = false;
             this.btnExtornar.Click += new System.EventHandler(this.btnExtornar_Click);
             // 
             // btnSalir
@@ -155,6 +156,31 @@ namespace EfideFactoring.Formula.Cobranza
             this.PanelEx1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.PanelEx1.Style.GradientAngle = 90;
             this.PanelEx1.TabIndex = 27;
+            // 
+            // cboIdEstado_tt
+            // 
+            this.cboIdEstado_tt.DisplayMember = "Text";
+            this.cboIdEstado_tt.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cboIdEstado_tt.FormattingEnabled = true;
+            this.cboIdEstado_tt.ItemHeight = 14;
+            this.cboIdEstado_tt.Location = new System.Drawing.Point(281, 16);
+            this.cboIdEstado_tt.Name = "cboIdEstado_tt";
+            this.cboIdEstado_tt.Size = new System.Drawing.Size(179, 20);
+            this.cboIdEstado_tt.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.cboIdEstado_tt.TabIndex = 11;
+            // 
+            // labelX2
+            // 
+            // 
+            // 
+            // 
+            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.labelX2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.labelX2.Location = new System.Drawing.Point(224, 16);
+            this.labelX2.Name = "labelX2";
+            this.labelX2.Size = new System.Drawing.Size(51, 23);
+            this.labelX2.TabIndex = 10;
+            this.labelX2.Text = "Estado";
             // 
             // dtRegistroFiltro
             // 
@@ -288,41 +314,27 @@ namespace EfideFactoring.Formula.Cobranza
             this.socioBancoID,
             this.Status,
             this.Estado});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCobranza.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCobranza.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvCobranza.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dgvCobranza.Location = new System.Drawing.Point(0, 130);
             this.dgvCobranza.Name = "dgvCobranza";
             this.dgvCobranza.ReadOnly = true;
             this.dgvCobranza.RowHeadersWidth = 10;
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvCobranza.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvCobranza.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvCobranza.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
             this.dgvCobranza.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvCobranza.Size = new System.Drawing.Size(735, 272);
             this.dgvCobranza.TabIndex = 30;
-            // 
-            // lblRegistros
-            // 
-            this.lblRegistros.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            // 
-            // 
-            // 
-            this.lblRegistros.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.lblRegistros.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblRegistros.Location = new System.Drawing.Point(639, 102);
-            this.lblRegistros.Name = "lblRegistros";
-            this.lblRegistros.Size = new System.Drawing.Size(96, 23);
-            this.lblRegistros.TabIndex = 31;
-            this.lblRegistros.Text = "0  registro(s)";
             // 
             // IdCobranza
             // 
@@ -451,30 +463,19 @@ namespace EfideFactoring.Formula.Cobranza
             this.Estado.ReadOnly = true;
             this.Estado.Width = 65;
             // 
-            // cboIdEstado_tt
+            // lblRegistros
             // 
-            this.cboIdEstado_tt.DisplayMember = "Text";
-            this.cboIdEstado_tt.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cboIdEstado_tt.FormattingEnabled = true;
-            this.cboIdEstado_tt.ItemHeight = 14;
-            this.cboIdEstado_tt.Location = new System.Drawing.Point(281, 16);
-            this.cboIdEstado_tt.Name = "cboIdEstado_tt";
-            this.cboIdEstado_tt.Size = new System.Drawing.Size(179, 20);
-            this.cboIdEstado_tt.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
-            this.cboIdEstado_tt.TabIndex = 11;
-            // 
-            // labelX2
+            this.lblRegistros.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             // 
             // 
             // 
-            // 
-            this.labelX2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelX2.Location = new System.Drawing.Point(224, 16);
-            this.labelX2.Name = "labelX2";
-            this.labelX2.Size = new System.Drawing.Size(51, 23);
-            this.labelX2.TabIndex = 10;
-            this.labelX2.Text = "Estado";
+            this.lblRegistros.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
+            this.lblRegistros.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblRegistros.Location = new System.Drawing.Point(639, 102);
+            this.lblRegistros.Name = "lblRegistros";
+            this.lblRegistros.Size = new System.Drawing.Size(96, 23);
+            this.lblRegistros.TabIndex = 31;
+            this.lblRegistros.Text = "0  registro(s)";
             // 
             // frmMntCobranzaPagadoraConf
             // 

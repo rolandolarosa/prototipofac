@@ -147,18 +147,18 @@ namespace EfideFactoring.Formula.Cobranza
                         bool bResult = CobranzaBL.ProcesarCobranza(oCobranza, LstCobranzaDetalle);
                         if (bResult)
                         {
-                            oCobranza = new CobranzaBE()
-                            {
-                                USUARIO = General.General.GetCodigoUsuario,
-                                OPCION = 12,
-                                IdCobranza = IdCobranza,
-                                dtRegistro = General.General.gFechaOp,
-                                dtValuta = General.General.gFechaOp,
-                                gPlazaID = General.General.gPlazaID,
-                                gSesionID = General.General.gSesionID,
-                                gFechaOp = General.General.gFechaOp
-                            };
-                            CobranzaBL.ProcesarCobranza(oCobranza);
+                            //oCobranza = new CobranzaBE()
+                            //{
+                            //    USUARIO = General.General.GetCodigoUsuario,
+                            //    OPCION = 12,
+                            //    IdCobranza = IdCobranza,
+                            //    dtRegistro = General.General.gFechaOp,
+                            //    dtValuta = General.General.gFechaOp,
+                            //    gPlazaID = General.General.gPlazaID,
+                            //    gSesionID = General.General.gSesionID,
+                            //    gFechaOp = General.General.gFechaOp
+                            //};
+                            //CobranzaBL.ProcesarCobranza(oCobranza);
 
                             MessageBox.Show("Se Proceso Correctamente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

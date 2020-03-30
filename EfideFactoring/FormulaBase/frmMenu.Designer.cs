@@ -564,7 +564,6 @@ namespace EfideFactoring.FormulaBase
             this.mnuCobranza.Name = "mnuCobranza";
             this.mnuCobranza.Size = new System.Drawing.Size(69, 20);
             this.mnuCobranza.Text = "Cobranza";
-            this.mnuCobranza.Visible = false;
             // 
             // mnuRegistroCobranza
             // 
@@ -585,6 +584,7 @@ namespace EfideFactoring.FormulaBase
             this.búsquedaTransDeposToolStripMenuItem.Name = "búsquedaTransDeposToolStripMenuItem";
             this.búsquedaTransDeposToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
             this.búsquedaTransDeposToolStripMenuItem.Text = "Depósitos Pendientes en Bancos";
+            this.búsquedaTransDeposToolStripMenuItem.Visible = false;
             this.búsquedaTransDeposToolStripMenuItem.Click += new System.EventHandler(this.búsquedaTransDeposToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
@@ -603,12 +603,14 @@ namespace EfideFactoring.FormulaBase
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
             this.toolStripSeparator7.Size = new System.Drawing.Size(259, 6);
+            this.toolStripSeparator7.Visible = false;
             // 
             // mnuSeguimientoCobranza
             // 
             this.mnuSeguimientoCobranza.Name = "mnuSeguimientoCobranza";
             this.mnuSeguimientoCobranza.Size = new System.Drawing.Size(262, 22);
             this.mnuSeguimientoCobranza.Text = "Seguimiento de Cobranza";
+            this.mnuSeguimientoCobranza.Visible = false;
             // 
             // toolStripSeparator8
             // 
@@ -620,6 +622,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuTituloValor.Name = "mnuTituloValor";
             this.mnuTituloValor.Size = new System.Drawing.Size(262, 22);
             this.mnuTituloValor.Text = "Aviso de Vencimiento";
+            this.mnuTituloValor.Visible = false;
             this.mnuTituloValor.Click += new System.EventHandler(this.avisoDeVencimientoTítuloValorToolStripMenuItem_Click);
             // 
             // mnuDocumento
@@ -627,6 +630,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuDocumento.Name = "mnuDocumento";
             this.mnuDocumento.Size = new System.Drawing.Size(262, 22);
             this.mnuDocumento.Text = "Aviso de Vencimiento - Documento";
+            this.mnuDocumento.Visible = false;
             this.mnuDocumento.Click += new System.EventHandler(this.avisoDeVencimientoDocumentoToolStripMenuItem_Click);
             // 
             // mnuLetrasProtestar
@@ -634,18 +638,21 @@ namespace EfideFactoring.FormulaBase
             this.mnuLetrasProtestar.Name = "mnuLetrasProtestar";
             this.mnuLetrasProtestar.Size = new System.Drawing.Size(262, 22);
             this.mnuLetrasProtestar.Text = "Título Valor a Protestar";
+            this.mnuLetrasProtestar.Visible = false;
             this.mnuLetrasProtestar.Click += new System.EventHandler(this.mnuLetrasProtestar_Click);
             // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
             this.toolStripSeparator9.Size = new System.Drawing.Size(259, 6);
+            this.toolStripSeparator9.Visible = false;
             // 
             // mnuEnvioCargoCancelados
             // 
             this.mnuEnvioCargoCancelados.Name = "mnuEnvioCargoCancelados";
             this.mnuEnvioCargoCancelados.Size = new System.Drawing.Size(262, 22);
             this.mnuEnvioCargoCancelados.Text = "Envio de Cargos Cancelados";
+            this.mnuEnvioCargoCancelados.Visible = false;
             this.mnuEnvioCargoCancelados.Click += new System.EventHandler(this.mnuEnvioCargoCancelados_Click);
             // 
             // bovedaCobranzasToolStripMenuItem
@@ -653,18 +660,21 @@ namespace EfideFactoring.FormulaBase
             this.bovedaCobranzasToolStripMenuItem.Name = "bovedaCobranzasToolStripMenuItem";
             this.bovedaCobranzasToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
             this.bovedaCobranzasToolStripMenuItem.Text = "Boveda - Cobranzas";
+            this.bovedaCobranzasToolStripMenuItem.Visible = false;
             this.bovedaCobranzasToolStripMenuItem.Click += new System.EventHandler(this.bovedaCobranzasToolStripMenuItem_Click);
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
             this.toolStripSeparator10.Size = new System.Drawing.Size(259, 6);
+            this.toolStripSeparator10.Visible = false;
             // 
             // mnuRenovacionL
             // 
             this.mnuRenovacionL.Name = "mnuRenovacionL";
             this.mnuRenovacionL.Size = new System.Drawing.Size(262, 22);
             this.mnuRenovacionL.Text = "Renovación de Letras";
+            this.mnuRenovacionL.Visible = false;
             this.mnuRenovacionL.Click += new System.EventHandler(this.mnuRenovacionL_Click);
             // 
             // mnuRenovacionLetrasAsistente
@@ -672,6 +682,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuRenovacionLetrasAsistente.Name = "mnuRenovacionLetrasAsistente";
             this.mnuRenovacionLetrasAsistente.Size = new System.Drawing.Size(262, 22);
             this.mnuRenovacionLetrasAsistente.Text = "Renovación de Letras - Asistente";
+            this.mnuRenovacionLetrasAsistente.Visible = false;
             this.mnuRenovacionLetrasAsistente.Click += new System.EventHandler(this.mnuRenovacionLetrasAsistente_Click);
             // 
             // mnuBloquearCXP
@@ -679,6 +690,7 @@ namespace EfideFactoring.FormulaBase
             this.mnuBloquearCXP.Name = "mnuBloquearCXP";
             this.mnuBloquearCXP.Size = new System.Drawing.Size(262, 22);
             this.mnuBloquearCXP.Text = "Bloquear Cuentas por Pagar";
+            this.mnuBloquearCXP.Visible = false;
             this.mnuBloquearCXP.Click += new System.EventHandler(this.mnuBloquearCXP_Click);
             // 
             // mantenimientoDeBaseNegativaToolStripMenuItem
@@ -686,6 +698,7 @@ namespace EfideFactoring.FormulaBase
             this.mantenimientoDeBaseNegativaToolStripMenuItem.Name = "mantenimientoDeBaseNegativaToolStripMenuItem";
             this.mantenimientoDeBaseNegativaToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
             this.mantenimientoDeBaseNegativaToolStripMenuItem.Text = "Mantenimiento de Base Negativa";
+            this.mantenimientoDeBaseNegativaToolStripMenuItem.Visible = false;
             this.mantenimientoDeBaseNegativaToolStripMenuItem.Click += new System.EventHandler(this.mantenimientoDeBaseNegativaToolStripMenuItem_Click);
             // 
             // mnuConsultas
