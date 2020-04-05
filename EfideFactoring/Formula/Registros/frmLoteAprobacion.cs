@@ -135,19 +135,19 @@ namespace EfideFactoring.Formula.Registros
                                     con.Close();
                                 }
 
-                                Crystal.crRegLiquidacion ocrLoteLiquidacion = new Crystal.crRegLiquidacion();
-                                ocrLoteLiquidacion.SetDataSource(dsLotes);
-                                ocrLoteLiquidacion.SetParameterValue("usuario", General.General.GetUsuario);
-                                ocrLoteLiquidacion.SetParameterValue("moneda", dsLotes.Tables[0].Rows[0]["IdMoneda_Dsc"].ToString());
-                                ocrLoteLiquidacion.ExportToDisk(ExportFormatType.PortableDocFormat, ConfigurationManager.AppSettings["RutaArchivoLiquidacionLote"].ToString() + strIdLote.Trim() + ".pdf");
+                                //Crystal.crRegLiquidacion ocrLoteLiquidacion = new Crystal.crRegLiquidacion();
+                                //ocrLoteLiquidacion.SetDataSource(dsLotes);
+                                //ocrLoteLiquidacion.SetParameterValue("usuario", General.General.GetUsuario);
+                                //ocrLoteLiquidacion.SetParameterValue("moneda", dsLotes.Tables[0].Rows[0]["IdMoneda_Dsc"].ToString());
+                                //ocrLoteLiquidacion.ExportToDisk(ExportFormatType.PortableDocFormat, ConfigurationManager.AppSettings["RutaArchivoLiquidacionLote"].ToString() + strIdLote.Trim() + ".pdf");
                                 IsAprobo = true;
 
                                 //SUBIR EL PDF AL MOVIMIENTO EN CASO EL LOTE VENGA DE ESTE
-                                LoteBE.OPCION = 20;
-                                LoteBE.USUARIO = General.General.GetUsuario;
-                                LoteBE.IdLote = strIdLote;
-                                LoteBE.gFechaOp = General.General.gFechaOp;
-                                LoteBL.ProcesarLote(LoteBE);
+                                //LoteBE.OPCION = 20;
+                                //LoteBE.USUARIO = General.General.GetUsuario;
+                                //LoteBE.IdLote = strIdLote;
+                                //LoteBE.gFechaOp = General.General.gFechaOp;
+                                //LoteBL.ProcesarLote(LoteBE);
                             }
                         }
                     }
